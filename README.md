@@ -16,7 +16,7 @@ It is WiP 🚧  and requires manual steps.
 3. Adjust `LitResearch.ipynb` as needed
 4. Run `LitResearch.ipynb`
 5. Review Correlation Analysis
-6. Review results in `consolidated_results.csv`
+6. Find consolidated results in `consolidated_results.csv`
 
 ### 1. Define search strategy
 
@@ -38,9 +38,11 @@ this is only a countercheck/quality criterion)
 - `YearFrom`: start year of the search
 - `URL_<name>`: Excel formula, URL leading to the search results online; this is for user convenience only
 
+Save the file as csv file.
+
 ### 2. Perform manual searches
 
-For all searches, which do not offer a search API (e.g. Scopus, IEEE Xplore), perform the search manually and store the results as csv file.
+For all searches, which do not offer a search API (e.g. Scopus, IEEE Xplore), perform the search manually and export the search results to csv.
 Create a subfolder named exactly as the catalogue name, and save the csv according to the respective search ID, e.g.: `/Scopus/4.csv`.
 
 ### 3. Adjust `LitResearch.ipynb`
@@ -50,3 +52,14 @@ The following can be adjusted without changing the code:
 - Target Columns
 - Mapping of search result columns to Target Columns
 - Adding API calls for further sources (currently, only arXiv API is implemented)
+
+### 4. Run `LitResearch.ipynb`
+
+### 5. Review Correlation analysis
+
+The correlation analysis shows:
+
+- off-diagonal values: per each row, how many of the search results have also been found in another group
+- on-diagonal values: how many of the search results of the row have exclusively been found in the respective group
+
+### 6. Review consolidated result list
