@@ -1,0 +1,58 @@
+AID,Year,Title,Abstract,Authors,DOI,Link
+http://arxiv.org/abs/1912.06013v2,2019,"An Approach to Super-Resolution of Sentinel-2 Images Based on Generative
+  Adversarial Networks","  This paper presents a generative adversarial network based super-resolution
+(SR) approach (which is called as S2GAN) to enhance the spatial resolution of
+Sentinel-2 spectral bands. The proposed approach consists of two main steps.
+The first step aims to increase the spatial resolution of the bands with 20m
+and 60m spatial resolutions by the scaling factors of 2 and 6, respectively. To
+this end, we introduce a generator network that performs SR on the lower
+resolution bands with the guidance of the bands associated to 10m spatial
+resolution by utilizing the convolutional layers with residual connections and
+a long skip-connection between inputs and outputs. The second step aims to
+distinguish SR bands from their ground truth bands. This is achieved by the
+proposed discriminator network, which alternately characterizes the high level
+features of the two sets of bands and applying binary classification on the
+extracted features. Then, we formulate the adversarial learning of the
+generator and discriminator networks as a min-max game. In this learning
+procedure, the generator aims to produce realistic SR bands as much as possible
+so that the discriminator incorrectly classifies SR bands. Experimental results
+obtained on different Sentinel-2 images show the effectiveness of the proposed
+approach compared to both conventional and deep learning based SR approaches.
+",Kexin Zhang; Gencer Sumbul; Begüm Demir,10.1109/M2GARSS47143.2020.9105165,http://arxiv.org/abs/1912.06013v2
+http://arxiv.org/abs/2012.03093v1,2020,"Semantic Segmentation of Medium-Resolution Satellite Imagery using
+  Conditional Generative Adversarial Networks","  Semantic segmentation of satellite imagery is a common approach to identify
+patterns and detect changes around the planet. Most of the state-of-the-art
+semantic segmentation models are trained in a fully supervised way using
+Convolutional Neural Network (CNN). The generalization property of CNN is poor
+for satellite imagery because the data can be very diverse in terms of
+landscape types, image resolutions, and scarcity of labels for different
+geographies and seasons. Hence, the performance of CNN doesn't translate well
+to images from unseen regions or seasons. Inspired by Conditional Generative
+Adversarial Networks (CGAN) based approach of image-to-image translation for
+high-resolution satellite imagery, we propose a CGAN framework for land cover
+classification using medium-resolution Sentinel-2 imagery. We find that the
+CGAN model outperforms the CNN model of similar complexity by a significant
+margin on an unseen imbalanced test dataset.
+",Aditya Kulkarni; Tharun Mohandoss; Daniel Northrup; Ernest Mwebaze; Hamed Alemohammad,10.48550/arXiv.2012.03093,http://arxiv.org/abs/2012.03093v1
+http://arxiv.org/abs/1909.10296v1,2019,"Predicting Landscapes from Environmental Conditions Using Generative
+  Networks","  Landscapes are meaningful ecological units that strongly depend on the
+environmental conditions. Such dependencies between landscapes and the
+environment have been noted since the beginning of Earth sciences and cast into
+conceptual models describing the interdependencies of climate, geology,
+vegetation and geomorphology. Here, we ask whether landscapes, as seen from
+space, can be statistically predicted from pertinent environmental conditions.
+To this end we adapted a deep learning generative model in order to establish
+the relationship between the environmental conditions and the view of
+landscapes from the Sentinel-2 satellite. We trained a conditional generative
+adversarial network to generate multispectral imagery given a set of climatic,
+terrain and anthropogenic predictors. The generated imagery of the landscapes
+share many characteristics with the real one. Results based on landscape patch
+metrics, indicative of landscape composition and structure, show that the
+proposed generative model creates landscapes that are more similar to the
+targets than the baseline models while overall reflectance and vegetation cover
+are predicted better. We demonstrate that for many purposes the generated
+landscapes behave as real with immediate application for global change studies.
+We envision the application of machine learning as a tool to forecast the
+effects of climate change on the spatial features of landscapes, while we
+assess its limitations and breaking points.
+",Christian Requena-Mesa; Markus Reichstein; Miguel Mahecha; Basil Kraft; Joachim Denzler,10.48550/arXiv.1909.10296,http://arxiv.org/abs/1909.10296v1

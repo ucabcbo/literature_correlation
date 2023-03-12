@@ -1,0 +1,35 @@
+AID,Year,Title,Abstract,Authors,Link,DOI
+http://arxiv.org/abs/2107.08355v1,2021,Fully Polarimetric SAR and Single-Polarization SAR Image Fusion Network,"  The data fusion technology aims to aggregate the characteristics of different
+data and obtain products with multiple data advantages. To solves the problem
+of reduced resolution of PolSAR images due to system limitations, we propose a
+fully polarimetric synthetic aperture radar (PolSAR) images and
+single-polarization synthetic aperture radar SAR (SinSAR) images fusion network
+to generate high-resolution PolSAR (HR-PolSAR) images. To take advantage of the
+polarimetric information of the low-resolution PolSAR (LR-PolSAR) image and the
+spatial information of the high-resolution single-polarization SAR (HR-SinSAR)
+image, we propose a fusion framework for joint LR-PolSAR image and HR-SinSAR
+image and design a cross-attention mechanism to extract features from the joint
+input data. Besides, based on the physical imaging mechanism, we designed the
+PolSAR polarimetric loss function for constrained network training. The
+experimental results confirm the superiority of fusion network over traditional
+algorithms. The average PSNR is increased by more than 3.6db, and the average
+MAE is reduced to less than 0.07. Experiments on polarimetric decomposition and
+polarimetric signature show that it maintains polarimetric information well.
+",Liupeng Lin; Jie Li; Huanfeng Shen; Lingli Zhao; Qiangqiang Yuan; Xinghua Li,http://arxiv.org/abs/2107.08355v1,10.48550/arXiv.2107.08355
+http://arxiv.org/abs/1805.01759v1,2018,"A fast and accurate basis pursuit denoising algorithm with application
+  to super-resolving tomographic SAR","  $L_1$ regularization is used for finding sparse solutions to an
+underdetermined linear system. As sparse signals are widely expected in remote
+sensing, this type of regularization scheme and its extensions have been widely
+employed in many remote sensing problems, such as image fusion, target
+detection, image super-resolution, and others and have led to promising
+results. However, solving such sparse reconstruction problems is
+computationally expensive and has limitations in its practical use. In this
+paper, we proposed a novel efficient algorithm for solving the complex-valued
+$L_1$ regularized least squares problem. Taking the high-dimensional
+tomographic synthetic aperture radar (TomoSAR) as a practical example, we
+carried out extensive experiments, both with simulation data and real data, to
+demonstrate that the proposed approach can retain the accuracy of second order
+methods while dramatically speeding up the processing by one or two orders.
+Although we have chosen TomoSAR as the example, the proposed method can be
+generally applied to any spectral estimation problems.
+",Yilei Shi; Xiao Xiang Zhu; Wotao Yin; Richard Bamler,http://arxiv.org/abs/1805.01759v1,10.48550/arXiv.1805.01759

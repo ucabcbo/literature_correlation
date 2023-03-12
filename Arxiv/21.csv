@@ -1,0 +1,1211 @@
+AID,Year,Title,Abstract,Authors,Link,DOI
+http://arxiv.org/abs/2009.13015v2,2020,"Cloud Removal for Remote Sensing Imagery via Spatial Attention
+  Generative Adversarial Network","  Optical remote sensing imagery has been widely used in many fields due to its
+high resolution and stable geometric properties. However, remote sensing
+imagery is inevitably affected by climate, especially clouds. Removing the
+cloud in the high-resolution remote sensing satellite image is an indispensable
+pre-processing step before analyzing it. For the sake of large-scale training
+data, neural networks have been successful in many image processing tasks, but
+the use of neural networks to remove cloud in remote sensing imagery is still
+relatively small. We adopt generative adversarial network to solve this task
+and introduce the spatial attention mechanism into the remote sensing imagery
+cloud removal task, proposes a model named spatial attention generative
+adversarial network (SpA GAN), which imitates the human visual mechanism, and
+recognizes and focuses the cloud area with local-to-global spatial attention,
+thereby enhancing the information recovery of these areas and generating
+cloudless images with better quality...
+",Heng Pan,http://arxiv.org/abs/2009.13015v2,10.48550/arXiv.2009.13015
+http://arxiv.org/abs/2005.01094v2,2020,"Remote Sensing Image Scene Classification Meets Deep Learning:
+  Challenges, Methods, Benchmarks, and Opportunities","  Remote sensing image scene classification, which aims at labeling remote
+sensing images with a set of semantic categories based on their contents, has
+broad applications in a range of fields. Propelled by the powerful feature
+learning capabilities of deep neural networks, remote sensing image scene
+classification driven by deep learning has drawn remarkable attention and
+achieved significant breakthroughs. However, to the best of our knowledge, a
+comprehensive review of recent achievements regarding deep learning for scene
+classification of remote sensing images is still lacking. Considering the rapid
+evolution of this field, this paper provides a systematic survey of deep
+learning methods for remote sensing image scene classification by covering more
+than 160 papers. To be specific, we discuss the main challenges of remote
+sensing image scene classification and survey (1) Autoencoder-based remote
+sensing image scene classification methods, (2) Convolutional Neural
+Network-based remote sensing image scene classification methods, and (3)
+Generative Adversarial Network-based remote sensing image scene classification
+methods. In addition, we introduce the benchmarks used for remote sensing image
+scene classification and summarize the performance of more than two dozen of
+representative algorithms on three commonly-used benchmark data sets. Finally,
+we discuss the promising opportunities for further research.
+",Gong Cheng; Xingxing Xie; Junwei Han; Lei Guo; Gui-Song Xia,http://arxiv.org/abs/2005.01094v2,10.1109/JSTARS.2020.3005403
+http://arxiv.org/abs/1612.08879v3,2016,"MARTA GANs: Unsupervised Representation Learning for Remote Sensing
+  Image Classification","  With the development of deep learning, supervised learning has frequently
+been adopted to classify remotely sensed images using convolutional networks
+(CNNs). However, due to the limited amount of labeled data available,
+supervised learning is often difficult to carry out. Therefore, we proposed an
+unsupervised model called multiple-layer feature-matching generative
+adversarial networks (MARTA GANs) to learn a representation using only
+unlabeled data. MARTA GANs consists of both a generative model $G$ and a
+discriminative model $D$. We treat $D$ as a feature extractor. To fit the
+complex properties of remote sensing data, we use a fusion layer to merge the
+mid-level and global features. $G$ can produce numerous images that are similar
+to the training data; therefore, $D$ can learn better representations of
+remotely sensed images using the training data provided by $G$. The
+classification results on two widely used remote sensing image databases show
+that the proposed method significantly improves the classification performance
+compared with other state-of-the-art methods.
+",Daoyu Lin; Kun Fu; Yang Wang; Guangluan Xu; Xian Sun,http://arxiv.org/abs/1612.08879v3,10.1109/LGRS.2017.2752750
+http://arxiv.org/abs/1908.03809v1,2019,"Conditional Generative Adversarial Networks for Data Augmentation and
+  Adaptation in Remotely Sensed Imagery","  The difficulty in obtaining labeled data relevant to a given task is among
+the most common and well-known practical obstacles to applying deep learning
+techniques to new or even slightly modified domains. The data volumes required
+by the current generation of supervised learning algorithms typically far
+exceed what a human needs to learn and complete a given task. We investigate
+ways to expand a given labeled corpus of remote sensed imagery into a larger
+corpus using Generative Adversarial Networks (GANs). We then measure how these
+additional synthetic data affect supervised machine learning performance on an
+object detection task.
+  Our data driven strategy is to train GANs to (1) generate synthetic
+segmentation masks and (2) generate plausible synthetic remote sensing imagery
+corresponding to these segmentation masks. Run sequentially, these GANs allow
+the generation of synthetic remote sensing imagery complete with segmentation
+labels. We apply this strategy to the data set from ISPRS' 2D Semantic Labeling
+Contest - Potsdam, with a follow on vehicle detection task. We find that in
+scenarios with limited training data, augmenting the available data with such
+synthetically generated data can improve detector performance.
+",Jonathan Howe; Kyle Pula; Aaron A. Reite,http://arxiv.org/abs/1908.03809v1,10.1117/12.2529586
+http://arxiv.org/abs/2107.06536v1,2021,"Multi-Attention Generative Adversarial Network for Remote Sensing Image
+  Super-Resolution","  Image super-resolution (SR) methods can generate remote sensing images with
+high spatial resolution without increasing the cost, thereby providing a
+feasible way to acquire high-resolution remote sensing images, which are
+difficult to obtain due to the high cost of acquisition equipment and complex
+weather. Clearly, image super-resolution is a severe ill-posed problem.
+Fortunately, with the development of deep learning, the powerful fitting
+ability of deep neural networks has solved this problem to some extent. In this
+paper, we propose a network based on the generative adversarial network (GAN)
+to generate high resolution remote sensing images, named the multi-attention
+generative adversarial network (MA-GAN). We first designed a GAN-based
+framework for the image SR task. The core to accomplishing the SR task is the
+image generator with post-upsampling that we designed. The main body of the
+generator contains two blocks; one is the pyramidal convolution in the
+residual-dense block (PCRDB), and the other is the attention-based upsample
+(AUP) block. The attentioned pyramidal convolution (AttPConv) in the PCRDB
+block is a module that combines multi-scale convolution and channel attention
+to automatically learn and adjust the scaling of the residuals for better
+results. The AUP block is a module that combines pixel attention (PA) to
+perform arbitrary multiples of upsampling. These two blocks work together to
+help generate better quality images. For the loss function, we design a loss
+function based on pixel loss and introduce both adversarial loss and feature
+loss to guide the generator learning. We have compared our method with several
+state-of-the-art methods on a remote sensing scene image dataset, and the
+experimental results consistently demonstrate the effectiveness of the proposed
+MA-GAN.
+",Meng Xu; Zhihao Wang; Jiasong Zhu; Xiuping Jia; Sen Jia,http://arxiv.org/abs/2107.06536v1,10.48550/arXiv.2107.06536
+http://arxiv.org/abs/2003.09085v5,2020,"Small-Object Detection in Remote Sensing Images with End-to-End
+  Edge-Enhanced GAN and Object Detector Network","  The detection performance of small objects in remote sensing images is not
+satisfactory compared to large objects, especially in low-resolution and noisy
+images. A generative adversarial network (GAN)-based model called enhanced
+super-resolution GAN (ESRGAN) shows remarkable image enhancement performance,
+but reconstructed images miss high-frequency edge information. Therefore,
+object detection performance degrades for small objects on recovered noisy and
+low-resolution remote sensing images. Inspired by the success of edge enhanced
+GAN (EEGAN) and ESRGAN, we apply a new edge-enhanced super-resolution GAN
+(EESRGAN) to improve the image quality of remote sensing images and use
+different detector networks in an end-to-end manner where detector loss is
+backpropagated into the EESRGAN to improve the detection performance. We
+propose an architecture with three components: ESRGAN, Edge Enhancement Network
+(EEN), and Detection network. We use residual-in-residual dense blocks (RRDB)
+for both the ESRGAN and EEN, and for the detector network, we use the faster
+region-based convolutional network (FRCNN) (two-stage detector) and single-shot
+multi-box detector (SSD) (one stage detector). Extensive experiments on a
+public (car overhead with context) and a self-assembled (oil and gas storage
+tank) satellite dataset show superior performance of our method compared to the
+standalone state-of-the-art object detectors.
+",Jakaria Rabbi; Nilanjan Ray; Matthias Schubert; Subir Chowdhury; Dennis Chao,http://arxiv.org/abs/2003.09085v5,10.48550/arXiv.2003.09085
+http://arxiv.org/abs/2001.05848v1,2019,"Translating multispectral imagery to nighttime imagery via conditional
+  generative adversarial networks","  Nighttime satellite imagery has been applied in a wide range of fields.
+However, our limited understanding of how observed light intensity is formed
+and whether it can be simulated greatly hinders its further application. This
+study explores the potential of conditional Generative Adversarial Networks
+(cGAN) in translating multispectral imagery to nighttime imagery. A popular
+cGAN framework, pix2pix, was adopted and modified to facilitate this
+translation using gridded training image pairs derived from Landsat 8 and
+Visible Infrared Imaging Radiometer Suite (VIIRS). The results of this study
+prove the possibility of multispectral-to-nighttime translation and further
+indicate that, with the additional social media data, the generated nighttime
+imagery can be very similar to the ground-truth imagery. This study fills the
+gap in understanding the composition of satellite observed nighttime light and
+provides new paradigms to solve the emerging problems in nighttime remote
+sensing fields, including nighttime series construction, light desaturation,
+and multi-sensor calibration.
+",Xiao Huang; Dong Xu; Zhenlong Li; Cuizhen Wang,http://arxiv.org/abs/2001.05848v1,10.48550/arXiv.2001.05848
+http://arxiv.org/abs/2012.10898v1,2020,"Multi-Head Linear Attention Generative Adversarial Network for Thin
+  Cloud Removal","  In remote sensing images, the existence of the thin cloud is an inevitable
+and ubiquitous phenomenon that crucially reduces the quality of imageries and
+limits the scenarios of application. Therefore, thin cloud removal is an
+indispensable procedure to enhance the utilization of remote sensing images.
+Generally, even though contaminated by thin clouds, the pixels still retain
+more or less surface information. Hence, different from thick cloud removal,
+thin cloud removal algorithms normally concentrate on inhibiting the cloud
+influence rather than substituting the cloud-contaminated pixels. Meanwhile,
+considering the surface features obscured by the cloud are usually similar to
+adjacent areas, the dependency between each pixel of the input is useful to
+reconstruct contaminated areas. In this paper, to make full use of the
+dependencies between pixels of the image, we propose a Multi-Head Linear
+Attention Generative Adversarial Network (MLAGAN) for Thin Cloud Removal. The
+MLA-GAN is based on the encoding-decoding framework consisting of multiple
+attention-based layers and deconvolutional layers. Compared with six deep
+learning-based thin cloud removal benchmarks, the experimental results on the
+RICE1 and RICE2 datasets demonstrate that the proposed framework MLA-GAN has
+dominant advantages in thin cloud removal.
+",Chenxi Duan; Rui Li,http://arxiv.org/abs/2012.10898v1,10.48550/arXiv.2012.10898
+http://arxiv.org/abs/2010.03116v1,2020,"DML-GANR: Deep Metric Learning With Generative Adversarial Network
+  Regularization for High Spatial Resolution Remote Sensing Image Retrieval","  With a small number of labeled samples for training, it can save considerable
+manpower and material resources, especially when the amount of high spatial
+resolution remote sensing images (HSR-RSIs) increases considerably. However,
+many deep models face the problem of overfitting when using a small number of
+labeled samples. This might degrade HSRRSI retrieval accuracy. Aiming at
+obtaining more accurate HSR-RSI retrieval performance with small training
+samples, we develop a deep metric learning approach with generative adversarial
+network regularization (DML-GANR) for HSR-RSI retrieval. The DML-GANR starts
+from a high-level feature extraction (HFE) to extract high-level features,
+which includes convolutional layers and fully connected (FC) layers. Each of
+the FC layers is constructed by deep metric learning (DML) to maximize the
+interclass variations and minimize the intraclass variations. The generative
+adversarial network (GAN) is adopted to mitigate the overfitting problem and
+validate the qualities of extracted high-level features. DML-GANR is optimized
+through a customized approach, and the optimal parameters are obtained. The
+experimental results on the three data sets demonstrate the superior
+performance of DML-GANR over state-of-the-art techniques in HSR-RSI retrieval.
+",Yun Cao; Yuebin Wang; Junhuan Peng; Liqiang Zhang; Linlin Xu; Kai Yan; Lihua Li,http://arxiv.org/abs/2010.03116v1,10.1109/TGRS.2020.2991545
+http://arxiv.org/abs/2010.06411v1,2020,Procedural 3D Terrain Generation using Generative Adversarial Networks,"  Procedural 3D Terrain generation has become a necessity in open world games,
+as it can provide unlimited content, through a functionally infinite number of
+different areas, for players to explore. In our approach, we use Generative
+Adversarial Networks (GAN) to yield realistic 3D environments based on the
+distribution of remotely sensed images of landscapes, captured by satellites or
+drones. Our task consists of synthesizing a random but plausible RGB satellite
+image and generating a corresponding Height Map in the form of a 3D point cloud
+that will serve as an appropriate mesh of the landscape. For the first step, we
+utilize a GAN trained with satellite images that manages to learn the
+distribution of the dataset, creating novel satellite images. For the second
+part, we need a one-to-one mapping from RGB images to Digital Elevation Models
+(DEM). We deploy a Conditional Generative Adversarial network (CGAN), which is
+the state-of-the-art approach to image-to-image translation, to generate a
+plausible height map for every randomly generated image of the first model.
+Combining the generated DEM and RGB image, we are able to construct 3D scenery
+consisting of a plausible height distribution and colorization, in relation to
+the remotely sensed landscapes provided during training.
+",Emmanouil Panagiotou; Eleni Charou,http://arxiv.org/abs/2010.06411v1,10.48550/arXiv.2010.06411
+http://arxiv.org/abs/2009.09465v1,2020,Remote sensing image fusion based on Bayesian GAN,"  Remote sensing image fusion technology (pan-sharpening) is an important means
+to improve the information capacity of remote sensing images. Inspired by the
+efficient arameter space posteriori sampling of Bayesian neural networks, in
+this paper we propose a Bayesian Generative Adversarial Network based on
+Preconditioned Stochastic Gradient Langevin Dynamics (PGSLD-BGAN) to improve
+pan-sharpening tasks. Unlike many traditional generative models that consider
+only one optimal solution (might be locally optimal), the proposed PGSLD-BGAN
+performs Bayesian inference on the network parameters, and explore the
+generator posteriori distribution, which assists selecting the appropriate
+generator parameters. First, we build a two-stream generator network with PAN
+and MS images as input, which consists of three parts: feature extraction,
+feature fusion and image reconstruction. Then, we leverage Markov discriminator
+to enhance the ability of generator to reconstruct the fusion image, so that
+the result image can retain more details. Finally, introducing Preconditioned
+Stochastic Gradient Langevin Dynamics policy, we perform Bayesian inference on
+the generator network. Experiments on QuickBird and WorldView datasets show
+that the model proposed in this paper can effectively fuse PAN and MS images,
+and be competitive with even superior to state of the arts in terms of
+subjective and objective metrics.
+",Junfu Chen; Yue Pan; Yang Chen,http://arxiv.org/abs/2009.09465v1,10.48550/arXiv.2009.09465
+http://arxiv.org/abs/1907.10213v1,2019,"Image Super-Resolution Using a Wavelet-based Generative Adversarial
+  Network","  In this paper, we consider the problem of super-resolution recons-truction.
+This is a hot topic because super-resolution reconstruction has a wide range of
+applications in the medical field, remote sensing monitoring, and criminal
+investigation. Compared with traditional algorithms, the current
+super-resolution reconstruction algorithm based on deep learning greatly
+improves the clarity of reconstructed pictures. Existing work like
+Super-Resolution Using a Generative Adversarial Network (SRGAN) can effectively
+restore the texture details of the image. However, experimentally verified that
+the texture details of the image recovered by the SRGAN are not robust. In
+order to get super-resolution reconstructed images with richer high-frequency
+details, we improve the network structure and propose a super-resolution
+reconstruction algorithm combining wavelet transform and Generative Adversarial
+Network. The proposed algorithm can efficiently reconstruct high-resolution
+images with rich global information and local texture details. We have trained
+our model by PyTorch framework and VOC2012 dataset, and tested it by Set5,
+Set14, BSD100 and Urban100 test datasets.
+",Qi Zhang; Huafeng Wang; Sichen Yang,http://arxiv.org/abs/1907.10213v1,10.48550/arXiv.1907.10213
+http://arxiv.org/abs/2001.07712v2,2020,"SMAPGAN: Generative Adversarial Network Based Semi-Supervised Styled Map
+  Tiles Generating Method","  Traditional online map tiles, widely used on the Internet such as Google Map
+and Baidu Map, are rendered from vector data. Timely updating online map tiles
+from vector data, of which the generating is time-consuming, is a difficult
+mission. It is a shortcut to generate map tiles in time from remote sensing
+images, which can be acquired timely without vector data. However, this mission
+used to be challenging or even impossible. Inspired by image-to-image
+translation (img2img) techniques based on generative adversarial networks
+(GAN), we proposed a semi-supervised Generation of styled map Tiles based on
+Generative Adversarial Network (SMAPGAN) model to generate styled map tiles
+directly from remote sensing images. In this model, we designed a
+semi-supervised learning strategy to pre-train SMAPGAN on rich unpaired samples
+and fine-tune it on limited paired samples in reality. We also designed image
+gradient L1 loss and image gradient structure loss to generate a styled map
+tile with global topological relationships and detailed edge curves of objects,
+which are important in cartography. Moreover, we proposed edge structural
+similarity index (ESSI) as a metric to evaluate the quality of topological
+consistency between generated map tiles and ground truths. Experimental results
+present that SMAPGAN outperforms state-of-the-art (SOTA) works according to
+mean squared error, structural similarity index, and ESSI. Also, SMAPGAN won
+more approval than SOTA in the human perceptual test on the visual realism of
+cartography. Our work shows that SMAPGAN is potentially a new paradigm to
+produce styled map tiles. Our implementation of the SMAPGAN is available at
+https://github.com/imcsq/SMAPGAN.
+",X. Chen; S. Chen; T. Xu; B. Yin; X. Mei; J. Peng; H. Li,http://arxiv.org/abs/2001.07712v2,10.1109/TGRS.2020.3021819
+http://arxiv.org/abs/1903.03519v1,2019,"DSM Building Shape Refinement from Combined Remote Sensing Images based
+  on Wnet-cGANs","  We describe the workflow of a digital surface models (DSMs) refinement
+algorithm using a hybrid conditional generative adversarial network (cGAN)
+where the generative part consists of two parallel networks merged at the last
+stage forming a WNet architecture. The inputs to the so-called WNet-cGAN are
+stereo DSMs and panchromatic (PAN) half-meter resolution satellite images.
+Fusing these helps to propagate fine detailed information from a spectral image
+and complete the missing 3D knowledge from a stereo DSM about building shapes.
+Besides, it refines the building outlines and edges making them more
+rectangular and sharp.
+",Ksenia Bittner; Marco Körner; Peter Reinartz,http://arxiv.org/abs/1903.03519v1,10.48550/arXiv.1903.03519
+http://arxiv.org/abs/1905.03198v1,2019,"Unsupervised Domain Adaptation using Generative Adversarial Networks for
+  Semantic Segmentation of Aerial Images","  Segmenting aerial images is being of great potential in surveillance and
+scene understanding of urban areas. It provides a mean for automatic reporting
+of the different events that happen in inhabited areas. This remarkably
+promotes public safety and traffic management applications. After the wide
+adoption of convolutional neural networks methods, the accuracy of semantic
+segmentation algorithms could easily surpass 80% if a robust dataset is
+provided. Despite this success, the deployment of a pre-trained segmentation
+model to survey a new city that is not included in the training set
+significantly decreases the accuracy. This is due to the domain shift between
+the source dataset on which the model is trained and the new target domain of
+the new city images. In this paper, we address this issue and consider the
+challenge of domain adaptation in semantic segmentation of aerial images. We
+design an algorithm that reduces the domain shift impact using Generative
+Adversarial Networks (GANs). In the experiments, we test the proposed
+methodology on the International Society for Photogrammetry and Remote Sensing
+(ISPRS) semantic segmentation dataset and found that our method improves the
+overall accuracy from 35% to 52% when passing from Potsdam domain (considered
+as source domain) to Vaihingen domain (considered as target domain). In
+addition, the method allows recovering efficiently the inverted classes due to
+sensor variation. In particular, it improves the average segmentation accuracy
+of the inverted classes due to sensor variation from 14% to 61%.
+",Bilel Benjdira; Yakoub Bazi; Anis Koubaa; Kais Ouni,http://arxiv.org/abs/1905.03198v1,10.3390/rs11111369
+http://arxiv.org/abs/2008.01942v1,2020,"A feature-supervised generative adversarial network for environmental
+  monitoring during hazy days","  The adverse haze weather condition has brought considerable difficulties in
+vision-based environmental applications. While, until now, most of the existing
+environmental monitoring studies are under ordinary conditions, and the studies
+of complex haze weather conditions have been ignored. Thence, this paper
+proposes a feature-supervised learning network based on generative adversarial
+networks (GAN) for environmental monitoring during hazy days. Its main idea is
+to train the model under the supervision of feature maps from the ground truth.
+Four key technical contributions are made in the paper. First, pairs of hazy
+and clean images are used as inputs to supervise the encoding process and
+obtain high-quality feature maps. Second, the basic GAN formulation is modified
+by introducing perception loss, style loss, and feature regularization loss to
+generate better results. Third, multi-scale images are applied as the input to
+enhance the performance of discriminator. Finally, a hazy remote sensing
+dataset is created for testing our dehazing method and environmental detection.
+Extensive experimental results show that the proposed method has achieved
+better performance than current state-of-the-art methods on both synthetic
+datasets and real-world remote sensing images.
+",Ke Wang; Siyuan Zhang; Junlan Chen; Fan Ren; Lei Xiao,http://arxiv.org/abs/2008.01942v1,10.1016/j.scitotenv.2020.141445
+http://arxiv.org/abs/2103.16909v1,2021,"Generating Multi-scale Maps from Remote Sensing Images via Series
+  Generative Adversarial Networks","  Considering the success of generative adversarial networks (GANs) for
+image-to-image translation, researchers have attempted to translate remote
+sensing images (RSIs) to maps (rs2map) through GAN for cartography. However,
+these studies involved limited scales, which hinders multi-scale map creation.
+By extending their method, multi-scale RSIs can be trivially translated to
+multi-scale maps (multi-scale rs2map translation) through scale-wise rs2map
+models trained for certain scales (parallel strategy). However, this strategy
+has two theoretical limitations. First, inconsistency between various spatial
+resolutions of multi-scale RSIs and object generalization on multi-scale maps
+(RS-m inconsistency) increasingly complicate the extraction of geographical
+information from RSIs for rs2map models with decreasing scale. Second, as
+rs2map translation is cross-domain, generators incur high computation costs to
+transform the RSI pixel distribution to that on maps. Thus, we designed a
+series strategy of generators for multi-scale rs2map translation to address
+these limitations. In this strategy, high-resolution RSIs are inputted to an
+rs2map model to output large-scale maps, which are translated to multi-scale
+maps through series multi-scale map translation models. The series strategy
+avoids RS-m inconsistency as inputs are high-resolution large-scale RSIs, and
+reduces the distribution gap in multi-scale map generation through similar
+pixel distributions among multi-scale maps. Our experimental results showed
+better quality multi-scale map generation with the series strategy, as shown by
+average increases of 11.69%, 53.78%, 55.42%, and 72.34% in the structural
+similarity index, edge structural similarity index, intersection over union
+(road), and intersection over union (water) for data from Mexico City and Tokyo
+at zoom level 17-13.
+",Xu Chen; Bangguo Yin; Songqiang Chen; Haifeng Li; Tian Xu,http://arxiv.org/abs/2103.16909v1,10.1109/LGRS.2021.3129285
+http://arxiv.org/abs/2104.10268v1,2021,"TWIST-GAN: Towards Wavelet Transform and Transferred GAN for
+  Spatio-Temporal Single Image Super Resolution","  Single Image Super-resolution (SISR) produces high-resolution images with
+fine spatial resolutions from aremotely sensed image with low spatial
+resolution. Recently, deep learning and generative adversarial networks(GANs)
+have made breakthroughs for the challenging task of single image
+super-resolution (SISR). However, thegenerated image still suffers from
+undesirable artifacts such as, the absence of texture-feature representationand
+high-frequency information. We propose a frequency domain-based spatio-temporal
+remote sensingsingle image super-resolution technique to reconstruct the HR
+image combined with generative adversarialnetworks (GANs) on various frequency
+bands (TWIST-GAN). We have introduced a new method incorporatingWavelet
+Transform (WT) characteristics and transferred generative adversarial network.
+The LR image hasbeen split into various frequency bands by using the WT,
+whereas, the transfer generative adversarial networkpredicts high-frequency
+components via a proposed architecture. Finally, the inverse transfer of
+waveletsproduces a reconstructed image with super-resolution. The model is
+first trained on an external DIV2 Kdataset and validated with the UC Merceed
+Landsat remote sensing dataset and Set14 with each image sizeof 256x256.
+Following that, transferred GANs are used to process spatio-temporal remote
+sensing images inorder to minimize computation cost differences and improve
+texture information. The findings are comparedqualitatively and qualitatively
+with the current state-of-art approaches. In addition, we saved about 43% of
+theGPU memory during training and accelerated the execution of our simplified
+version by eliminating batchnormalization layers.
+",Fayaz Ali Dharejo; Farah Deeba; Yuanchun Zhou; Bhagwan Das; Munsif Ali Jatoi; Muhammad Zawish; Yi Du; Xuezhi Wang,http://arxiv.org/abs/2104.10268v1,10.1145/3456726
+http://arxiv.org/abs/2110.01442v1,2021,"A review of Generative Adversarial Networks (GANs) and its applications
+  in a wide variety of disciplines -- From Medical to Remote Sensing","  We look into Generative Adversarial Network (GAN), its prevalent variants and
+applications in a number of sectors. GANs combine two neural networks that
+compete against one another using zero-sum game theory, allowing them to create
+much crisper and discrete outputs. GANs can be used to perform image
+processing, video generation and prediction, among other computer vision
+applications. GANs can also be utilised for a variety of science-related
+activities, including protein engineering, astronomical data processing, remote
+sensing image dehazing, and crystal structure synthesis. Other notable fields
+where GANs have made gains include finance, marketing, fashion design, sports,
+and music. Therefore in this article we provide a comprehensive overview of the
+applications of GANs in a wide variety of disciplines. We first cover the
+theory supporting GAN, GAN variants, and the metrics to evaluate GANs. Then we
+present how GAN and its variants can be applied in twelve domains, ranging from
+STEM fields, such as astronomy and biology, to business fields, such as
+marketing and finance, and to arts, such as music. As a result, researchers
+from other fields may grasp how GANs work and apply them to their own study. To
+the best of our knowledge, this article provides the most comprehensive survey
+of GAN's applications in different fields.
+",Ankan Dash; Junyi Ye; Guiling Wang,http://arxiv.org/abs/2110.01442v1,10.48550/arXiv.2110.01442
+http://arxiv.org/abs/2112.05335v1,2021,"Uncertainty, Edge, and Reverse-Attention Guided Generative Adversarial
+  Network for Automatic Building Detection in Remotely Sensed Images","  Despite recent advances in deep-learning based semantic segmentation,
+automatic building detection from remotely sensed imagery is still a
+challenging problem owing to large variability in the appearance of buildings
+across the globe. The errors occur mostly around the boundaries of the building
+footprints, in shadow areas, and when detecting buildings whose exterior
+surfaces have reflectivity properties that are very similar to those of the
+surrounding regions. To overcome these problems, we propose a generative
+adversarial network based segmentation framework with uncertainty attention
+unit and refinement module embedded in the generator. The refinement module,
+composed of edge and reverse attention units, is designed to refine the
+predicted building map. The edge attention enhances the boundary features to
+estimate building boundaries with greater precision, and the reverse attention
+allows the network to explore the features missing in the previously estimated
+regions. The uncertainty attention unit assists the network in resolving
+uncertainties in classification. As a measure of the power of our approach, as
+of December 4, 2021, it ranks at the second place on DeepGlobe's public
+leaderboard despite the fact that main focus of our approach -- refinement of
+the building edges -- does not align exactly with the metrics used for
+leaderboard rankings. Our overall F1-score on DeepGlobe's challenging dataset
+is 0.745. We also report improvements on the previous-best results for the
+challenging INRIA Validation Dataset for which our network achieves an overall
+IoU of 81.28% and an overall accuracy of 97.03%. Along the same lines, for the
+official INRIA Test Dataset, our network scores 77.86% and 96.41% in overall
+IoU and accuracy.
+",Somrita Chattopadhyay; Avinash C. Kak,http://arxiv.org/abs/2112.05335v1,10.48550/arXiv.2112.05335
+http://arxiv.org/abs/2201.06030v1,2022,"Fully Convolutional Change Detection Framework with Generative
+  Adversarial Network for Unsupervised, Weakly Supervised and Regional
+  Supervised Change Detection","  Deep learning for change detection is one of the current hot topics in the
+field of remote sensing. However, most end-to-end networks are proposed for
+supervised change detection, and unsupervised change detection models depend on
+traditional pre-detection methods. Therefore, we proposed a fully convolutional
+change detection framework with generative adversarial network, to conclude
+unsupervised, weakly supervised, regional supervised, and fully supervised
+change detection tasks into one framework. A basic Unet segmentor is used to
+obtain change detection map, an image-to-image generator is implemented to
+model the spectral and spatial variation between multi-temporal images, and a
+discriminator for changed and unchanged is proposed for modeling the semantic
+changes in weakly and regional supervised change detection task. The iterative
+optimization of segmentor and generator can build an end-to-end network for
+unsupervised change detection, the adversarial process between segmentor and
+discriminator can provide the solutions for weakly and regional supervised
+change detection, the segmentor itself can be trained for fully supervised
+task. The experiments indicate the effectiveness of the propsed framework in
+unsupervised, weakly supervised and regional supervised change detection. This
+paper provides theorical definitions for unsupervised, weakly supervised and
+regional supervised change detection tasks, and shows great potentials in
+exploring end-to-end network for remote sensing change detection.
+",Chen Wu; Bo Du; Liangpei Zhang,http://arxiv.org/abs/2201.06030v1,10.48550/arXiv.2201.06030
+http://arxiv.org/abs/2111.03260v1,2021,"Remote Sensing Image Super-resolution and Object Detection: Benchmark
+  and State of the Art","  For the past two decades, there have been significant efforts to develop
+methods for object detection in Remote Sensing (RS) images. In most cases, the
+datasets for small object detection in remote sensing images are inadequate.
+Many researchers used scene classification datasets for object detection, which
+has its limitations; for example, the large-sized objects outnumber the small
+objects in object categories. Thus, they lack diversity; this further affects
+the detection performance of small object detectors in RS images. This paper
+reviews current datasets and object detection methods (deep learning-based) for
+remote sensing images. We also propose a large-scale, publicly available
+benchmark Remote Sensing Super-resolution Object Detection (RSSOD) dataset. The
+RSSOD dataset consists of 1,759 hand-annotated images with 22,091 instances of
+very high resolution (VHR) images with a spatial resolution of ~0.05 m. There
+are five classes with varying frequencies of labels per class. The image
+patches are extracted from satellite images, including real image distortions
+such as tangential scale distortion and skew distortion. We also propose a
+novel Multi-class Cyclic super-resolution Generative adversarial network with
+Residual feature aggregation (MCGR) and auxiliary YOLOv5 detector to benchmark
+image super-resolution-based object detection and compare with the existing
+state-of-the-art methods based on image super-resolution (SR). The proposed
+MCGR achieved state-of-the-art performance for image SR with an improvement of
+1.2dB PSNR compared to the current state-of-the-art NLSN method. MCGR achieved
+best object detection mAPs of 0.758, 0.881, 0.841, and 0.983, respectively, for
+five-class, four-class, two-class, and single classes, respectively surpassing
+the performance of the state-of-the-art object detectors YOLOv5, EfficientDet,
+Faster RCNN, SSD, and RetinaNet.
+",Yi Wang; Syed Muhammad Arsalan Bashir; Mahrukh Khan; Qudrat Ullah; Rui Wang; Yilin Song; Zhe Guo; Yilong Niu,http://arxiv.org/abs/2111.03260v1,10.1016/j.eswa.2022.116793
+http://arxiv.org/abs/1807.11573v1,2018,"State-of-the-art and gaps for deep learning on limited training data in
+  remote sensing","  Deep learning usually requires big data, with respect to both volume and
+variety. However, most remote sensing applications only have limited training
+data, of which a small subset is labeled. Herein, we review three
+state-of-the-art approaches in deep learning to combat this challenge. The
+first topic is transfer learning, in which some aspects of one domain, e.g.,
+features, are transferred to another domain. The next is unsupervised learning,
+e.g., autoencoders, which operate on unlabeled data. The last is generative
+adversarial networks, which can generate realistic looking data that can fool
+the likes of both a deep learning network and human. The aim of this article is
+to raise awareness of this dilemma, to direct the reader to existing work and
+to highlight current gaps that need solving.
+",John E. Ball; Derek T. Anderson; Pan Wei,http://arxiv.org/abs/1807.11573v1,10.48550/arXiv.1807.11573
+http://arxiv.org/abs/2002.05925v2,2020,"SemI2I: Semantically Consistent Image-to-Image Translation for Domain
+  Adaptation of Remote Sensing Data","  Although convolutional neural networks have been proven to be an effective
+tool to generate high quality maps from remote sensing images, their
+performance significantly deteriorates when there exists a large domain shift
+between training and test data. To address this issue, we propose a new data
+augmentation approach that transfers the style of test data to training data
+using generative adversarial networks. Our semantic segmentation framework
+consists in first training a U-net from the real training data and then
+fine-tuning it on the test stylized fake training data generated by the
+proposed approach. Our experimental results prove that our framework
+outperforms the existing domain adaptation methods.
+",Onur Tasar; S L Happy; Yuliya Tarabalka; Pierre Alliez,http://arxiv.org/abs/2002.05925v2,10.48550/arXiv.2002.05925
+http://arxiv.org/abs/2005.08892v1,2020,"Deep Snow: Synthesizing Remote Sensing Imagery with Generative
+  Adversarial Nets","  In this work we demonstrate that generative adversarial networks (GANs) can
+be used to generate realistic pervasive changes in remote sensing imagery, even
+in an unpaired training setting. We investigate some transformation quality
+metrics based on deep embedding of the generated and real images which enable
+visualization and understanding of the training dynamics of the GAN, and may
+provide a useful measure in terms of quantifying how distinguishable the
+generated images are from real images. We also identify some artifacts
+introduced by the GAN in the generated images, which are likely to contribute
+to the differences seen between the real and generated samples in the deep
+embedding feature space even in cases where the real and generated samples
+appear perceptually similar.
+",Christopher X. Ren; Amanda Ziemann; James Theiler; Alice M. S. Durieux,http://arxiv.org/abs/2005.08892v1,10.48550/arXiv.2005.08892
+http://arxiv.org/abs/2106.07020v1,2021,"Generation of the NIR spectral Band for Satellite Images with
+  Convolutional Neural Networks","  The near-infrared (NIR) spectral range (from 780 to 2500 nm) of the
+multispectral remote sensing imagery provides vital information for the
+landcover classification, especially concerning the vegetation assessment.
+Despite the usefulness of NIR, common RGB is not always accompanied by it.
+Modern achievements in image processing via deep neural networks allow
+generating artificial spectral information, such as for the image colorization
+problem. In this research, we aim to investigate whether this approach can
+produce not only visually similar images but also an artificial spectral band
+that can improve the performance of computer vision algorithms for solving
+remote sensing tasks. We study the generative adversarial network (GAN)
+approach in the task of the NIR band generation using just RGB channels of
+high-resolution satellite imagery. We evaluate the impact of a generated
+channel on the model performance for solving the forest segmentation task. Our
+results show an increase in model accuracy when using generated NIR comparing
+to the baseline model that uses only RGB (0.947 and 0.914 F1-score
+accordingly). Conducted study shows the advantages of generating the extra band
+and its implementation in applied challenges reducing the required amount of
+labeled data.
+",Svetlana Illarionova; Dmitrii Shadrin; Alexey Trekin; Vladimir Ignatiev; Ivan Oseledets,http://arxiv.org/abs/2106.07020v1,10.48550/arXiv.2106.07020
+http://arxiv.org/abs/1711.02010v1,2017,"Artificial Generation of Big Data for Improving Image Classification: A
+  Generative Adversarial Network Approach on SAR Data","  Very High Spatial Resolution (VHSR) large-scale SAR image databases are still
+an unresolved issue in the Remote Sensing field. In this work, we propose such
+a dataset and use it to explore patch-based classification in urban and
+periurban areas, considering 7 distinct semantic classes. In this context, we
+investigate the accuracy of large CNN classification models and pre-trained
+networks for SAR imaging systems. Furthermore, we propose a Generative
+Adversarial Network (GAN) for SAR image generation and test, whether the
+synthetic data can actually improve classification accuracy.
+",Dimitrios Marmanis; Wei Yao; Fathalrahman Adam; Mihai Datcu; Peter Reinartz; Konrad Schindler; Jan Dirk Wegner; Uwe Stilla,http://arxiv.org/abs/1711.02010v1,10.48550/arXiv.1711.02010
+http://arxiv.org/abs/1806.02583v1,2018,"Generative Adversarial Networks for Realistic Synthesis of Hyperspectral
+  Samples","  This work addresses the scarcity of annotated hyperspectral data required to
+train deep neural networks. Especially, we investigate generative adversarial
+networks and their application to the synthesis of consistent labeled spectra.
+By training such networks on public datasets, we show that these models are not
+only able to capture the underlying distribution, but also to generate
+genuine-looking and physically plausible spectra. Moreover, we experimentally
+validate that the synthetic samples can be used as an effective data
+augmentation strategy. We validate our approach on several public
+hyper-spectral datasets using a variety of deep classifiers.
+",Nicolas Audebert; Bertrand Le Saux; Sébastien Lefèvre,http://arxiv.org/abs/1806.02583v1,10.48550/arXiv.1806.02583
+http://arxiv.org/abs/1808.03195v1,2018,"Overcoming Missing and Incomplete Modalities with Generative Adversarial
+  Networks for Building Footprint Segmentation","  The integration of information acquired with different modalities, spatial
+resolution and spectral bands has shown to improve predictive accuracies. Data
+fusion is therefore one of the key challenges in remote sensing. Most prior
+work focusing on multi-modal fusion, assumes that modalities are always
+available during inference. This assumption limits the applications of
+multi-modal models since in practice the data collection process is likely to
+generate data with missing, incomplete or corrupted modalities. In this paper,
+we show that Generative Adversarial Networks can be effectively used to
+overcome the problems that arise when modalities are missing or incomplete.
+Focusing on semantic segmentation of building footprints with missing
+modalities, our approach achieves an improvement of about 2% on the
+Intersection over Union (IoU) against the same network that relies only on the
+available modality.
+",Benjamin Bischke; Patrick Helber; Florian König; Damian Borth; Andreas Dengel,http://arxiv.org/abs/1808.03195v1,10.48550/arXiv.1808.03195
+http://arxiv.org/abs/2201.08938v1,2022,"Adaptive DropBlock Enhanced Generative Adversarial Networks for
+  Hyperspectral Image Classification","  In recent years, hyperspectral image (HSI) classification based on generative
+adversarial networks (GAN) has achieved great progress. GAN-based
+classification methods can mitigate the limited training sample dilemma to some
+extent. However, several studies have pointed out that existing GAN-based HSI
+classification methods are heavily affected by the imbalanced training data
+problem. The discriminator in GAN always contradicts itself and tries to
+associate fake labels to the minority-class samples, and thus impair the
+classification performance. Another critical issue is the mode collapse in
+GAN-based methods. The generator is only capable of producing samples within a
+narrow scope of the data space, which severely hinders the advancement of
+GAN-based HSI classification methods. In this paper, we proposed an Adaptive
+DropBlock-enhanced Generative Adversarial Networks (ADGAN) for HSI
+classification. First, to solve the imbalanced training data problem, we adjust
+the discriminator to be a single classifier, and it will not contradict itself.
+Second, an adaptive DropBlock (AdapDrop) is proposed as a regularization method
+employed in the generator and discriminator to alleviate the mode collapse
+issue. The AdapDrop generated drop masks with adaptive shapes instead of a
+fixed size region, and it alleviates the limitations of DropBlock in dealing
+with ground objects with various shapes. Experimental results on three HSI
+datasets demonstrated that the proposed ADGAN achieved superior performance
+over state-of-the-art GAN-based methods. Our codes are available at
+https://github.com/summitgao/HC_ADGAN
+",Junjie Wang; Feng Gao; Junyu Dong; Qian Du,http://arxiv.org/abs/2201.08938v1,10.1109/TGRS.2020.3015843
+http://arxiv.org/abs/2207.14451v1,2022,"PC-GANs: Progressive Compensation Generative Adversarial Networks for
+  Pan-sharpening","  The fusion of multispectral and panchromatic images is always dubbed
+pansharpening. Most of the available deep learning-based pan-sharpening methods
+sharpen the multispectral images through a one-step scheme, which strongly
+depends on the reconstruction ability of the network. However, remote sensing
+images always have large variations, as a result, these one-step methods are
+vulnerable to the error accumulation and thus incapable of preserving spatial
+details as well as the spectral information. In this paper, we propose a novel
+two-step model for pan-sharpening that sharpens the MS image through the
+progressive compensation of the spatial and spectral information. Firstly, a
+deep multiscale guided generative adversarial network is used to preliminarily
+enhance the spatial resolution of the MS image. Starting from the pre-sharpened
+MS image in the coarse domain, our approach then progressively refines the
+spatial and spectral residuals over a couple of generative adversarial networks
+(GANs) that have reverse architectures. The whole model is composed of triple
+GANs, and based on the specific architecture, a joint compensation loss
+function is designed to enable the triple GANs to be trained simultaneously.
+Moreover, the spatial-spectral residual compensation structure proposed in this
+paper can be extended to other pan-sharpening methods to further enhance their
+fusion results. Extensive experiments are performed on different datasets and
+the results demonstrate the effectiveness and efficiency of our proposed
+method.
+",Yinghui Xing; Shuyuan Yang; Song Wang; Yan Zhang; Yanning Zhang,http://arxiv.org/abs/2207.14451v1,10.48550/arXiv.2207.14451
+http://arxiv.org/abs/2005.10374v4,2020,"Stochastic Super-Resolution for Downscaling Time-Evolving Atmospheric
+  Fields with a Generative Adversarial Network","  Generative adversarial networks (GANs) have been recently adopted for
+super-resolution, an application closely related to what is referred to as
+""downscaling"" in the atmospheric sciences: improving the spatial resolution of
+low-resolution images. The ability of conditional GANs to generate an ensemble
+of solutions for a given input lends itself naturally to stochastic
+downscaling, but the stochastic nature of GANs is not usually considered in
+super-resolution applications. Here, we introduce a recurrent, stochastic
+super-resolution GAN that can generate ensembles of time-evolving
+high-resolution atmospheric fields for an input consisting of a low-resolution
+sequence of images of the same field. We test the GAN using two datasets, one
+consisting of radar-measured precipitation from Switzerland, the other of cloud
+optical thickness derived from the Geostationary Earth Observing Satellite 16
+(GOES-16). We find that the GAN can generate realistic, temporally consistent
+super-resolution sequences for both datasets. The statistical properties of the
+generated ensemble are analyzed using rank statistics, a method adapted from
+ensemble weather forecasting; these analyses indicate that the GAN produces
+close to the correct amount of variability in its outputs. As the GAN generator
+is fully convolutional, it can be applied after training to input images larger
+than the images used to train it. It is also able to generate time series much
+longer than the training sequences, as demonstrated by applying the generator
+to a three-month dataset of the precipitation radar data. The source code to
+our GAN is available at https://github.com/jleinonen/downscaling-rnn-gan.
+",Jussi Leinonen; Daniele Nerini; Alexis Berne,http://arxiv.org/abs/2005.10374v4,10.1109/TGRS.2020.3032790
+http://arxiv.org/abs/1805.03371v4,2018,"PSGAN: A Generative Adversarial Network for Remote Sensing Image
+  Pan-Sharpening","  This paper addresses the problem of remote sensing image pan-sharpening from
+the perspective of generative adversarial learning. We propose a novel deep
+neural network based method named PSGAN. To the best of our knowledge, this is
+one of the first attempts at producing high-quality pan-sharpened images with
+GANs. The PSGAN consists of two components: a generative network (i.e.,
+generator) and a discriminative network (i.e., discriminator). The generator is
+designed to accept panchromatic (PAN) and multispectral (MS) images as inputs
+and maps them to the desired high-resolution (HR) MS images and the
+discriminator implements the adversarial training strategy for generating
+higher fidelity pan-sharpened images. In this paper, we evaluate several
+architectures and designs, namely two-stream input, stacking input, batch
+normalization layer, and attention mechanism to find the optimal solution for
+pan-sharpening. Extensive experiments on QuickBird, GaoFen-2, and WorldView-2
+satellite images demonstrate that the proposed PSGANs not only are effective in
+generating high-quality HR MS images and superior to state-of-the-art methods
+and also generalize well to full-scale images.
+",Qingjie Liu; Huanyu Zhou; Qizhi Xu; Xiangyu Liu; Yunhong Wang,http://arxiv.org/abs/1805.03371v4,10.48550/arXiv.1805.03371
+http://arxiv.org/abs/1809.04985v4,2018,"SiftingGAN: Generating and Sifting Labeled Samples to Improve the Remote
+  Sensing Image Scene Classification Baseline in vitro","  Lack of annotated samples greatly restrains the direct application of deep
+learning in remote sensing image scene classification. Although researches have
+been done to tackle this issue by data augmentation with various image
+transformation operations, they are still limited in quantity and diversity.
+Recently, the advent of the unsupervised learning based generative adversarial
+networks (GANs) bring us a new way to generate augmented samples. However, such
+GAN-generated samples are currently only served for training GANs model itself
+and for improving the performance of the discriminator in GANs internally (in
+vivo). It becomes a question of serious doubt whether the GAN-generated samples
+can help better improve the scene classification performance of other deep
+learning networks (in vitro), compared with the widely used transformed
+samples. To answer this question, this paper proposes a SiftingGAN approach to
+generate more numerous, more diverse and more authentic labeled samples for
+data augmentation. SiftingGAN extends traditional GAN framework with an
+Online-Output method for sample generation, a Generative-Model-Sifting method
+for model sifting, and a Labeled-Sample-Discriminating method for sample
+sifting. Experiments on the well-known AID dataset demonstrate that the
+proposed SiftingGAN method can not only effectively improve the performance of
+the scene classification baseline that is achieved without data augmentation,
+but also significantly excels the comparison methods based on traditional
+geometric/radiometric transformation operations.
+",Dongao Ma; Ping Tang; Lijun Zhao,http://arxiv.org/abs/1809.04985v4,10.1109/LGRS.2018.2890413
+http://arxiv.org/abs/2007.02565v2,2020,"S2-cGAN: Self-Supervised Adversarial Representation Learning for Binary
+  Change Detection in Multispectral Images","  Deep Neural Networks have recently demonstrated promising performance in
+binary change detection (CD) problems in remote sensing (RS), requiring a large
+amount of labeled multitemporal training samples. Since collecting such data is
+time-consuming and costly, most of the existing methods rely on pre-trained
+networks on publicly available computer vision (CV) datasets. However, because
+of the differences in image characteristics in CV and RS, this approach limits
+the performance of the existing CD methods. To address this problem, we propose
+a self-supervised conditional Generative Adversarial Network (S2-cGAN). The
+proposed S^2-cGAN is trained to generate only the distribution of unchanged
+samples. To this end, the proposed method consists of two main steps: 1)
+Generating a reconstructed version of the input image as an unchanged image 2)
+Learning the distribution of unchanged samples through an adversarial game.
+Unlike the existing GAN based methods (which only use the discriminator during
+the adversarial training to supervise the generator), the S2-cGAN directly
+exploits the discriminator likelihood to solve the binary CD task. Experimental
+results show the effectiveness of the proposed S2-cGAN when compared to the
+state of the art CD methods.
+",Jose Luis Holgado Alvarez; Mahdyar Ravanbakhsh; Begüm Demir,http://arxiv.org/abs/2007.02565v2,10.48550/arXiv.2007.02565
+http://arxiv.org/abs/2008.04021v1,2020,"Road Segmentation for Remote Sensing Images using Adversarial Spatial
+  Pyramid Networks","  Road extraction in remote sensing images is of great importance for a wide
+range of applications. Because of the complex background, and high density,
+most of the existing methods fail to accurately extract a road network that
+appears correct and complete. Moreover, they suffer from either insufficient
+training data or high costs of manual annotation. To address these problems, we
+introduce a new model to apply structured domain adaption for synthetic image
+generation and road segmentation. We incorporate a feature pyramid network into
+generative adversarial networks to minimize the difference between the source
+and target domains. A generator is learned to produce quality synthetic images,
+and the discriminator attempts to distinguish them. We also propose a feature
+pyramid network that improves the performance of the proposed model by
+extracting effective features from all the layers of the network for describing
+different scales objects. Indeed, a novel scale-wise architecture is introduced
+to learn from the multi-level feature maps and improve the semantics of the
+features. For optimization, the model is trained by a joint reconstruction loss
+function, which minimizes the difference between the fake images and the real
+ones. A wide range of experiments on three datasets prove the superior
+performance of the proposed approach in terms of accuracy and efficiency. In
+particular, our model achieves state-of-the-art 78.86 IOU on the Massachusetts
+dataset with 14.89M parameters and 86.78B FLOPs, with 4x fewer FLOPs but higher
+accuracy (+3.47% IOU) than the top performer among state-of-the-art approaches
+used in the evaluation.
+",Pourya Shamsolmoali; Masoumeh Zareapoor; Huiyu Zhou; Ruili Wang; Jie Yang,http://arxiv.org/abs/2008.04021v1,10.1109/TGRS.2020.3016086
+http://arxiv.org/abs/2011.11314v2,2020,"Synthesizing Optical and SAR Imagery From Land Cover Maps and Auxiliary
+  Raster Data","  We synthesize both optical RGB and synthetic aperture radar (SAR) remote
+sensing images from land cover maps and auxiliary raster data using generative
+adversarial networks (GANs). In remote sensing, many types of data, such as
+digital elevation models (DEMs) or precipitation maps, are often not reflected
+in land cover maps but still influence image content or structure. Including
+such data in the synthesis process increases the quality of the generated
+images and exerts more control on their characteristics. Spatially adaptive
+normalization layers fuse both inputs and are applied to a full-blown generator
+architecture consisting of encoder and decoder to take full advantage of the
+information content in the auxiliary raster data. Our method successfully
+synthesizes medium (10 m) and high (1 m) resolution images when trained with
+the corresponding data set. We show the advantage of data fusion of land cover
+maps and auxiliary information using mean intersection over unions (mIoUs),
+pixel accuracy, and Fr\'echet inception distances (FIDs) using pretrained U-Net
+segmentation models. Handpicked images exemplify how fusing information avoids
+ambiguities in the synthesized images. By slightly editing the input, our
+method can be used to synthesize realistic changes, i.e., raising the water
+levels. The source code is available at https://github.com/gbaier/rs_img_synth
+and we published the newly created high-resolution dataset at
+https://ieee-dataport.org/open-access/geonrw.
+",Gerald Baier; Antonin Deschemps; Michael Schmitt; Naoto Yokoya,http://arxiv.org/abs/2011.11314v2,10.1109/TGRS.2021.3068532
+http://arxiv.org/abs/2108.12611v1,2021,"Stagewise Unsupervised Domain Adaptation with Adversarial Self-Training
+  for Road Segmentation of Remote Sensing Images","  Road segmentation from remote sensing images is a challenging task with wide
+ranges of application potentials. Deep neural networks have advanced this field
+by leveraging the power of large-scale labeled data, which, however, are
+extremely expensive and time-consuming to acquire. One solution is to use cheap
+available data to train a model and deploy it to directly process the data from
+a specific application domain. Nevertheless, the well-known domain shift (DS)
+issue prevents the trained model from generalizing well on the target domain.
+In this paper, we propose a novel stagewise domain adaptation model called
+RoadDA to address the DS issue in this field. In the first stage, RoadDA adapts
+the target domain features to align with the source ones via generative
+adversarial networks (GAN) based inter-domain adaptation. Specifically, a
+feature pyramid fusion module is devised to avoid information loss of long and
+thin roads and learn discriminative and robust features. Besides, to address
+the intra-domain discrepancy in the target domain, in the second stage, we
+propose an adversarial self-training method. We generate the pseudo labels of
+target domain using the trained generator and divide it to labeled easy split
+and unlabeled hard split based on the road confidence scores. The features of
+hard split are adapted to align with the easy ones using adversarial learning
+and the intra-domain adaptation process is repeated to progressively improve
+the segmentation performance. Experiment results on two benchmarks demonstrate
+that RoadDA can efficiently reduce the domain gap and outperforms
+state-of-the-art methods.
+",Lefei Zhang; Meng Lan; Jing Zhang; Dacheng Tao,http://arxiv.org/abs/2108.12611v1,10.1109/TGRS.2021.3104032
+http://arxiv.org/abs/2210.07751v1,2022,"Blind Super-Resolution for Remote Sensing Images via Conditional
+  Stochastic Normalizing Flows","  Remote sensing images (RSIs) in real scenes may be disturbed by multiple
+factors such as optical blur, undersampling, and additional noise, resulting in
+complex and diverse degradation models. At present, the mainstream SR
+algorithms only consider a single and fixed degradation (such as bicubic
+interpolation) and cannot flexibly handle complex degradations in real scenes.
+Therefore, designing a super-resolution (SR) model that can cope with various
+degradations is gradually attracting the attention of researchers. Some studies
+first estimate the degradation kernels and then perform degradation-adaptive SR
+but face the problems of estimation error amplification and insufficient
+high-frequency details in the results. Although blind SR algorithms based on
+generative adversarial networks (GAN) have greatly improved visual quality,
+they still suffer from pseudo-texture, mode collapse, and poor training
+stability. In this article, we propose a novel blind SR framework based on the
+stochastic normalizing flow (BlindSRSNF) to address the above problems.
+BlindSRSNF learns the conditional probability distribution over the
+high-resolution image space given a low-resolution (LR) image by explicitly
+optimizing the variational bound on the likelihood. BlindSRSNF is easy to train
+and can generate photo-realistic SR results that outperform GAN-based models.
+Besides, we introduce a degradation representation strategy based on
+contrastive learning to avoid the error amplification problem caused by the
+explicit degradation estimation. Comprehensive experiments show that the
+proposed algorithm can obtain SR results with excellent visual perception
+quality on both simulated LR and real-world RSIs.
+",Hanlin Wu; Ning Ni; Shan Wang; Libao Zhang,http://arxiv.org/abs/2210.07751v1,10.48550/arXiv.2210.07751
+http://arxiv.org/abs/1907.09543v1,2019,"Spatial sensitivity analysis for urban land use prediction with
+  physics-constrained conditional generative adversarial networks","  Accurately forecasting urban development and its environmental and climate
+impacts critically depends on realistic models of the spatial structure of the
+built environment, and of its dependence on key factors such as population and
+economic development. Scenario simulation and sensitivity analysis, i.e.,
+predicting how changes in underlying factors at a given location affect
+urbanization outcomes at other locations, is currently not achievable at a
+large scale with traditional urban growth models, which are either too
+simplistic, or depend on detailed locally-collected socioeconomic data that is
+not available in most places. Here we develop a framework to estimate, purely
+from globally-available remote-sensing data and without parametric assumptions,
+the spatial sensitivity of the (\textit{static}) rate of change of urban sprawl
+to key macroeconomic development indicators. We formulate this spatial
+regression problem as an image-to-image translation task using conditional
+generative adversarial networks (GANs), where the gradients necessary for
+comparative static analysis are provided by the backpropagation algorithm used
+to train the model. This framework allows to naturally incorporate physical
+constraints, e.g., the inability to build over water bodies. To validate the
+spatial structure of model-generated built environment distributions, we use
+spatial statistics commonly used in urban form analysis. We apply our method to
+a novel dataset comprising of layers on the built environment, nightlighs
+measurements (a proxy for economic development and energy use), and population
+density for the world's most populous 15,000 cities.
+",Adrian Albert; Jasleen Kaur; Emanuele Strano; Marta Gonzalez,http://arxiv.org/abs/1907.09543v1,10.48550/arXiv.1907.09543
+http://arxiv.org/abs/1912.06013v2,2019,"An Approach to Super-Resolution of Sentinel-2 Images Based on Generative
+  Adversarial Networks","  This paper presents a generative adversarial network based super-resolution
+(SR) approach (which is called as S2GAN) to enhance the spatial resolution of
+Sentinel-2 spectral bands. The proposed approach consists of two main steps.
+The first step aims to increase the spatial resolution of the bands with 20m
+and 60m spatial resolutions by the scaling factors of 2 and 6, respectively. To
+this end, we introduce a generator network that performs SR on the lower
+resolution bands with the guidance of the bands associated to 10m spatial
+resolution by utilizing the convolutional layers with residual connections and
+a long skip-connection between inputs and outputs. The second step aims to
+distinguish SR bands from their ground truth bands. This is achieved by the
+proposed discriminator network, which alternately characterizes the high level
+features of the two sets of bands and applying binary classification on the
+extracted features. Then, we formulate the adversarial learning of the
+generator and discriminator networks as a min-max game. In this learning
+procedure, the generator aims to produce realistic SR bands as much as possible
+so that the discriminator incorrectly classifies SR bands. Experimental results
+obtained on different Sentinel-2 images show the effectiveness of the proposed
+approach compared to both conventional and deep learning based SR approaches.
+",Kexin Zhang; Gencer Sumbul; Begüm Demir,http://arxiv.org/abs/1912.06013v2,10.1109/M2GARSS47143.2020.9105165
+http://arxiv.org/abs/2004.04788v2,2020,D-SRGAN: DEM Super-Resolution with Generative Adversarial Networks,"  LIDAR (light detection and ranging) is an optical remote-sensing technique
+that measures the distance between sensor and object, and the reflected energy
+from the object. Over the years, LIDAR data has been used as the primary source
+of Digital Elevation Models (DEMs). DEMs have been used in a variety of
+applications like road extraction, hydrological modeling, flood mapping, and
+surface analysis. A number of studies in flooding suggest the usage of
+high-resolution DEMs as inputs in the applications improve the overall
+reliability and accuracy. Despite the importance of high-resolution DEM, many
+areas in the United States and the world do not have access to high-resolution
+DEM due to technological limitations or the cost of the data collection. With
+recent development in Graphical Processing Units (GPU) and novel algorithms,
+deep learning techniques have become attractive to researchers for their
+performance in learning features from high-resolution datasets. Numerous new
+methods have been proposed such as Generative Adversarial Networks (GANs) to
+create intelligent models that correct and augment large-scale datasets. In
+this paper, a GAN based model is developed and evaluated, inspired by single
+image super-resolution methods, to increase the spatial resolution of a given
+DEM dataset up to 4 times without additional information related to data.
+",Bekir Z Demiray; Muhammed Sit; Ibrahim Demir,http://arxiv.org/abs/2004.04788v2,10.48550/arXiv.2004.04788
+http://arxiv.org/abs/2009.03630v2,2020,"Unsupervised Change Detection in Satellite Images with Generative
+  Adversarial Network","  Detecting changed regions in paired satellite images plays a key role in many
+remote sensing applications. The evolution of recent techniques could provide
+satellite images with very high spatial resolution (VHR) but made it
+challenging to apply image coregistration, and many change detection methods
+are dependent on its accuracy.Two images of the same scene taken at different
+time or from different angle would introduce unregistered objects and the
+existence of both unregistered areas and actual changed areas would lower the
+performance of many change detection algorithms in unsupervised condition.To
+alleviate the effect of unregistered objects in the paired images, we propose a
+novel change detection framework utilizing a special neural network
+architecture -- Generative Adversarial Network (GAN) to generate many better
+coregistered images. In this paper, we show that GAN model can be trained upon
+a pair of images through using the proposed expanding strategy to create a
+training set and optimizing designed objective functions. The optimized GAN
+model would produce better coregistered images where changes can be easily
+spotted and then the change map can be presented through a comparison strategy
+using these generated images explicitly.Compared to other deep learning-based
+methods, our method is less sensitive to the problem of unregistered images and
+makes most of the deep learning structure.Experimental results on synthetic
+images and real data with many different scenes could demonstrate the
+effectiveness of the proposed approach.
+",Caijun Ren; Xiangyu Wang; Jian Gao; Huanhuan Chen,http://arxiv.org/abs/2009.03630v2,10.1109/TGRS.2020.3043766
+http://arxiv.org/abs/2012.12180v1,2020,"Cloud removal in remote sensing images using generative adversarial
+  networks and SAR-to-optical image translation","  Satellite images are often contaminated by clouds. Cloud removal has received
+much attention due to the wide range of satellite image applications. As the
+clouds thicken, the process of removing the clouds becomes more challenging. In
+such cases, using auxiliary images such as near-infrared or synthetic aperture
+radar (SAR) for reconstructing is common. In this study, we attempt to solve
+the problem using two generative adversarial networks (GANs). The first
+translates SAR images into optical images, and the second removes clouds using
+the translated images of prior GAN. Also, we propose dilated residual inception
+blocks (DRIBs) instead of vanilla U-net in the generator networks and use
+structural similarity index measure (SSIM) in addition to the L1 Loss function.
+Reducing the number of downsamplings and expanding receptive fields by dilated
+convolutions increase the quality of output images. We used the SEN1-2 dataset
+to train and test both GANs, and we made cloudy images by adding synthetic
+clouds to optical images. The restored images are evaluated with PSNR and SSIM.
+We compare the proposed method with state-of-the-art deep learning models and
+achieve more accurate results in both SAR-to-optical translation and cloud
+removal parts.
+",Faramarz Naderi Darbaghshahi; Mohammad Reza Mohammadi; Mohsen Soryani,http://arxiv.org/abs/2012.12180v1,10.48550/arXiv.2012.12180
+http://arxiv.org/abs/2101.00062v2,2020,"FGF-GAN: A Lightweight Generative Adversarial Network for Pansharpening
+  via Fast Guided Filter","  Pansharpening is a widely used image enhancement technique for remote
+sensing. Its principle is to fuse the input high-resolution single-channel
+panchromatic (PAN) image and low-resolution multi-spectral image and to obtain
+a high-resolution multi-spectral (HRMS) image. The existing deep learning
+pansharpening method has two shortcomings. First, features of two input images
+need to be concatenated along the channel dimension to reconstruct the HRMS
+image, which makes the importance of PAN images not prominent, and also leads
+to high computational cost. Second, the implicit information of features is
+difficult to extract through the manually designed loss function. To this end,
+we propose a generative adversarial network via the fast guided filter (FGF)
+for pansharpening. In generator, traditional channel concatenation is replaced
+by FGF to better retain the spatial information while reducing the number of
+parameters. Meanwhile, the fusion objects can be highlighted by the spatial
+attention module. In addition, the latent information of features can be
+preserved effectively through adversarial training. Numerous experiments
+illustrate that our network generates high-quality HRMS images that can surpass
+existing methods, and with fewer parameters.
+",Zixiang Zhao; Jiangshe Zhang; Shuang Xu; Kai Sun; Lu Huang; Junmin Liu; Chunxia Zhang,http://arxiv.org/abs/2101.00062v2,10.48550/arXiv.2101.00062
+http://arxiv.org/abs/1911.07934v3,2019,Training Set Effect on Super Resolution for Automated Target Recognition,"  Single Image Super Resolution (SISR) is the process of mapping a
+low-resolution image to a high resolution image. This inherently has
+applications in remote sensing as a way to increase the spatial resolution in
+satellite imagery. This suggests a possible improvement to automated target
+recognition in image classification and object detection. We explore the effect
+that different training sets have on SISR with the network, Super Resolution
+Generative Adversarial Network (SRGAN). We train 5 SRGANs on different land-use
+classes (e.g. agriculture, cities, ports) and test them on the same unseen
+dataset. We attempt to find the qualitative and quantitative differences in
+SISR, binary classification, and object detection performance. We find that
+curated training sets that contain objects in the test ontology perform better
+on both computer vision tasks while having a complex distribution of images
+allows object detection models to perform better. However, Super Resolution
+(SR) might not be beneficial to certain problems and will see a diminishing
+amount of returns for datasets that are closer to being solved.
+",Matthew Ciolino; David Noever; Josh Kalin,http://arxiv.org/abs/1911.07934v3,10.48550/arXiv.1911.07934
+http://arxiv.org/abs/2001.09993v1,2020,"Generating Natural Adversarial Hyperspectral examples with a modified
+  Wasserstein GAN","  Adversarial examples are a hot topic due to their abilities to fool a
+classifier's prediction. There are two strategies to create such examples, one
+uses the attacked classifier's gradients, while the other only requires access
+to the clas-sifier's prediction. This is particularly appealing when the
+classifier is not full known (black box model). In this paper, we present a new
+method which is able to generate natural adversarial examples from the true
+data following the second paradigm. Based on Generative Adversarial Networks
+(GANs) [5], it reweights the true data empirical distribution to encourage the
+classifier to generate ad-versarial examples. We provide a proof of concept of
+our method by generating adversarial hyperspectral signatures on a remote
+sensing dataset.
+",Jean-Christophe Burnel; Kilian Fatras; Nicolas Courty,http://arxiv.org/abs/2001.09993v1,10.48550/arXiv.2001.09993
+http://arxiv.org/abs/2002.05333v1,2020,"MLFcGAN: Multi-level Feature Fusion based Conditional GAN for Underwater
+  Image Color Correction","  Color correction for underwater images has received increasing interests, due
+to its critical role in facilitating available mature vision algorithms for
+underwater scenarios. Inspired by the stunning success of deep convolutional
+neural networks (DCNNs) techniques in many vision tasks, especially the
+strength in extracting features in multiple scales, we propose a deep
+multi-scale feature fusion net based on the conditional generative adversarial
+network (GAN) for underwater image color correction. In our network,
+multi-scale features are extracted first, followed by augmenting local features
+on each scale with global features. This design was verified to facilitate more
+effective and faster network learning, resulting in better performance in both
+color correction and detail preservation. We conducted extensive experiments
+and compared with the state-of-the-art approaches quantitatively and
+qualitatively, showing that our method achieves significant improvements.
+",Xiaodong Liu; Zhi Gao; Ben M. Chen,http://arxiv.org/abs/2002.05333v1,10.1109/LGRS.2019.2950056
+http://arxiv.org/abs/2101.03252v2,2021,"Synthetic Glacier SAR Image Generation from Arbitrary Masks Using
+  Pix2Pix Algorithm","  Supervised machine learning requires a large amount of labeled data to
+achieve proper test results. However, generating accurately labeled
+segmentation maps on remote sensing imagery, including images from synthetic
+aperture radar (SAR), is tedious and highly subjective. In this work, we
+propose to alleviate the issue of limited training data by generating synthetic
+SAR images with the pix2pix algorithm. This algorithm uses conditional
+Generative Adversarial Networks (cGANs) to generate an artificial image while
+preserving the structure of the input. In our case, the input is a segmentation
+mask, from which a corresponding synthetic SAR image is generated. We present
+different models, perform a comparative study and demonstrate that this
+approach synthesizes convincing glaciers in SAR images with promising
+qualitative and quantitative results.
+",Rosanna Dietrich-Sussner; Amirabbas Davari; Thorsten Seehaus; Matthias Braun; Vincent Christlein; Andreas Maier; Christian Riess,http://arxiv.org/abs/2101.03252v2,10.48550/arXiv.2101.03252
+http://arxiv.org/abs/2103.00286v1,2021,A Novel Adaptive Deep Network for Building Footprint Segmentation,"  Building footprint segmentations for high resolution images are increasingly
+demanded for many remote sensing applications. By the emerging deep learning
+approaches, segmentation networks have made significant advances in the
+semantic segmentation of objects. However, these advances and the increased
+access to satellite images require the generation of accurate object boundaries
+in satellite images. In the current paper, we propose a novel network-based on
+Pix2Pix methodology to solve the problem of inaccurate boundaries obtained by
+converting satellite images into maps using segmentation networks in order to
+segment building footprints. To define the new network named G2G, our framework
+includes two generators where the first generator extracts localization
+features in order to merge them with the boundary features extracted from the
+second generator to segment all detailed building edges. Moreover, different
+strategies are implemented to enhance the quality of the proposed networks'
+results, implying that the proposed network outperforms state-of-the-art
+networks in segmentation accuracy with a large margin for all evaluation
+metrics. The implementation is available at
+https://github.com/A2Amir/A-Novel-Adaptive-Deep-Network-for-Building-Footprint-Segmentation.
+",A. Ziaee; R. Dehbozorgi; M. Döller,http://arxiv.org/abs/2103.00286v1,10.48550/arXiv.2103.00286
+http://arxiv.org/abs/2106.03064v1,2021,Using GANs to Augment Data for Cloud Image Segmentation Task,"  While cloud/sky image segmentation has extensive real-world applications, a
+large amount of labelled data is needed to train a highly accurate models to
+perform the task. Scarcity of such volumes of cloud/sky images with
+corresponding ground-truth binary maps makes it highly difficult to train such
+complex image segmentation models. In this paper, we demonstrate the
+effectiveness of using Generative Adversarial Networks (GANs) to generate data
+to augment the training set in order to increase the prediction accuracy of
+image segmentation model. We further present a way to estimate ground-truth
+binary maps for the GAN-generated images to facilitate their effective use as
+augmented images. Finally, we validate our work with different statistical
+techniques.
+",Mayank Jain; Conor Meegan; Soumyabrata Dev,http://arxiv.org/abs/2106.03064v1,10.48550/arXiv.2106.03064
+http://arxiv.org/abs/2203.02584v2,2022,"Virtual Histological Staining of Label-Free Total Absorption
+  Photoacoustic Remote Sensing (TA-PARS)","  Histopathological visualizations are a pillar of modern medicine and
+biological research. Surgical oncology relies exclusively on post-operative
+histology to determine definitive surgical success and guide adjuvant
+treatments. The current histology workflow is based on bright-field microscopic
+assessment of histochemical stained tissues and has some major limitations. For
+example, the preparation of stained specimens for brightfield assessment
+requires lengthy sample processing, delaying interventions for days or even
+weeks. Hence, there is a pressing need for improved histopathology methods. In
+this paper, we present a deep-learning-based approach for virtual label-free
+histochemical staining of total-absorption photoacoustic remote sensing
+(TA-PARS) images of unstained tissue. TA-PARS provides an array of directly
+measured label-free contrasts such as scattering and total absorption
+(radiative and non-radiative), ideal for developing H&E colorizations without
+the need to infer arbitrary tissue structures. We use a Pix2Pix generative
+adversarial network (GAN) to develop visualizations analogous to H&E staining
+from label-free TA-PARS images. Thin sections of human skin tissue were first
+virtually stained with the TA-PARS, then were chemically stained with H&E
+producing a one-to-one comparison between the virtual and chemical staining.
+The one-to-one matched virtually- and chemically- stained images exhibit high
+concordance validating the digital colorization of the TA-PARS images against
+the gold standard H&E. TA-PARS images were reviewed by four dermatologic
+pathologists who confirmed they are of diagnostic quality, and that resolution,
+contrast, and color permitted interpretation as if they were H&E. The presented
+approach paves the way for the development of TA-PARS slide-free histology,
+which promises to dramatically reduce the time from specimen resection to
+histological imaging.
+",Marian Boktor; Benjamin Ecclestone; Vlad Pekar; Deepak Dinakaran; John R. Mackey; Paul Fieguth; Parsin Haji Reza,http://arxiv.org/abs/2203.02584v2,10.48550/arXiv.2203.02584
+http://arxiv.org/abs/2003.06583v1,2020,"From W-Net to CDGAN: Bi-temporal Change Detection via Deep Learning
+  Techniques","  Traditional change detection methods usually follow the image differencing,
+change feature extraction and classification framework, and their performance
+is limited by such simple image domain differencing and also the hand-crafted
+features. Recently, the success of deep convolutional neural networks (CNNs)
+has widely spread across the whole field of computer vision for their powerful
+representation abilities. In this paper, we therefore address the remote
+sensing image change detection problem with deep learning techniques. We
+firstly propose an end-to-end dual-branch architecture, termed as the W-Net,
+with each branch taking as input one of the two bi-temporal images as in the
+traditional change detection models. In this way, CNN features with more
+powerful representative abilities can be obtained to boost the final detection
+performance. Also, W-Net performs differencing in the feature domain rather
+than in the traditional image domain, which greatly alleviates loss of useful
+information for determining the changes. Furthermore, by reformulating change
+detection as an image translation problem, we apply the recently popular
+Generative Adversarial Network (GAN) in which our W-Net serves as the
+Generator, leading to a new GAN architecture for change detection which we call
+CDGAN. To train our networks and also facilitate future research, we construct
+a large scale dataset by collecting images from Google Earth and provide
+carefully manually annotated ground truths. Experiments show that our proposed
+methods can provide fine-grained change detection results superior to the
+existing state-of-the-art baselines.
+",Bin Hou; Qingjie Liu; Heng Wang; Yunhong Wang,http://arxiv.org/abs/2003.06583v1,10.1109/TGRS.2019.2948659
+http://arxiv.org/abs/2006.13311v3,2020,70 years of machine learning in geoscience in review,"  This review gives an overview of the development of machine learning in
+geoscience. A thorough analysis of the co-developments of machine learning
+applications throughout the last 70 years relates the recent enthusiasm for
+machine learning to developments in geoscience. I explore the shift of kriging
+towards a mainstream machine learning method and the historic application of
+neural networks in geoscience, following the general trend of machine learning
+enthusiasm through the decades. Furthermore, this chapter explores the shift
+from mathematical fundamentals and knowledge in software development towards
+skills in model validation, applied statistics, and integrated subject matter
+expertise. The review is interspersed with code examples to complement the
+theoretical foundations and illustrate model validation and machine learning
+explainability for science. The scope of this review includes various shallow
+machine learning methods, e.g. Decision Trees, Random Forests, Support-Vector
+Machines, and Gaussian Processes, as well as, deep neural networks, including
+feed-forward neural networks, convolutional neural networks, recurrent neural
+networks and generative adversarial networks. Regarding geoscience, the review
+has a bias towards geophysics but aims to strike a balance with geochemistry,
+geostatistics, and geology, however excludes remote sensing, as this would
+exceed the scope. In general, I aim to provide context for the recent
+enthusiasm surrounding deep learning with respect to research, hardware, and
+software developments that enable successful application of shallow and deep
+machine learning in all disciplines of Earth science.
+",Jesper Sören Dramsch,http://arxiv.org/abs/2006.13311v3,10.1016/bs.agph.2020.08.002
+http://arxiv.org/abs/2006.16644v1,2020,"Rethinking CNN-Based Pansharpening: Guided Colorization of Panchromatic
+  Images via GANs","  Convolutional Neural Networks (CNN)-based approaches have shown promising
+results in pansharpening of satellite images in recent years. However, they
+still exhibit limitations in producing high-quality pansharpening outputs. To
+that end, we propose a new self-supervised learning framework, where we treat
+pansharpening as a colorization problem, which brings an entirely novel
+perspective and solution to the problem compared to existing methods that base
+their solution solely on producing a super-resolution version of the
+multispectral image. Whereas CNN-based methods provide a reduced resolution
+panchromatic image as input to their model along with reduced resolution
+multispectral images, hence learn to increase their resolution together, we
+instead provide the grayscale transformed multispectral image as input, and
+train our model to learn the colorization of the grayscale input. We further
+address the fixed downscale ratio assumption during training, which does not
+generalize well to the full-resolution scenario. We introduce a noise injection
+into the training by randomly varying the downsampling ratios. Those two
+critical changes, along with the addition of adversarial training in the
+proposed PanColorization Generative Adversarial Networks (PanColorGAN)
+framework, help overcome the spatial detail loss and blur problems that are
+observed in CNN-based pansharpening. The proposed approach outperforms the
+previous CNN-based and traditional methods as demonstrated in our experiments.
+",Furkan Ozcelik; Ugur Alganci; Elif Sertel; Gozde Unal,http://arxiv.org/abs/2006.16644v1,10.1109/TGRS.2020.3010441
+http://arxiv.org/abs/2007.07978v2,2020,CloudCast: A Satellite-Based Dataset and Baseline for Forecasting Clouds,"  Forecasting the formation and development of clouds is a central element of
+modern weather forecasting systems. Incorrect clouds forecasts can lead to
+major uncertainty in the overall accuracy of weather forecasts due to their
+intrinsic role in the Earth's climate system. Few studies have tackled this
+challenging problem from a machine learning point-of-view due to a shortage of
+high-resolution datasets with many historical observations globally. In this
+paper, we present a novel satellite-based dataset called ``CloudCast''. It
+consists of 70,080 images with 10 different cloud types for multiple layers of
+the atmosphere annotated on a pixel level. The spatial resolution of the
+dataset is 928 x 1530 pixels (3x3 km per pixel) with 15-min intervals between
+frames for the period 2017-01-01 to 2018-12-31. All frames are centered and
+projected over Europe. To supplement the dataset, we conduct an evaluation
+study with current state-of-the-art video prediction methods such as
+convolutional long short-term memory networks, generative adversarial networks,
+and optical flow-based extrapolation methods. As the evaluation of video
+prediction is difficult in practice, we aim for a thorough evaluation in the
+spatial and temporal domain. Our benchmark models show promising results but
+with ample room for improvement. This is the first publicly available
+global-scale dataset with high-resolution cloud types on a high temporal
+granularity to the authors' best knowledge.
+",A. H. Nielsen; A. Iosifidis; H. Karstoft,http://arxiv.org/abs/2007.07978v2,10.1109/JSTARS.2021.3062936
+http://arxiv.org/abs/2105.03579v2,2021,Unsupervised Remote Sensing Super-Resolution via Migration Image Prior,"  Recently, satellites with high temporal resolution have fostered wide
+attention in various practical applications. Due to limitations of bandwidth
+and hardware cost, however, the spatial resolution of such satellites is
+considerably low, largely limiting their potentials in scenarios that require
+spatially explicit information. To improve image resolution, numerous
+approaches based on training low-high resolution pairs have been proposed to
+address the super-resolution (SR) task. Despite their success, however,
+low/high spatial resolution pairs are usually difficult to obtain in satellites
+with a high temporal resolution, making such approaches in SR impractical to
+use. In this paper, we proposed a new unsupervised learning framework, called
+""MIP"", which achieves SR tasks without low/high resolution image pairs. First,
+random noise maps are fed into a designed generative adversarial network (GAN)
+for reconstruction. Then, the proposed method converts the reference image to
+latent space as the migration image prior. Finally, we update the input noise
+via an implicit method, and further transfer the texture and structured
+information from the reference image. Extensive experimental results on the
+Draper dataset show that MIP achieves significant improvements over
+state-of-the-art methods both quantitatively and qualitatively. The proposed
+MIP is open-sourced at http://github.com/jiaming-wang/MIP.
+",Jiaming Wang; Zhenfeng Shao; Tao Lu; Xiao Huang; Ruiqian Zhang; Yu Wang,http://arxiv.org/abs/2105.03579v2,10.48550/arXiv.2105.03579
+http://arxiv.org/abs/2109.05201v1,2021,"Conditional Generation of Synthetic Geospatial Images from Pixel-level
+  and Feature-level Inputs","  Training robust supervised deep learning models for many geospatial
+applications of computer vision is difficult due to dearth of class-balanced
+and diverse training data. Conversely, obtaining enough training data for many
+applications is financially prohibitive or may be infeasible, especially when
+the application involves modeling rare or extreme events. Synthetically
+generating data (and labels) using a generative model that can sample from a
+target distribution and exploit the multi-scale nature of images can be an
+inexpensive solution to address scarcity of labeled data. Towards this goal, we
+present a deep conditional generative model, called VAE-Info-cGAN, that
+combines a Variational Autoencoder (VAE) with a conditional Information
+Maximizing Generative Adversarial Network (InfoGAN), for synthesizing
+semantically rich images simultaneously conditioned on a pixel-level condition
+(PLC) and a macroscopic feature-level condition (FLC). Dimensionally, the PLC
+can only vary in the channel dimension from the synthesized image and is meant
+to be a task-specific input. The FLC is modeled as an attribute vector in the
+latent space of the generated image which controls the contributions of various
+characteristic attributes germane to the target distribution. Experiments on a
+GPS trajectories dataset show that the proposed model can accurately generate
+various forms of spatiotemporal aggregates across different geographic
+locations while conditioned only on a raster representation of the road
+network. The primary intended application of the VAE-Info-cGAN is synthetic
+data (and label) generation for targeted data augmentation for computer
+vision-based modeling of problems relevant to geospatial analysis and remote
+sensing.
+",Xuerong Xiao; Swetava Ganguli; Vipul Pandey,http://arxiv.org/abs/2109.05201v1,10.48550/arXiv.2109.05201
+http://arxiv.org/abs/2012.04196v1,2020,"VAE-Info-cGAN: Generating Synthetic Images by Combining Pixel-level and
+  Feature-level Geospatial Conditional Inputs","  Training robust supervised deep learning models for many geospatial
+applications of computer vision is difficult due to dearth of class-balanced
+and diverse training data. Conversely, obtaining enough training data for many
+applications is financially prohibitive or may be infeasible, especially when
+the application involves modeling rare or extreme events. Synthetically
+generating data (and labels) using a generative model that can sample from a
+target distribution and exploit the multi-scale nature of images can be an
+inexpensive solution to address scarcity of labeled data. Towards this goal, we
+present a deep conditional generative model, called VAE-Info-cGAN, that
+combines a Variational Autoencoder (VAE) with a conditional Information
+Maximizing Generative Adversarial Network (InfoGAN), for synthesizing
+semantically rich images simultaneously conditioned on a pixel-level condition
+(PLC) and a macroscopic feature-level condition (FLC). Dimensionally, the PLC
+can only vary in the channel dimension from the synthesized image and is meant
+to be a task-specific input. The FLC is modeled as an attribute vector in the
+latent space of the generated image which controls the contributions of various
+characteristic attributes germane to the target distribution. An interpretation
+of the attribute vector to systematically generate synthetic images by varying
+a chosen binary macroscopic feature is explored. Experiments on a GPS
+trajectories dataset show that the proposed model can accurately generate
+various forms of spatio-temporal aggregates across different geographic
+locations while conditioned only on a raster representation of the road
+network. The primary intended application of the VAE-Info-cGAN is synthetic
+data (and label) generation for targeted data augmentation for computer
+vision-based modeling of problems relevant to geospatial analysis and remote
+sensing.
+",Xuerong Xiao; Swetava Ganguli; Vipul Pandey,http://arxiv.org/abs/2012.04196v1,10.1145/3423457.3429361
+http://arxiv.org/abs/2103.15469v1,2021,"PeaceGAN: A GAN-based Multi-Task Learning Method for SAR Target Image
+  Generation with a Pose Estimator and an Auxiliary Classifier","  Although Generative Adversarial Networks (GANs) are successfully applied to
+diverse fields, training GANs on synthetic aperture radar (SAR) data is a
+challenging task mostly due to speckle noise. On the one hands, in a learning
+perspective of human's perception, it is natural to learn a task by using
+various information from multiple sources. However, in the previous GAN works
+on SAR target image generation, the information on target classes has only been
+used. Due to the backscattering characteristics of SAR image signals, the
+shapes and structures of SAR target images are strongly dependent on their pose
+angles. Nevertheless, the pose angle information has not been incorporated into
+such generative models for SAR target images. In this paper, we firstly propose
+a novel GAN-based multi-task learning (MTL) method for SAR target image
+generation, called PeaceGAN that uses both pose angle and target class
+information, which makes it possible to produce SAR target images of desired
+target classes at intended pose angles. For this, the PeaceGAN has two
+additional structures, a pose estimator and an auxiliary classifier, at the
+side of its discriminator to combine the pose and class information more
+efficiently. In addition, the PeaceGAN is jointly learned in an end-to-end
+manner as MTL with both pose angle and target class information, thus enhancing
+the diversity and quality of generated SAR target images The extensive
+experiments show that taking an advantage of both pose angle and target class
+learning by the proposed pose estimator and auxiliary classifier can help the
+PeaceGAN's generator effectively learn the distributions of SAR target images
+in the MTL framework, so that it can better generate the SAR target images more
+flexibly and faithfully at intended pose angles for desired target classes
+compared to the recent state-of-the-art methods.
+",Jihyong Oh; Munchurl Kim,http://arxiv.org/abs/2103.15469v1,10.3390/rs13193939

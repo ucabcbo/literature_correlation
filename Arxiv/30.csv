@@ -1,0 +1,493 @@
+AID,Year,Title,Abstract,Authors,Link,DOI
+http://arxiv.org/abs/2104.12572v1,2021,Multi-scale PIIFD for Registration of Multi-source Remote Sensing Images,"  This paper aims at providing multi-source remote sensing images registered in
+geometric space for image fusion. Focusing on the characteristics and
+differences of multi-source remote sensing images, a feature-based registration
+algorithm is implemented. The key technologies include image scale-space for
+implementing multi-scale properties, Harris corner detection for keypoints
+extraction, and partial intensity invariant feature descriptor (PIIFD) for
+keypoints description. Eventually, a multi-scale Harris-PIIFD image
+registration algorithm framework is proposed. The experimental results of four
+sets of representative real data show that the algorithm has excellent, stable
+performance in multi-source remote sensing image registration, and can achieve
+accurate spatial alignment, which has strong practical application value and
+certain generalization ability.
+",Chenzhong Gao; Wei Li,http://arxiv.org/abs/2104.12572v1,10.48550/arXiv.2104.12572
+http://arxiv.org/abs/2102.03908v1,2021,"A Generative Model Method for Unsupervised Multispectral Image Fusion in
+  Remote Sensing","  This paper presents a generative model method for multispectral image fusion
+in remote sensing which is trained without supervision. This method eases the
+supervision of learning and it also considers a multi-objective loss function
+to achieve image fusion. The loss function incorporates both spectral and
+spatial distortions. Two discriminators are designed to minimize the spectral
+and spatial distortions of the generative output. Extensive experimentations
+are conducted using three public domain datasets. The comparison results across
+four reduced-resolution and three full-resolution objective metrics show the
+superiority of the developed method over several recently developed methods.
+",Arian Azarang; Nasser Kehtarnavaz,http://arxiv.org/abs/2102.03908v1,10.48550/arXiv.2102.03908
+http://arxiv.org/abs/2005.08448v1,2020,Deep Convolutional Sparse Coding Networks for Image Fusion,"  Image fusion is a significant problem in many fields including digital
+photography, computational imaging and remote sensing, to name but a few.
+Recently, deep learning has emerged as an important tool for image fusion. This
+paper presents three deep convolutional sparse coding (CSC) networks for three
+kinds of image fusion tasks (i.e., infrared and visible image fusion,
+multi-exposure image fusion, and multi-modal image fusion). The CSC model and
+the iterative shrinkage and thresholding algorithm are generalized into
+dictionary convolution units. As a result, all hyper-parameters are learned
+from data. Our extensive experiments and comprehensive comparisons reveal the
+superiority of the proposed networks with regard to quantitative evaluation and
+visual inspection.
+",Shuang Xu; Zixiang Zhao; Yicheng Wang; Chunxia Zhang; Junmin Liu; Jiangshe Zhang,http://arxiv.org/abs/2005.08448v1,10.48550/arXiv.2005.08448
+http://arxiv.org/abs/2009.09465v1,2020,Remote sensing image fusion based on Bayesian GAN,"  Remote sensing image fusion technology (pan-sharpening) is an important means
+to improve the information capacity of remote sensing images. Inspired by the
+efficient arameter space posteriori sampling of Bayesian neural networks, in
+this paper we propose a Bayesian Generative Adversarial Network based on
+Preconditioned Stochastic Gradient Langevin Dynamics (PGSLD-BGAN) to improve
+pan-sharpening tasks. Unlike many traditional generative models that consider
+only one optimal solution (might be locally optimal), the proposed PGSLD-BGAN
+performs Bayesian inference on the network parameters, and explore the
+generator posteriori distribution, which assists selecting the appropriate
+generator parameters. First, we build a two-stream generator network with PAN
+and MS images as input, which consists of three parts: feature extraction,
+feature fusion and image reconstruction. Then, we leverage Markov discriminator
+to enhance the ability of generator to reconstruct the fusion image, so that
+the result image can retain more details. Finally, introducing Preconditioned
+Stochastic Gradient Langevin Dynamics policy, we perform Bayesian inference on
+the generator network. Experiments on QuickBird and WorldView datasets show
+that the model proposed in this paper can effectively fuse PAN and MS images,
+and be competitive with even superior to state of the arts in terms of
+subjective and objective metrics.
+",Junfu Chen; Yue Pan; Yang Chen,http://arxiv.org/abs/2009.09465v1,10.48550/arXiv.2009.09465
+http://arxiv.org/abs/2102.03830v1,2021,"Deep Learning-Based Detail Map Estimation for MultiSpectral Image Fusion
+  in Remote Sensing","  This paper presents a deep learning-based estimation of the intensity
+component of MultiSpectral bands by considering joint multiplication of the
+neighbouring spectral bands. This estimation is conducted as part of the
+component substitution approach for fusion of PANchromatic and MultiSpectral
+images in remote sensing. After computing the band dependent intensity
+components, a deep neural network is trained to learn the nonlinear
+relationship between a PAN image and its nonlinear intensity components. Low
+Resolution MultiSpectral bands are then fed into the trained network to obtain
+an estimate of High Resolution MultiSpectral bands. Experiments conducted on
+three datasets show that the developed deep learning-based estimation approach
+provides improved performance compared to the existing methods based on three
+objective metrics.
+",Arian Azarang; Nasser Kehtarnavaz,http://arxiv.org/abs/2102.03830v1,10.48550/arXiv.2102.03830
+http://arxiv.org/abs/1808.10072v2,2018,"Super-Resolution for Hyperspectral and Multispectral Image Fusion
+  Accounting for Seasonal Spectral Variability","  Image fusion combines data from different heterogeneous sources to obtain
+more precise information about an underlying scene. Hyperspectral-multispectral
+(HS-MS) image fusion is currently attracting great interest in remote sensing
+since it allows the generation of high spatial resolution HS images,
+circumventing the main limitation of this imaging modality. Existing HS-MS
+fusion algorithms, however, neglect the spectral variability often existing
+between images acquired at different time instants. This time difference causes
+variations in spectral signatures of the underlying constituent materials due
+to different acquisition and seasonal conditions. This paper introduces a novel
+HS-MS image fusion strategy that combines an unmixing-based formulation with an
+explicit parametric model for typical spectral variability between the two
+images. Simulations with synthetic and real data show that the proposed
+strategy leads to a significant performance improvement under spectral
+variability and state-of-the-art performance otherwise.
+",Ricardo Augusto Borsoi; Tales Imbiriba; José Carlos Moreira Bermudez,http://arxiv.org/abs/1808.10072v2,10.1109/TIP.2019.2928895
+http://arxiv.org/abs/1805.01759v1,2018,"A fast and accurate basis pursuit denoising algorithm with application
+  to super-resolving tomographic SAR","  $L_1$ regularization is used for finding sparse solutions to an
+underdetermined linear system. As sparse signals are widely expected in remote
+sensing, this type of regularization scheme and its extensions have been widely
+employed in many remote sensing problems, such as image fusion, target
+detection, image super-resolution, and others and have led to promising
+results. However, solving such sparse reconstruction problems is
+computationally expensive and has limitations in its practical use. In this
+paper, we proposed a novel efficient algorithm for solving the complex-valued
+$L_1$ regularized least squares problem. Taking the high-dimensional
+tomographic synthetic aperture radar (TomoSAR) as a practical example, we
+carried out extensive experiments, both with simulation data and real data, to
+demonstrate that the proposed approach can retain the accuracy of second order
+methods while dramatically speeding up the processing by one or two orders.
+Although we have chosen TomoSAR as the example, the proposed method can be
+generally applied to any spectral estimation problems.
+",Yilei Shi; Xiao Xiang Zhu; Wotao Yin; Richard Bamler,http://arxiv.org/abs/1805.01759v1,10.48550/arXiv.1805.01759
+http://arxiv.org/abs/2108.06073v1,2021,"Coupling Model-Driven and Data-Driven Methods for Remote Sensing Image
+  Restoration and Fusion","  In the fields of image restoration and image fusion, model-driven methods and
+data-driven methods are the two representative frameworks. However, both
+approaches have their respective advantages and disadvantages. The model-driven
+methods consider the imaging mechanism, which is deterministic and
+theoretically reasonable; however, they cannot easily model complicated
+nonlinear problems. The data-driven methods have a stronger prior knowledge
+learning capability for huge data, especially for nonlinear statistical
+features; however, the interpretability of the networks is poor, and they are
+over-dependent on training data. In this paper, we systematically investigate
+the coupling of model-driven and data-driven methods, which has rarely been
+considered in the remote sensing image restoration and fusion communities. We
+are the first to summarize the coupling approaches into the following three
+categories: 1) data-driven and model-driven cascading methods; 2) variational
+models with embedded learning; and 3) model-constrained network learning
+methods. The typical existing and potential coupling methods for remote sensing
+image restoration and fusion are introduced with application examples. This
+paper also gives some new insights into the potential future directions, in
+terms of both methods and applications.
+",Huanfeng Shen; Menghui Jiang; Jie Li; Chenxia Zhou; Qiangqiang Yuan; Liangpei Zhang,http://arxiv.org/abs/2108.06073v1,10.48550/arXiv.2108.06073
+http://arxiv.org/abs/1903.00440v1,2019,Deep Learning for Multiple-Image Super-Resolution,"  Super-resolution reconstruction (SRR) is a process aimed at enhancing spatial
+resolution of images, either from a single observation, based on the learned
+relation between low and high resolution, or from multiple images presenting
+the same scene. SRR is particularly valuable, if it is infeasible to acquire
+images at desired resolution, but many images of the same scene are available
+at lower resolution---this is inherent to a variety of remote sensing
+scenarios. Recently, we have witnessed substantial improvement in single-image
+SRR attributed to the use of deep neural networks for learning the relation
+between low and high resolution. Importantly, deep learning has not been
+exploited for multiple-image SRR, which benefits from information fusion and in
+general allows for achieving higher reconstruction accuracy. In this letter, we
+introduce a new method which combines the advantages of multiple-image fusion
+with learning the low-to-high resolution mapping using deep networks. The
+reported experimental results indicate that our algorithm outperforms the
+state-of-the-art SRR methods, including these that operate from a single image,
+as well as those that perform multiple-image fusion.
+",Michal Kawulok; Pawel Benecki; Szymon Piechaczek; Krzysztof Hrynczenko; Daniel Kostrzewa; Jakub Nalepa,http://arxiv.org/abs/1903.00440v1,10.1109/LGRS.2019.2940483
+http://arxiv.org/abs/2007.15144v1,2020,Single Image Cloud Detection via Multi-Image Fusion,"  Artifacts in imagery captured by remote sensing, such as clouds, snow, and
+shadows, present challenges for various tasks, including semantic segmentation
+and object detection. A primary challenge in developing algorithms for
+identifying such artifacts is the cost of collecting annotated training data.
+In this work, we explore how recent advances in multi-image fusion can be
+leveraged to bootstrap single image cloud detection. We demonstrate that a
+network optimized to estimate image quality also implicitly learns to detect
+clouds. To support the training and evaluation of our approach, we collect a
+large dataset of Sentinel-2 images along with a per-pixel semantic labelling
+for land cover. Through various experiments, we demonstrate that our method
+reduces the need for annotated training data and improves cloud detection
+performance.
+",Scott Workman; M. Usman Rafique; Hunter Blanton; Connor Greenwell; Nathan Jacobs,http://arxiv.org/abs/2007.15144v1,10.48550/arXiv.2007.15144
+http://arxiv.org/abs/2102.11228v2,2021,"Subspace-Based Feature Fusion From Hyperspectral And Multispectral Image
+  For Land Cover Classification","  In remote sensing, hyperspectral (HS) and multispectral (MS) image fusion
+have emerged as a synthesis tool to improve the data set resolution. However,
+conventional image fusion methods typically degrade the performance of the land
+cover classification. In this paper, a feature fusion method from HS and MS
+images for pixel-based classification is proposed. More precisely, the proposed
+method first extracts spatial features from the MS image using morphological
+profiles. Then, the feature fusion model assumes that both the extracted
+morphological profiles and the HS image can be described as a feature matrix
+lying in different subspaces. An algorithm based on combining alternating
+optimization (AO) and the alternating direction method of multipliers (ADMM) is
+developed to solve efficiently the feature fusion problem. Finally, extensive
+simulations were run to evaluate the performance of the proposed feature fusion
+approach for two data sets. In general, the proposed approach exhibits a
+competitive performance compared to other feature extraction methods.
+",Juan Ramírez; Héctor Vargas; José Ignacio Martínez; Henry Arguello,http://arxiv.org/abs/2102.11228v2,10.1109/IGARSS47720.2021.9554465
+http://arxiv.org/abs/2112.11329v3,2021,Multispectral image fusion based on super pixel segmentation,"  Multispectral image fusion is a computer vision process that is essential to
+remote sensing. For applications such as dehazing and object detection, there
+is a need to offer solutions that can perform in real-time on any type of
+scene. Unfortunately, current state-of-the-art approaches do not meet these
+criteria as they need to be trained on domain-specific data and have high
+computational complexity. This paper focuses on the task of fusing color (RGB)
+and near-infrared (NIR) images as this the typical RGBT sensors, as in
+multispectral cameras for detection, fusion, and dehazing. Indeed, the NIR
+channel has the ability to capture details not visible in RGB and see beyond
+haze, fog, and clouds. To combine this information, a novel approach based on
+superpixel segmentation is designed so that multispectral image fusion is
+performed according to the specific local content of the images to be fused.
+Therefore, the proposed method produces a fusion that contains the most
+relevant content of each spectrum. The experiments reported in this manuscript
+show that the novel approach better preserve details than alternative fusion
+methods.
+",Nati Ofir; Jean-Christophe Nebel,http://arxiv.org/abs/2112.11329v3,10.48550/arXiv.2112.11329
+http://arxiv.org/abs/2212.06466v1,2022,Source-Aware Spatial-Spectral-Integrated Double U-Net for Image Fusion,"  In image fusion tasks, pictures from different sources possess distinctive
+properties, therefore treating them equally will lead to inadequate feature
+extracting. Besides, multi-scaled networks capture information more
+sufficiently than single-scaled models in pixel-wised problems. In light of
+these factors, we propose a source-aware spatial-spectral-integrated double
+U-shaped network called $\rm{(SU)^2}$Net. The network is mainly composed of a
+spatial U-net and a spectral U-net, which learn spatial details and spectral
+characteristics discriminately and hierarchically. In contrast with most
+previous works that simply apply concatenation to integrate spatial and
+spectral information, a novel structure named the spatial-spectral block
+(called $\rm{S^2}$Block) is specially designed to merge feature maps from
+different sources effectively. Experiment results show that our method
+outperforms the representative state-of-the-art (SOTA) approaches in both
+quantitative and qualitative evaluations for a variety of image fusion
+missions, including remote sensing pansharpening and hyperspectral image
+super-resolution (HISR).
+",Siran Peng; Chenhao Guo; Xiao Wu,http://arxiv.org/abs/2212.06466v1,10.48550/arXiv.2212.06466
+http://arxiv.org/abs/1512.08475v6,2015,"MRF-Based Multispectral Image Fusion Using an Adaptive Approach Based on
+  Edge-Guided Interpolation","  In interpretation of remote sensing images, it is possible that some images
+which are supplied by different sensors become incomprehensible. For better
+visual perception of these images, it is essential to operate series of
+pre-processing and elementary corrections and then operate a series of main
+processing steps for more precise analysis on the images. There are several
+approaches for processing which are depended on the type of remote sensing
+images. The discussed approach in this article, i.e. image fusion, is the use
+of natural colors of an optical image for adding color to a grayscale satellite
+image which gives us the ability for better observation of the HR image of OLI
+sensor of Landsat-8. This process with emphasis on details of fusion technique
+has previously been performed; however, we are going to apply the concept of
+the interpolation process. In fact, we see many important software tools such
+as ENVI and ERDAS as the most famous remote sensing image processing tools have
+only classical interpolation techniques (such as bi-linear (BL) and
+bi-cubic/cubic convolution (CC)). Therefore, ENVI- and ERDAS-based researches
+in image fusion area and even other fusion researches often dont use new and
+better interpolators and are mainly concentrated on the fusion algorithms
+details for achieving a better quality, so we only focus on the interpolation
+impact on fusion quality in Landsat-8 multispectral images. The important
+feature of this approach is to use a statistical, adaptive, and edge-guided
+interpolation method for improving the color quality in the images in practice.
+Numerical simulations show selecting the suitable interpolation techniques in
+MRF-based images creates better quality than the classical interpolators.
+",Mohammad Reza Khosravi; Mohammad Sharif-Yazd; Mohammad Kazem Moghimi; Ahmad Keshavarz; Habib Rostami; Suleiman Mansouri,http://arxiv.org/abs/1512.08475v6,10.4236/jgis.2017.92008
+http://arxiv.org/abs/2109.00400v1,2021,"An Integrated Framework for the Heterogeneous Spatio-Spectral-Temporal
+  Fusion of Remote Sensing Images","  Image fusion technology is widely used to fuse the complementary information
+between multi-source remote sensing images. Inspired by the frontier of deep
+learning, this paper first proposes a heterogeneous-integrated framework based
+on a novel deep residual cycle GAN. The proposed network consists of a forward
+fusion part and a backward degeneration feedback part. The forward part
+generates the desired fusion result from the various observations; the backward
+degeneration feedback part considers the imaging degradation process and
+regenerates the observations inversely from the fusion result. The proposed
+network can effectively fuse not only the homogeneous but also the
+heterogeneous information. In addition, for the first time, a
+heterogeneous-integrated fusion framework is proposed to simultaneously merge
+the complementary heterogeneous spatial, spectral and temporal information of
+multi-source heterogeneous observations. The proposed heterogeneous-integrated
+framework also provides a uniform mode that can complete various fusion tasks,
+including heterogeneous spatio-spectral fusion, spatio-temporal fusion, and
+heterogeneous spatio-spectral-temporal fusion. Experiments are conducted for
+two challenging scenarios of land cover changes and thick cloud coverage.
+Images from many remote sensing satellites, including MODIS, Landsat-8,
+Sentinel-1, and Sentinel-2, are utilized in the experiments. Both qualitative
+and quantitative evaluations confirm the effectiveness of the proposed method.
+",Menghui Jiang; Huanfeng Shen; Jie Li; Liangpei Zhang,http://arxiv.org/abs/2109.00400v1,10.48550/arXiv.2109.00400
+http://arxiv.org/abs/2203.15026v2,2022,"A systematic review and meta-analysis of Digital Elevation Model (DEM)
+  fusion: pre-processing, methods and applications","  The remote sensing community has identified data fusion as one of the key
+challenging topics of the 21st century. The subject of image fusion in
+two-dimensional (2D) space has been covered in several published reviews.
+However, the special case of 2.5D/3D Digital Elevation Model (DEM) fusion has
+not been addressed till date. DEM fusion is a key application of data fusion in
+remote sensing. It takes advantage of the complementary characteristics of
+multi-source DEMs to deliver a more complete, accurate and reliable elevation
+dataset. Although several methods for fusing DEMs have been developed, the
+absence of a well-rounded review has limited their proliferation among
+researchers and end-users. It is often required to combine knowledge from
+multiple studies to inform a holistic perspective and guide further research.
+In response, this paper provides a systematic review of DEM fusion: the
+pre-processing workflow, methods and applications, enhanced with a
+meta-analysis. Through the discussion and comparative analysis, unresolved
+challenges and open issues were identified, and future directions for research
+were proposed. This review is a timely solution and an invaluable source of
+information for researchers within the fields of remote sensing and spatial
+information science, and the data fusion community at large.
+",Chukwuma Okolie; Julian Smit,http://arxiv.org/abs/2203.15026v2,10.1016/j.isprsjprs.2022.03.016
+http://arxiv.org/abs/1711.02549v3,2017,Remote Sensing Image Fusion Based on Two-stream Fusion Network,"  Remote sensing image fusion (also known as pan-sharpening) aims at generating
+high resolution multi-spectral (MS) image from inputs of a high spatial
+resolution single band panchromatic (PAN) image and a low spatial resolution
+multi-spectral image. Inspired by the astounding achievements of convolutional
+neural networks (CNNs) in a variety of computer vision tasks, in this paper, we
+propose a two-stream fusion network (TFNet) to address the problem of
+pan-sharpening. Unlike previous CNN based methods that consider pan-sharpening
+as a super resolution problem and perform pan-sharpening in pixel level, the
+proposed TFNet aims to fuse PAN and MS images in feature level and reconstruct
+the pan-sharpened image from the fused features. The TFNet mainly consists of
+three parts. The first part is comprised of two networks extracting features
+from PAN and MS images, respectively. The subsequent network fuses them
+together to form compact features that represent both spatial and spectral
+information of PAN and MS images, simultaneously. Finally, the desired high
+spatial resolution MS image is recovered from the fused features through an
+image reconstruction network. Experiments on Quickbird and \mbox{GaoFen-1}
+satellite images demonstrate that the proposed TFNet can fuse PAN and MS
+images, effectively, and produce pan-sharpened images competitive with even
+superior to state of the arts.
+",Xiangyu Liu; Qingjie Liu; Yunhong Wang,http://arxiv.org/abs/1711.02549v3,10.48550/arXiv.1711.02549
+http://arxiv.org/abs/2103.16806v1,2021,"Self-Regression Learning for Blind Hyperspectral Image Fusion Without
+  Label","  Hyperspectral image fusion (HIF) is critical to a wide range of applications
+in remote sensing and many computer vision applications. Most traditional HIF
+methods assume that the observation model is predefined or known. However, in
+real applications, the observation model involved are often complicated and
+unknown, which leads to the serious performance drop of many advanced HIF
+methods. Also, deep learning methods can achieve outstanding performance, but
+they generally require a large number of image pairs for model training, which
+are difficult to obtain in realistic scenarios. Towards these issues, we
+proposed a self-regression learning method that alternatively reconstructs
+hyperspectral image (HSI) and estimate the observation model. In particular, we
+adopt an invertible neural network (INN) for restoring the HSI, and two
+fully-connected network (FCN) for estimating the observation model. Moreover,
+\emph{SoftMax} nonlinearity is applied to the FCN for satisfying the
+non-negative, sparsity and equality constraints. Besides, we proposed a local
+consistency loss function to constrain the observation model by exploring
+domain specific knowledge. Finally, we proposed an angular loss function to
+improve spectral reconstruction accuracy. Extensive experiments on both
+synthetic and real-world dataset show that our model can outperform the
+state-of-the-art methods
+",Wu Wang; Yue Huang; Xinhao Ding,http://arxiv.org/abs/2103.16806v1,10.48550/arXiv.2103.16806
+http://arxiv.org/abs/1710.05705v4,2017,"Blind Image Fusion for Hyperspectral Imaging with the Directional Total
+  Variation","  Hyperspectral imaging is a cutting-edge type of remote sensing used for
+mapping vegetation properties, rock minerals and other materials. A major
+drawback of hyperspectral imaging devices is their intrinsic low spatial
+resolution. In this paper, we propose a method for increasing the spatial
+resolution of a hyperspectral image by fusing it with an image of higher
+spatial resolution that was obtained with a different imaging modality. This is
+accomplished by solving a variational problem in which the regularization
+functional is the directional total variation. To accommodate for possible
+mis-registrations between the two images, we consider a non-convex blind
+super-resolution problem where both a fused image and the corresponding
+convolution kernel are estimated. Using this approach, our model can realign
+the given images if needed. Our experimental results indicate that the
+non-convexity is negligible in practice and that reliable solutions can be
+computed using a variety of different optimization algorithms. Numerical
+results on real remote sensing data from plant sciences and urban monitoring
+show the potential of the proposed method and suggests that it is robust with
+respect to the regularization parameters, mis-registration and the shape of the
+kernel.
+",Leon Bungert; David A. Coomes; Matthias J. Ehrhardt; Jennifer Rasch; Rafael Reisenhofer; Carola-Bibiane Schönlieb,http://arxiv.org/abs/1710.05705v4,10.1088/1361-6420/aaaf63
+http://arxiv.org/abs/1806.11452v1,2018,"MRFusion: A Deep Learning architecture to fuse PAN and MS imagery for
+  land cover mapping","  Nowadays, Earth Observation systems provide a multitude of heterogeneous
+remote sensing data. How to manage such richness leveraging its complementarity
+is a crucial chal- lenge in modern remote sensing analysis. Data Fusion
+techniques deal with this point proposing method to combine and exploit
+complementarity among the different data sensors. Considering optical Very High
+Spatial Resolution (VHSR) images, satellites obtain both Multi Spectral (MS)
+and panchro- matic (PAN) images at different spatial resolution. VHSR images
+are extensively exploited to produce land cover maps to deal with agricultural,
+ecological, and socioeconomic issues as well as assessing ecosystem status,
+monitoring biodiversity and provid- ing inputs to conceive food risk monitoring
+systems. Common techniques to produce land cover maps from such VHSR images
+typically opt for a prior pansharpening of the multi-resolution source for a
+full resolution processing. Here, we propose a new deep learning architecture
+to jointly use PAN and MS imagery for a direct classification without any prior
+image fusion or resampling process. By managing the spectral information at its
+native spatial resolution, our method, named MRFusion, aims at avoiding the
+possible infor- mation loss induced by pansharpening or any other hand-crafted
+preprocessing. Moreover, the proposed architecture is suitably designed to
+learn non-linear transformations of the sources with the explicit aim of taking
+as much as possible advantage of the complementarity of PAN and MS imagery.
+Experiments are carried out on two-real world scenarios depicting large areas
+with different land cover characteristics. The characteristics of the proposed
+scenarios underline the applicability and the generality of our method in
+operational settings.
+",Raffaele Gaetano; Dino Ienco; Kenji Ose; Remi Cresson,http://arxiv.org/abs/1806.11452v1,10.48550/arXiv.1806.11452
+http://arxiv.org/abs/1605.03395v1,2016,Spatial Verification Using Wavelet Transforms: A Review,"  Due to the emergence of new high resolution numerical weather prediction
+(NWP) models and the availability of new or more reliable remote sensing data,
+the importance of efficient spatial verification techniques is growing. Wavelet
+transforms offer an effective framework to decompose spatial data into separate
+(and possibly orthogonal) scales and directions. Most wavelet based spatial
+verification techniques have been developed or refined in the last decade and
+concentrate on assessing forecast performance (i.e. forecast skill or forecast
+error) on distinct physical scales. Particularly during the last five years, a
+significant growth in meteorological applications could be observed. However, a
+comparison with other scientific fields such as feature detection, image
+fusion, texture analysis, or facial and biometric recognition, shows that there
+is still a considerable, currently unused potential to derive useful diagnostic
+information. In order to tab the full potential of wavelet analysis, we revise
+the state-of-the art in one- and two-dimensional wavelet analysis and its
+application with emphasis on spatial verification. We further use a technique
+developed for texture analysis in the context of high-resolution quantitative
+precipitation forecasts, which is able to assess structural characteristics of
+the precipitation fields and allows efficient clustering of ensemble data.
+",Michael Weniger; Florian Kapp; Petra Friederichs,http://arxiv.org/abs/1605.03395v1,10.1002/qj.2881
+http://arxiv.org/abs/1807.09610v1,2018,Improved Adaptive Brovey as a New Method for Image Fusion,"  An ideal fusion method preserves the Spectral information in fused image and
+adds spatial information to it with no spectral distortion. Among the existing
+fusion algorithms, the contourlet-based fusion method is the most frequently
+discussed one in recent publications, because the contourlet has the ability to
+capture and link the point of discontinuities to form a linear structure. The
+Brovey is a popular pan-sharpening method owing to its efficiency and high
+spatial resolution. This method can be explained by mathematical model of
+optical remote sensing sensors. This study presents a new fusion approach that
+integrates the advantages of both the Brovey and the cotourlet techniques to
+reduce the color distortion of fusion results. Visual and statistical analyzes
+show that the proposed algorithm clearly improves the merging quality in terms
+of: correlation coefficient, ERGAS, UIQI, and Q4; compared to fusion methods
+including IHS, PCA, Adaptive IHS, and Improved Adaptive PCA.
+",Hamid Reza Shahdoosti,http://arxiv.org/abs/1807.09610v1,10.48550/arXiv.1807.09610
+http://arxiv.org/abs/1912.11868v1,2019,"Hyperspectral and multispectral image fusion under spectrally varying
+  spatial blurs -- Application to high dimensional infrared astronomical
+  imaging","  Hyperspectral imaging has become a significant source of valuable data for
+astronomers over the past decades. Current instrumental and observing time
+constraints allow direct acquisition of multispectral images, with high spatial
+but low spectral resolution, and hyperspectral images, with low spatial but
+high spectral resolution. To enhance scientific interpretation of the data, we
+propose a data fusion method which combines the benefits of each image to
+recover a high spatio-spectral resolution datacube. The proposed inverse
+problem accounts for the specificities of astronomical instruments, such as
+spectrally variant blurs. We provide a fast implementation by solving the
+problem in the frequency domain and in a low-dimensional subspace to
+efficiently handle the convolution operators as well as the high dimensionality
+of the data. We conduct experiments on a realistic synthetic dataset of
+simulated observation of the upcoming James Webb Space Telescope, and we show
+that our fusion algorithm outperforms state-of-the-art methods commonly used in
+remote sensing for Earth observation.
+",Claire Guilloteau; Thomas Oberlin; Olivier Berné; Nicolas Dobigeon,http://arxiv.org/abs/1912.11868v1,10.48550/arXiv.1912.11868
+http://arxiv.org/abs/2003.06944v1,2020,Hyperspectral-Multispectral Image Fusion with Weighted LASSO,"  Spectral imaging enables spatially-resolved identification of materials in
+remote sensing, biomedicine, and astronomy. However, acquisition times require
+balancing spectral and spatial resolution with signal-to-noise. Hyperspectral
+imaging provides superior material specificity, while multispectral images are
+faster to collect at greater fidelity. We propose an approach for fusing
+hyperspectral and multispectral images to provide high-quality hyperspectral
+output. The proposed optimization leverages the least absolute shrinkage and
+selection operator (LASSO) to perform variable selection and regularization.
+Computational time is reduced by applying the alternating direction method of
+multipliers (ADMM), as well as initializing the fusion image by estimating it
+using maximum a posteriori (MAP) based on Hardie's method. We demonstrate that
+the proposed sparse fusion and reconstruction provides quantitatively superior
+results when compared to existing methods on publicly available images.
+Finally, we show how the proposed method can be practically applied in
+biomedical infrared spectroscopic microscopy.
+",Nguyen Tran; Rupali Mankar; David Mayerich; Zhu Han,http://arxiv.org/abs/2003.06944v1,10.48550/arXiv.2003.06944
+http://arxiv.org/abs/2012.07987v1,2020,Interpolation and Gap Filling of Landsat Reflectance Time Series,"  Products derived from a single multispectral sensor are hampered by a limited
+spatial, spectral or temporal resolutions. Image fusion in general and
+downscaling/blending in particular allow to combine different multiresolution
+datasets. We present here an optimal interpolation approach to generate
+smoothed and gap-free time series of Landsat reflectance data. We fuse MODIS
+(moderate-resolution imaging spectroradiometer) and Landsat data globally using
+the Google Earth Engine (GEE) platform. The optimal interpolator exploits GEE
+ability to ingest large amounts of data (Landsat climatologies) and uses simple
+linear operations that scale easily in the cloud. The approach shows very good
+results in practice, as tested over five sites with different vegetation types
+and climatic characteristics in the contiguous US.
+",Alvaro Moreno-Martinez; Marco Maneta; Gustau Camps-Valls; Luca Martino; Nathaniel Robinson; Brady Allred; Steven W Running,http://arxiv.org/abs/2012.07987v1,10.1109/IGARSS.2018.8517503
+http://arxiv.org/abs/2209.11979v2,2022,"Robust Hyperspectral Image Fusion with Simultaneous Guide Image
+  Denoising via Constrained Convex Optimization","  The paper proposes a new high spatial resolution hyperspectral (HR-HS) image
+estimation method based on convex optimization. The method assumes a low
+spatial resolution HS (LR-HS) image and a guide image as observations, where
+both observations are contaminated by noise. Our method simultaneously
+estimates an HR-HS image and a noiseless guide image, so the method can utilize
+spatial information in a guide image even if it is contaminated by heavy noise.
+The proposed estimation problem adopts hybrid spatio-spectral total variation
+as regularization and evaluates the edge similarity between HR-HS and guide
+images to effectively use apriori knowledge on an HR-HS image and spatial
+detail information in a guide image. To efficiently solve the problem, we apply
+a primal-dual splitting method. Experiments demonstrate the performance of our
+method and the advantage over several existing methods.
+",Saori Takeyama; Shunsuke Ono,http://arxiv.org/abs/2209.11979v2,10.1109/TGRS.2022.3224480
+http://arxiv.org/abs/2211.15938v1,2022,"Segment-based fusion of multi-sensor multi-scale satellite soil moisture
+  retrievals","  Synergetic use of sensors for soil moisture retrieval is attracting
+considerable interest due to the different advantages of different sensors.
+Active, passive, and optic data integration could be a comprehensive solution
+for exploiting the advantages of different sensors aimed at preparing soil
+moisture maps. Typically, pixel-based methods are used for multi-sensor fusion.
+Since, different applications need different scales of soil moisture maps,
+pixel-based approaches are limited for this purpose. Object-based image
+analysis employing an image object instead of a pixel could help us to meet
+this need. This paper proposes a segment-based image fusion framework to
+evaluate the possibility of preparing a multi-scale soil moisture map through
+integrated Sentinel-1, Sentinel-2, and Soil Moisture Active Passive (SMAP)
+data. The results confirmed that the proposed methodology was able to improve
+soil moisture estimation in different scales up to 20% better compared to
+pixel-based fusion approach.
+",Reza Attarzadeh; Hossein Bagheri; Iman Khosravi; Saeid Niazmardi; Davood Akbarid,http://arxiv.org/abs/2211.15938v1,10.1080/2150704X.2022.2142486
+http://arxiv.org/abs/2203.03951v1,2022,"Efficient and Accurate Hyperspectral Pansharpening Using 3D VolumeNet
+  and 2.5D Texture Transfer","  Recently, convolutional neural networks (CNN) have obtained promising results
+in single-image SR for hyperspectral pansharpening. However, enhancing CNNs'
+representation ability with fewer parameters and a shorter prediction time is a
+challenging and critical task. In this paper, we propose a novel multi-spectral
+image fusion method using a combination of the previously proposed 3D CNN model
+VolumeNet and 2.5D texture transfer method using other modality high resolution
+(HR) images. Since a multi-spectral (MS) image consists of several bands and
+each band is a 2D image slice, MS images can be seen as 3D data. Thus, we use
+the previously proposed VolumeNet to fuse HR panchromatic (PAN) images and
+bicubic interpolated MS images. Because the proposed 3D VolumeNet can
+effectively improve the accuracy by expanding the receptive field of the model,
+and due to its lightweight structure, we can achieve better performance against
+the existing method without purchasing a large number of remote sensing images
+for training. In addition, VolumeNet can restore the high-frequency information
+lost in the HR MR image as much as possible, reducing the difficulty of feature
+extraction in the following step: 2.5D texture transfer. As one of the latest
+technologies, deep learning-based texture transfer has been demonstrated to
+effectively and efficiently improve the visual performance and quality
+evaluation indicators of image reconstruction. Different from the texture
+transfer processing of RGB image, we use HR PAN images as the reference images
+and perform texture transfer for each frequency band of MS images, which is
+named 2.5D texture transfer. The experimental results show that the proposed
+method outperforms the existing methods in terms of objective accuracy
+assessment, method efficiency, and visual subjective evaluation.
+",Yinao Li; Yutaro Iwamoto; Ryousuke Nakamura; Lanfen Lin; Ruofeng Tong; Yen-Wei Chen,http://arxiv.org/abs/2203.03951v1,10.48550/arXiv.2203.03951

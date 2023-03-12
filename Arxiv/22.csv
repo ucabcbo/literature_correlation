@@ -1,0 +1,132 @@
+AID,Year,Title,Abstract,Authors,Link,DOI
+http://arxiv.org/abs/1610.07024v1,2016,Understanding Sea Ice Melting via Functional Data Analysis,"  In this article, we considered the problem of sea ice cover is melting.
+Considering the `satellite passive microwave remote sensing data' as functional
+data, we studied daily observation of sea ice cover of each year as a smooth
+continuous function of time. We investigated the mean function for the sea ice
+area for following decades and computed the corresponding $95\%$ bootstrap
+confidence interval for the both Arctic and Antarctic Oceans. We found the mean
+function for the sea ice area dropped statistically significantly in recent
+decades for the Arctic Ocean. However, no such statistical evidence was found
+for the Antarctic ocean. Essentially, the mean function for sea ice area in the
+Antarctic Ocean is unchanged. Additional evidence of the melting of sea ice
+area in the Arctic Ocean is provided by three types of phase curve (namely,
+Area vs. Velocity, Area vs. Acceleration, and Velocity Vs. Acceleration). In
+the Arctic Ocean, during the summer, the current decades is observing the size
+of the sea ice area about $30\%$ less, than what it used to be during the first
+decade. In this article, we have taken a distribution-free approach for our
+analysis, except the data generating process, belongs to the Hilbert space.
+",Purba Das; Ananya Lahiri; Sourish Das,http://arxiv.org/abs/1610.07024v1,10.48550/arXiv.1610.07024
+http://arxiv.org/abs/1904.12590v1,2019,Assimilation of semi-qualitative sea ice thickness data with the EnKF-SQ,"  A newly introduced stochastic data assimilation method, the Ensemble Kalman
+Filter Semi-Qualitative (EnKF-SQ) is applied to a realistic coupled ice-ocean
+model of the Arctic, the TOPAZ4 configuration, in a twin experiment framework.
+The method is shown to add value to range-limited thin ice thickness
+measurements, as obtained from passive microwave remote sensing, with respect
+to more trivial solutions like neglecting the out-of-range values or
+assimilating climatology instead. Some known properties inherent to the EnKF-SQ
+are evaluated: the tendency to draw the solution closer to the thickness
+threshold, the skewness of the resulting analysis ensemble and the potential
+appearance of outliers. The experiments show that none of these properties
+prove deleterious in light of the other sub-optimal characters of the sea ice
+data assimilation system used here (non-linearities, non-Gaussian variables,
+lack of strong coupling). The EnKF-SQ has a single tuning parameter that is
+adjusted for best performance of the system at hand. The sensitivity tests
+reveal that the results do not depend critically on the choice of this tuning
+parameter. The EnKF-SQ makes overall a valid approach for assimilating
+semi-qualitative observations into high-dimensional nonlinear systems.
+",Abhishek Shah; Laurent Bertino; Francois Counillon; Mohamad El Gharamti; Jiping Xie,http://arxiv.org/abs/1904.12590v1,10.1080/16000870.2019.1697166
+http://arxiv.org/abs/1911.07612v2,2019,"Wave measurements from ship mounted sensors in the Arctic marginal ice
+  zone","  Increased research interest and economic activity in the Arctic raise the
+need for new observations of sea ice dynamics. Remote sensing as well as
+mathematical and numerical models of wave propagation in sea ice would benefit
+from more in situ data for validation. This study presents wave measurements in
+the marginal ice zone (MIZ) obtained from ship mounted sensors. The system
+combines altimeter readings from the ship bow with ship motion correction data
+to provide estimated single point ocean surface elevation. Significant wave
+height and mean wave period, as well as one-dimensional wave spectra are
+derived from the combined measurements. The results are compared with
+integrated parameters from a spectral wave model over a period of eight days in
+the open ocean, and with spectra and integrated parameters derived from motion
+detecting instruments placed on ice floes inside the MIZ. Mean absolute errors
+of the integrated parameters are in the range 15.0-18.9% when comparing with
+the spectral wave model and 1.0-9.6% when comparing with valid motion detecting
+instruments. The spatial wave damping coefficient is estimated by looking at
+the change in spectral wave amplitude found at discrete frequency values as the
+ship was moving along the longitudinal direction of the MIZ within time
+intervals where the wave field is found to be approximately constant in time.
+As expected from theory, high frequency waves are effectively dampened by the
+presence of sea ice. The observed wave attenuation rates compare favourably
+with a two-layer dissipation model. Our methodology can be regarded as a simple
+and reliable way to collect more waves-in-ice data as it can be easily added to
+any ship participating to ice expeditions, at little extra cost.
+",Trygve K. Løken; Jean Rabault; Atle Jensen; Graig Sutherland; Kai H. Christensen; Malte Müller,http://arxiv.org/abs/1911.07612v2,10.1016/j.coldregions.2020.103207
+http://arxiv.org/abs/1906.10839v1,2019,"Drift of pancake ice floes in the winter Antarctic marginal ice zone
+  during polar cyclones","  High temporal resolution in--situ measurements of pancake ice drift are
+presented, from a pair of buoys deployed on floes in the Antarctic marginal ice
+zone during the winter sea ice expansion, over nine days in which the region
+was impacted by four polar cyclones. Concomitant measurements of wave-in-ice
+activity from the buoys is used to infer that pancake ice conditions were
+maintained over at least the first seven days. Analysis of the data shows:
+(i)~unprecedentedly fast drift speeds in the Southern Ocean; (ii)~high
+correlation of drift velocities with the surface wind velocities, indicating
+absence of internal ice stresses $>$100\,km in from the edge in 100\% remotely
+sensed ice concentration; and (iii)~presence of a strong inertial signature
+with a 13\,h period. A Langrangian free drift model is developed, including a
+term for geostrophic currents that reproduces the 13\,h period signature in the
+ice motion. The calibrated model is shown to provide accurate predictions of
+the ice drift for up to 2\,days, and the calibrated parameters provide
+estimates of wind and ocean drag for pancake floes under storm conditions.
+",Alberto Alberello; Luke Bennetts; Petra Heil; Clare Eayrs; Marcello Vichi; Keith MacHutchon; Miguel Onorato; Alessandro Toffoli,http://arxiv.org/abs/1906.10839v1,10.1029/2019JC015418
+http://arxiv.org/abs/2112.01416v1,2021,Joint Characterization of the Cryospheric Spectral Feature Space,"  Hyperspectral feature spaces are useful for many remote sensing applications
+ranging from spectral mixture modeling to discrete thematic classification. In
+such cases, characterization of the feature space dimensionality, geometry and
+topology can provide guidance for effective model design. The objective of this
+study is to compare and contrast two approaches for identifying feature space
+basis vectors via dimensionality reduction. These approaches can be combined to
+render a joint characterization that reveals spectral properties not apparent
+using either approach alone. We use a diverse collection of AVIRIS-NG
+reflectance spectra of the snow-firn-ice continuum to illustrate the utility of
+joint characterization and identify physical properties inferred from the
+spectra. Spectral feature spaces combining principal components (PCs) and
+t-distributed Stochastic Neighbor Embeddings (t-SNEs) provide physically
+interpretable dimensions representing the global (PC) structure of cryospheric
+reflectance properties and local (t-SNE) manifold structures revealing
+clustering not resolved in the global continuum. Joint characterization reveals
+distinct continua for snow-firn gradients on different parts of the Greenland
+Ice Sheet and multiple clusters of ice reflectance properties common to both
+glacier and sea ice in different locations. Clustering revealed in t-SNE
+feature spaces, and extended to the joint characterization, distinguishes
+differences in spectral curvature specific to location within the snow
+accumulation zone, and BRDF effects related to view geometry. The ability of
+PC+t-SNE joint characterization to produce a physically interpretable spectral
+feature spaces revealing global topology while preserving local manifold
+structures suggests that this characterization might be extended to the much
+higher dimensional hyperspectral feature space of all terrestrial land cover.
+",Christopher Small; Daniel Sousa,http://arxiv.org/abs/2112.01416v1,10.48550/arXiv.2112.01416
+http://arxiv.org/abs/2204.06371v1,2022,"Deep learning based automatic detection of offshore oil slicks using SAR
+  data and contextual information","  Ocean surface monitoring, especially oil slick detection, has become
+mandatory due to its importance for oil exploration and risk prevention on
+ecosystems. For years, the detection task has been performed manually by
+photo-interpreters using Synthetic Aperture Radar (SAR) images with the help of
+contextual data such as wind. This tedious manual work cannot handle the
+increasing amount of data collected by the available sensors and thus requires
+automation. Literature reports conventional and semi-automated detection
+methods that generally focus either on oil slicks originating from
+anthropogenic (spills) or natural (seeps) sources on limited data collections.
+As an extension, this paper presents the automation of offshore oil slicks on
+an extensive database with both kinds of slicks. It builds upon the slick
+annotations of specialized photo-interpreters on Sentinel-1 SAR data for 4
+years over 3 exploration and monitoring areas worldwide. All the considered SAR
+images and related annotation relate to real oil slick monitoring scenarios.
+Further, wind estimation is systematically computed to enrich the data
+collection. Paper contributions are the following : (i) a performance
+comparison of two deep learning approaches: semantic segmentation using
+FC-DenseNet and instance segmentation using Mask-RCNN. (ii) the introduction of
+meteorological information (wind speed) is deemed valuable for oil slick
+detection in the performance evaluation. The main results of this study show
+the effectiveness of slick detection by deep learning approaches, in particular
+FC-DenseNet, which captures more than 92% of oil instances in our test set.
+Furthermore, a strong correlation between model performances and contextual
+information such as slick size and wind speed is demonstrated in the
+performance evaluation. This work opens perspectives to design models that can
+fuse SAR and wind information to reduce the false alarm rate.
+",Emna Amri; Hermann Courteille; A Benoit; Philippe Bolon; Dominique Dubucq; Gilles Poulain; Anthony Credoz,http://arxiv.org/abs/2204.06371v1,10.1117/12.2598032

@@ -1,0 +1,87 @@
+AID,Year,Title,Abstract,Authors,Link,DOI
+http://arxiv.org/abs/1706.07157v1,2017,"A Novel VHR Image Change Detection Algorithm Based on Image Fusion and
+  Fuzzy C-Means Clustering","  This thesis describes a study to perform change detection on Very High
+Resolution satellite images using image fusion based on 2D Discrete Wavelet
+Transform and Fuzzy C-Means clustering algorithm. Multiple other methods are
+also quantitatively and qualitatively compared in this study.
+",Rongcui Dong; Haoxiang Wang,http://arxiv.org/abs/1706.07157v1,10.48550/arXiv.1706.07157
+http://arxiv.org/abs/1711.02549v3,2017,Remote Sensing Image Fusion Based on Two-stream Fusion Network,"  Remote sensing image fusion (also known as pan-sharpening) aims at generating
+high resolution multi-spectral (MS) image from inputs of a high spatial
+resolution single band panchromatic (PAN) image and a low spatial resolution
+multi-spectral image. Inspired by the astounding achievements of convolutional
+neural networks (CNNs) in a variety of computer vision tasks, in this paper, we
+propose a two-stream fusion network (TFNet) to address the problem of
+pan-sharpening. Unlike previous CNN based methods that consider pan-sharpening
+as a super resolution problem and perform pan-sharpening in pixel level, the
+proposed TFNet aims to fuse PAN and MS images in feature level and reconstruct
+the pan-sharpened image from the fused features. The TFNet mainly consists of
+three parts. The first part is comprised of two networks extracting features
+from PAN and MS images, respectively. The subsequent network fuses them
+together to form compact features that represent both spatial and spectral
+information of PAN and MS images, simultaneously. Finally, the desired high
+spatial resolution MS image is recovered from the fused features through an
+image reconstruction network. Experiments on Quickbird and \mbox{GaoFen-1}
+satellite images demonstrate that the proposed TFNet can fuse PAN and MS
+images, effectively, and produce pan-sharpened images competitive with even
+superior to state of the arts.
+",Xiangyu Liu; Qingjie Liu; Yunhong Wang,http://arxiv.org/abs/1711.02549v3,10.48550/arXiv.1711.02549
+http://arxiv.org/abs/1806.05793v1,2018,"Recurrent Multiresolution Convolutional Networks for VHR Image
+  Classification","  Classification of very high resolution (VHR) satellite images has three major
+challenges: 1) inherent low intra-class and high inter-class spectral
+similarities, 2) mismatching resolution of available bands, and 3) the need to
+regularize noisy classification maps. Conventional methods have addressed these
+challenges by adopting separate stages of image fusion, feature extraction, and
+post-classification map regularization. These processing stages, however, are
+not jointly optimizing the classification task at hand. In this study, we
+propose a single-stage framework embedding the processing stages in a recurrent
+multiresolution convolutional network trained in an end-to-end manner. The
+feedforward version of the network, called FuseNet, aims to match the
+resolution of the panchromatic and multispectral bands in a VHR image using
+convolutional layers with corresponding downsampling and upsampling operations.
+Contextual label information is incorporated into FuseNet by means of a
+recurrent version called ReuseNet. We compared FuseNet and ReuseNet against the
+use of separate processing steps for both image fusion, e.g. pansharpening and
+resampling through interpolation, and map regularization such as conditional
+random fields. We carried out our experiments on a land cover classification
+task using a Worldview-03 image of Quezon City, Philippines and the ISPRS 2D
+semantic labeling benchmark dataset of Vaihingen, Germany. FuseNet and ReuseNet
+surpass the baseline approaches in both quantitative and qualitative results.
+",John Ray Bergado; Claudio Persello; Alfred Stein,http://arxiv.org/abs/1806.05793v1,10.1109/TGRS.2018.2837357
+http://arxiv.org/abs/1512.08475v6,2015,"MRF-Based Multispectral Image Fusion Using an Adaptive Approach Based on
+  Edge-Guided Interpolation","  In interpretation of remote sensing images, it is possible that some images
+which are supplied by different sensors become incomprehensible. For better
+visual perception of these images, it is essential to operate series of
+pre-processing and elementary corrections and then operate a series of main
+processing steps for more precise analysis on the images. There are several
+approaches for processing which are depended on the type of remote sensing
+images. The discussed approach in this article, i.e. image fusion, is the use
+of natural colors of an optical image for adding color to a grayscale satellite
+image which gives us the ability for better observation of the HR image of OLI
+sensor of Landsat-8. This process with emphasis on details of fusion technique
+has previously been performed; however, we are going to apply the concept of
+the interpolation process. In fact, we see many important software tools such
+as ENVI and ERDAS as the most famous remote sensing image processing tools have
+only classical interpolation techniques (such as bi-linear (BL) and
+bi-cubic/cubic convolution (CC)). Therefore, ENVI- and ERDAS-based researches
+in image fusion area and even other fusion researches often dont use new and
+better interpolators and are mainly concentrated on the fusion algorithms
+details for achieving a better quality, so we only focus on the interpolation
+impact on fusion quality in Landsat-8 multispectral images. The important
+feature of this approach is to use a statistical, adaptive, and edge-guided
+interpolation method for improving the color quality in the images in practice.
+Numerical simulations show selecting the suitable interpolation techniques in
+MRF-based images creates better quality than the classical interpolators.
+",Mohammad Reza Khosravi; Mohammad Sharif-Yazd; Mohammad Kazem Moghimi; Ahmad Keshavarz; Habib Rostami; Suleiman Mansouri,http://arxiv.org/abs/1512.08475v6,10.4236/jgis.2017.92008
+http://arxiv.org/abs/1803.00737v1,2018,"Fusion of multispectral satellite imagery using a cluster of graphics
+  processing unit","  The paper presents a parallel implementation of existing image fusion methods
+on a graphical cluster. Parallel implementations of methods based on discrete
+wavelet transformation (Haars and Daubechies discrete wavelet transform) are
+developed. Experiments were performed on a cluster using GPU and CPU and
+performance gains were estimated for the use of the developed parallel
+implementations to process satellite images from satellite Landsat 7. The
+implementation on a graphic cluster provides performance improvement from 2 to
+18 times. The quality of the considered methods was evaluated by ERGAS and QNR
+metrics. The results show performance gains and retaining of quality with the
+cluster of GPU compared to the results obtained by the authors and other
+researchers for a CPU and single GPU.
+",Anas M. Al-Oraiqat; E. A. Bashkov; V. Babkov; C. Titarenko,http://arxiv.org/abs/1803.00737v1,10.48550/arXiv.1803.00737

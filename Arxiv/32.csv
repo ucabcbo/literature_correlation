@@ -1,0 +1,52 @@
+AID,Year,Title,Abstract,Authors,Link,DOI
+http://arxiv.org/abs/2007.15144v1,2020,Single Image Cloud Detection via Multi-Image Fusion,"  Artifacts in imagery captured by remote sensing, such as clouds, snow, and
+shadows, present challenges for various tasks, including semantic segmentation
+and object detection. A primary challenge in developing algorithms for
+identifying such artifacts is the cost of collecting annotated training data.
+In this work, we explore how recent advances in multi-image fusion can be
+leveraged to bootstrap single image cloud detection. We demonstrate that a
+network optimized to estimate image quality also implicitly learns to detect
+clouds. To support the training and evaluation of our approach, we collect a
+large dataset of Sentinel-2 images along with a per-pixel semantic labelling
+for land cover. Through various experiments, we demonstrate that our method
+reduces the need for annotated training data and improves cloud detection
+performance.
+",Scott Workman; M. Usman Rafique; Hunter Blanton; Connor Greenwell; Nathan Jacobs,http://arxiv.org/abs/2007.15144v1,10.48550/arXiv.2007.15144
+http://arxiv.org/abs/2211.15938v1,2022,"Segment-based fusion of multi-sensor multi-scale satellite soil moisture
+  retrievals","  Synergetic use of sensors for soil moisture retrieval is attracting
+considerable interest due to the different advantages of different sensors.
+Active, passive, and optic data integration could be a comprehensive solution
+for exploiting the advantages of different sensors aimed at preparing soil
+moisture maps. Typically, pixel-based methods are used for multi-sensor fusion.
+Since, different applications need different scales of soil moisture maps,
+pixel-based approaches are limited for this purpose. Object-based image
+analysis employing an image object instead of a pixel could help us to meet
+this need. This paper proposes a segment-based image fusion framework to
+evaluate the possibility of preparing a multi-scale soil moisture map through
+integrated Sentinel-1, Sentinel-2, and Soil Moisture Active Passive (SMAP)
+data. The results confirmed that the proposed methodology was able to improve
+soil moisture estimation in different scales up to 20% better compared to
+pixel-based fusion approach.
+",Reza Attarzadeh; Hossein Bagheri; Iman Khosravi; Saeid Niazmardi; Davood Akbarid,http://arxiv.org/abs/2211.15938v1,10.1080/2150704X.2022.2142486
+http://arxiv.org/abs/2109.00400v1,2021,"An Integrated Framework for the Heterogeneous Spatio-Spectral-Temporal
+  Fusion of Remote Sensing Images","  Image fusion technology is widely used to fuse the complementary information
+between multi-source remote sensing images. Inspired by the frontier of deep
+learning, this paper first proposes a heterogeneous-integrated framework based
+on a novel deep residual cycle GAN. The proposed network consists of a forward
+fusion part and a backward degeneration feedback part. The forward part
+generates the desired fusion result from the various observations; the backward
+degeneration feedback part considers the imaging degradation process and
+regenerates the observations inversely from the fusion result. The proposed
+network can effectively fuse not only the homogeneous but also the
+heterogeneous information. In addition, for the first time, a
+heterogeneous-integrated fusion framework is proposed to simultaneously merge
+the complementary heterogeneous spatial, spectral and temporal information of
+multi-source heterogeneous observations. The proposed heterogeneous-integrated
+framework also provides a uniform mode that can complete various fusion tasks,
+including heterogeneous spatio-spectral fusion, spatio-temporal fusion, and
+heterogeneous spatio-spectral-temporal fusion. Experiments are conducted for
+two challenging scenarios of land cover changes and thick cloud coverage.
+Images from many remote sensing satellites, including MODIS, Landsat-8,
+Sentinel-1, and Sentinel-2, are utilized in the experiments. Both qualitative
+and quantitative evaluations confirm the effectiveness of the proposed method.
+",Menghui Jiang; Huanfeng Shen; Jie Li; Liangpei Zhang,http://arxiv.org/abs/2109.00400v1,10.48550/arXiv.2109.00400

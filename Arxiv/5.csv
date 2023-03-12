@@ -1,0 +1,201 @@
+AID,Year,Title,Abstract,Authors,DOI,Link
+http://arxiv.org/abs/1512.06260v3,2015,"On the super-resolution capacity of imagers using unknown speckle
+  illuminations","  Speckle based imaging consists of forming a super-resolved reconstruction of
+an unknown sample from low-resolution images obtained under random
+inhomogeneous illuminations (speckles). In a blind context where the
+illuminations are unknown, we study the intrinsic capacity of speckle-based
+imagers to recover spatial frequencies outside the frequency support of the
+data, with minimal assumptions about the sample. We demonstrate that, under
+physically realistic conditions, the covariance of the data has a
+super-resolution power corresponding to the squared magnitude of the imager
+point spread function. This theoretical result is important for many practical
+imaging systems such as acoustic and electromagnetic tomographs, fluorescence
+and photoacoustic microscopes, or synthetic aperture radar imaging. A numerical
+validation is presented in the case of fluorescence microscopy.
+",Jérôme Idier; Simon Labouesse; Marc Allain; Penghuan Liu; Sébastien Bourguignon; Anne Sentenac,10.1109/TCI.2017.2771729,http://arxiv.org/abs/1512.06260v3
+http://arxiv.org/abs/2211.06958v1,2022,Two-dimensional gridless super-resolution method for ISAR imaging,"  We are focused on improving the resolution of images of moving targets in
+Inverse Synthetic Aperture Radar (ISAR) imaging. This could be achieved by
+recovering the scattering points of a target that have stronger reflections
+than other target points, leading to increasing the higher Radar Cross Section
+(RCS) of a target. These points, however, are sparse and when the received data
+is incomplete, moving targets would not be properly recognizable in ISAR
+images. To increase the resolution in ISAR imaging, we propose the
+2-Dimensional Reweighted Trace Minimization (2D-RWTM) method to retrieve
+frequencies of sparse scattering points in both range and cross-range
+directions. This method is a gridless super-resolution method, which does not
+depend on fitting the scattering point on the grids, leading to less complexity
+compared to the other methods. Using computer simulations, the proposed 2D-RWTM
+is compared to the Atomic Norm Minimization (ANM) in terms of the Mean Squared
+Errors (MSE). The results show that using the proposed method, the scattering
+points of a target are successfully recovered. It is shown that by selecting
+different weighting matrices and scattering points adjacent to each other, the
+recovery in ISAR imaging is still successful.
+",Mohammad Roueinfar; Mohammad Hossein Kahaei,10.48550/arXiv.2211.06958,http://arxiv.org/abs/2211.06958v1
+http://arxiv.org/abs/1608.00270v1,2016,"New wavelet-based superresolution algorithm for speckle reduction in SAR
+  images","  This paper describes a novel projection algorithm, the Projection Onto Span
+Algorithm (POSA) for wavelet-based superresolution and removing speckle (in
+wavelet domain) of unknown variance from Synthetic Aperture Radar (SAR) images.
+Although the POSA is good as a new superresolution algorithm for image
+enhancement, image metrology and biometric identification, here one will use it
+like a tool of despeckling, being the first time that an algorithm of
+super-resolution is used for despeckling of SAR images. Specifically, the
+speckled SAR image is decomposed into wavelet subbands, POSA is applied to the
+high subbands, and reconstruct a SAR image from the modified detail
+coefficients. Experimental results demonstrate that the new method compares
+favorably to several other despeckling methods on test SAR images.
+",Mario Mastriani,10.48550/arXiv.1608.00270,http://arxiv.org/abs/1608.00270v1
+http://arxiv.org/abs/1711.03232v1,2017,Performance Analysis of Convex LRMR based Passive SAR Imaging,"  Passive synthetic aperture radar (SAR) uses existing signals of opportunity
+such as communication and broadcasting signals. In our prior work, we have
+developed a low-rank matrix recovery (LRMR) method that can reconstruct scenes
+with extended and densely distributed point targets, overcoming shortcomings of
+conventional methods. The approach is based on correlating two sets of bistatic
+measurements, which results in a linear mapping of the tensor product of the
+scene reflectivity with itself. Recognizing this tensor product as a rank-one
+positive semi-definite (PSD) operator, we pose passive SAR image reconstruction
+as a LRMR problem with convex relaxation. In this paper, we present a
+performance analysis of the convex LRMR-based passive SAR image reconstruction
+method. We use the restricted isometry property (RIP) and show that exact
+reconstruction is guaranteed under the condition that the pixel spacing or
+resolution satisfies a certain lower bound. We show that for sufficiently large
+center frequencies, our method provides superior resolution than that of
+Fourier based methods, making it a super-resolution technique. Additionally, we
+show that phaseless imaging is a special case of our passive SAR imaging
+method. We present extensive numerical simulation to validate our analysis.
+",Eric Mason; Birsen Yazici,10.48550/arXiv.1711.03232,http://arxiv.org/abs/1711.03232v1
+http://arxiv.org/abs/1805.01759v1,2018,"A fast and accurate basis pursuit denoising algorithm with application
+  to super-resolving tomographic SAR","  $L_1$ regularization is used for finding sparse solutions to an
+underdetermined linear system. As sparse signals are widely expected in remote
+sensing, this type of regularization scheme and its extensions have been widely
+employed in many remote sensing problems, such as image fusion, target
+detection, image super-resolution, and others and have led to promising
+results. However, solving such sparse reconstruction problems is
+computationally expensive and has limitations in its practical use. In this
+paper, we proposed a novel efficient algorithm for solving the complex-valued
+$L_1$ regularized least squares problem. Taking the high-dimensional
+tomographic synthetic aperture radar (TomoSAR) as a practical example, we
+carried out extensive experiments, both with simulation data and real data, to
+demonstrate that the proposed approach can retain the accuracy of second order
+methods while dramatically speeding up the processing by one or two orders.
+Although we have chosen TomoSAR as the example, the proposed method can be
+generally applied to any spectral estimation problems.
+",Yilei Shi; Xiao Xiang Zhu; Wotao Yin; Richard Bamler,10.48550/arXiv.1805.01759,http://arxiv.org/abs/1805.01759v1
+http://arxiv.org/abs/1808.08658v1,2018,Fast Super-resolution 3D SAR Imaging Using an Unfolded Deep Network,"  For 3D Synthetic Aperture Radar (SAR) imaging, one typical approach is to
+achieve the cross-track 1D focusing for each range-azimuth pixel after
+obtaining a stack of 2D complex-valued images. The cross-track focusing is the
+main difficulty as its aperture length is limited and the antenna positions are
+usually non-uniformly distributed. Sparsity regularization methods are widely
+used to tackle these problems. However, these methods are of obvious
+limitations. The most well-known ones are their heavy computational burdens and
+unsatisfied stabilities. In this letter, an efficient deep network-based
+cross-track imaging method is proposed. When trained, the imaging process, i.e.
+the forward propagation of the network, is made up of simple matrix-vector
+calculations and element-wise nonlinearity operations, which significantly
+speed up the imaging. Also, we find that the deep network is of good robustness
+against noise and model errors. Comprehensive simulations and experiments have
+been carried out, and the superiority of the proposed method can be clearly
+seen.
+",Jingkun Gao; Bin Deng; Yuliang Qin; Hongqiang Wang; Xiang Li,10.48550/arXiv.1808.08658,http://arxiv.org/abs/1808.08658v1
+http://arxiv.org/abs/2005.00657v2,2020,"On Solving SAR Imaging Inverse Problems Using Non-Convex Regularization
+  with a Cauchy-based Penalty","  Synthetic aperture radar (SAR) imagery can provide useful information in a
+multitude of applications, including climate change, environmental monitoring,
+meteorology, high dimensional mapping, ship monitoring, or planetary
+exploration. In this paper, we investigate solutions to a number of inverse
+problems encountered in SAR imaging. We propose a convex proximal splitting
+method for the optimization of a cost function that includes a non-convex
+Cauchy-based penalty. The convergence of the overall cost function optimization
+is ensured through careful selection of model parameters within a
+forward-backward (FB) algorithm. The performance of the proposed penalty
+function is evaluated by solving three standard SAR imaging inverse problems,
+including super-resolution, image formation, and despeckling, as well as ship
+wake detection for maritime applications. The proposed method is compared to
+several methods employing classical penalty functions such as total variation
+($TV$) and $L_1$ norms, and to the generalized minimax-concave (GMC) penalty.
+We show that the proposed Cauchy-based penalty function leads to better image
+reconstruction results when compared to the reference penalty functions for all
+SAR imaging inverse problems in this paper.
+",Oktay Karakuş; Alin Achim,10.1109/TGRS.2020.3011631,http://arxiv.org/abs/2005.00657v2
+http://arxiv.org/abs/2203.15745v1,2022,"Super-resolving multiple scatterers detection in SAR Tomography assisted
+  by correlation information","  This paper proposes a method for detecting multiple scatterers (targets) in
+the elevation direction for synthetic aperture radar (SAR) tomography. The
+proposed method can resolve closely spaced targets through a twostep procedure.
+In the first step, coarse detection is performed with a successive cancellation
+scheme in which possible locations of targets are marked. Then, in the second
+step, by searching in the reduced search space which is finely 10 gridded, the
+accurate location of the targets is found. For estimating the actual number of
+targets, a model order selection scheme is used in two cases of known and
+unknown noise variance. Also, by analytical investigation of the probability of
+detection for the proposed method, the effect of the influential parameters on
+the detection ability is explicitly demonstrated. Compared to the
+super-resolution methods based on compressed sensing (CS), the proposed method
+has a lower computational cost and higher estimation accuracy, especially at
+low signal-to-noise ratio regime. 15 Simulation results show the superiority of
+the proposed method in terms of both 3D scatterer reconstruction and detection
+ability
+",Ahmad Naghavi; Mohammad Sadegh Fazel; Mojtaba Beheshti; Ehsan Yazdian,10.1117/1.JRS.14.034517,http://arxiv.org/abs/2203.15745v1
+http://arxiv.org/abs/2204.12091v1,2022,"Gridless Tomographic SAR Imaging Based on Accelerated Atomic Norm
+  Minimization with Efficiency","  Synthetic aperture radar (SAR) tomography (TomoSAR) enables the
+reconstruction and three-dimensional (3D) localization of targets based on
+multiple two-dimensional (2D) observations of the same scene. The resolving
+along the elevation direction can be treated as a line spectrum estimation
+problem. However, traditional super-resolution spectrum estimation algorithms
+require multiple snapshots and uncorrelated targets. Meanwhile, as the most
+popular TomoSAR imaging method in modern years, compressed sensing (CS) based
+methods suffer from the gridding mismatch effect which markedly degrades the
+imaging performance. As a gridless CS approach, atomic norm minimization can
+avoid the gridding effect but requires enormous computing resources. Addressing
+the above issues, this paper proposes an improved fast ANM algorithm to TomoSAR
+elevation focusing by introducing the IVDST-ANM algorithm, which reduces the
+huge computational complexity of the conventional time-consuming semi-positive
+definite programming (SDP) by the iterative Vandermonde decomposition and
+shrinkage-thresholding (IVDST) approach, and retains the benefits of ANM in
+terms of gridless imaging and single snapshot recovery. We conducted
+experiments using simulated data to evaluate the performance of the proposed
+method, and reconstruction results of an urban area from the SARMV3D-Imaging
+1.0 dataset are also presented.
+",Silin Gao; Zhe Zhang; Bingchen Zhang; Yirong Wu,10.48550/arXiv.2204.12091,http://arxiv.org/abs/2204.12091v1
+http://arxiv.org/abs/2205.02445v1,2022,TomoSAR-ALISTA: Efficient TomoSAR Imaging via Deep Unfolded Network,"  Synthetic aperture radar (SAR) tomography (TomoSAR) has attracted remarkable
+interest for its ability in achieving three-dimensional reconstruction along
+the elevation direction from multiple observations. In recent years, compressed
+sensing (CS) technique has been introduced into TomoSAR considering for its
+super-resolution ability with limited samples. Whereas, the CS-based methods
+suffer from several drawbacks, including weak noise resistance, high
+computational complexity and complex parameter fine-tuning. Among the different
+CS algorithms, iterative soft-thresholding algorithm (ISTA) is widely used as a
+robust reconstruction approach, however, the parameters in the ISTA algorithm
+are manually chosen, which usually requires a time-consuming fine-tuning
+process to achieve the best performance. Aiming at efficient TomoSAR imaging, a
+novel sparse unfolding network named analytic learned ISTA (ALISTA) is proposed
+towards the TomoSAR imaging problem in this paper, and the key parameters of
+ISTA are learned from training data via deep learning to avoid complex
+parameter fine-tuning and significantly relieves the training burden. In
+addition, experiments verify that it is feasible to use traditional CS
+algorithms as training labels, which provides a tangible supervised training
+method to achieve better 3D reconstruction performance even in the absence of
+labeled data in real applications.
+",Muhan Wang; Zhe Zhang; Yue Wang; Silin Gao; Xiaolan Qiu,10.48550/arXiv.2205.02445,http://arxiv.org/abs/2205.02445v1
+http://arxiv.org/abs/2112.04211v1,2021,"$\boldsymbolγ$-Net: Superresolving SAR Tomographic Inversion via
+  Deep Learning","  Synthetic aperture radar tomography (TomoSAR) has been extensively employed
+in 3-D reconstruction in dense urban areas using high-resolution SAR
+acquisitions. Compressive sensing (CS)-based algorithms are generally
+considered as the state of the art in super-resolving TomoSAR, in particular in
+the single look case. This superior performance comes at the cost of extra
+computational burdens, because of the sparse reconstruction, which cannot be
+solved analytically and we need to employ computationally expensive iterative
+solvers. In this paper, we propose a novel deep learning-based super-resolving
+TomoSAR inversion approach, $\boldsymbol{\gamma}$-Net, to tackle this
+challenge. $\boldsymbol{\gamma}$-Net adopts advanced complex-valued learned
+iterative shrinkage thresholding algorithm (CV-LISTA) to mimic the iterative
+optimization step in sparse reconstruction. Simulations show the height
+estimate from a well-trained $\boldsymbol{\gamma}$-Net approaches the
+Cram\'er-Rao lower bound while improving the computational efficiency by 1 to 2
+orders of magnitude comparing to the first-order CS-based methods. It also
+shows no degradation in the super-resolution power comparing to the
+state-of-the-art second-order TomoSAR solvers, which are much more
+computationally expensive than the first-order methods. Specifically,
+$\boldsymbol{\gamma}$-Net reaches more than $90\%$ detection rate in moderate
+super-resolving cases at 25 measurements at 6dB SNR. Moreover, simulation at
+limited baselines demonstrates that the proposed algorithm outperforms the
+second-order CS-based method by a fair margin. Test on real TerraSAR-X data
+with just 6 interferograms also shows high-quality 3-D reconstruction with
+high-density detected double scatterers.
+",Kun Qian; Yuanyuan Wang; Yilei Shi; Xiao Xiang Zhu,10.1109/TGRS.2022.3164193,http://arxiv.org/abs/2112.04211v1

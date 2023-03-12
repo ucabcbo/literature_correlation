@@ -1,0 +1,223 @@
+Rajkumar Kamaljit Singh, Khoisnam Nanaoba Singh, Mamata Maisnam, Jayaprasad P, Saroj Maity,
+Observing Larsen C ice-shelf using ISRO's SCATSAT-1 data,
+Polar Science,
+Volume 19,
+2019,
+Pages 57-68,
+ISSN 1873-9652,
+https://doi.org/10.1016/j.polar.2018.12.007.
+(https://www.sciencedirect.com/science/article/pii/S1873965218301750)
+Abstract: ISRO's SCATSAT-1 is a miniature satellite which serves as a continuity mission to the bygone Oceansat-2. Three important parameters from SCATSAT-1 are made available through the Meteorological & Oceanographic Satellite Data Archival Centre (MOSDAC), Space Applications Centre-ISRO. They are the backscattering coefficient (σ0), incidence angle normalized backscattering coefficient or the gamma naught (γ0) and the scatterometer noise-derived brightness temperature (Tb). In this paper, an attempt has been made to use the initially available SCATSAT-1 data in native resolution of 25 km as well as the enhanced resolution at 0.225° to explore the Larsen C ice-shelf, West Antarctica during the recent calving event of 2017. Moreover, a preliminary study on the plausible melt conditions over the shelf is reported.
+Keywords: SCATSAT-1; Larsen C ice-shelf; Ice-shelf melting; Iceberg A68
+
+
+Geochemistry Articles – February 2016,
+Organic Geochemistry,
+Volume 95,
+2016,
+Pages e1-e35,
+ISSN 0146-6380,
+https://doi.org/10.1016/j.orggeochem.2016.03.001.
+(https://www.sciencedirect.com/science/article/pii/S0146638016000504)
+
+
+Index,
+Editor(s): John (Jack) F. Shroder,
+Treatise on Geomorphology (Second Edition),
+Academic Press,
+2022,
+Pages 267-309,
+ISBN 9780128182352,
+https://doi.org/10.1016/B978-0-12-818234-5.18001-0.
+(https://www.sciencedirect.com/science/article/pii/B9780128182345180010)
+
+M.E. Paoletti, J.M. Haut, J. Plaza, A. Plaza,
+Deep learning classifiers for hyperspectral imaging: A review,
+ISPRS Journal of Photogrammetry and Remote Sensing,
+Volume 158,
+2019,
+Pages 279-317,
+ISSN 0924-2716,
+https://doi.org/10.1016/j.isprsjprs.2019.09.006.
+(https://www.sciencedirect.com/science/article/pii/S0924271619302187)
+Abstract: Advances in computing technology have fostered the development of new and powerful deep learning (DL) techniques, which have demonstrated promising results in a wide range of applications. Particularly, DL methods have been successfully used to classify remotely sensed data collected by Earth Observation (EO) instruments. Hyperspectral imaging (HSI) is a hot topic in remote sensing data analysis due to the vast amount of information comprised by this kind of images, which allows for a better characterization and exploitation of the Earth surface by combining rich spectral and spatial information. However, HSI poses major challenges for supervised classification methods due to the high dimensionality of the data and the limited availability of training samples. These issues, together with the high intraclass variability (and interclass similarity) –often present in HSI data– may hamper the effectiveness of classifiers. In order to solve these limitations, several DL-based architectures have been recently developed, exhibiting great potential in HSI data interpretation. This paper provides a comprehensive review of the current-state-of-the-art in DL for HSI classification, analyzing the strengths and weaknesses of the most widely used classifiers in the literature. For each discussed method, we provide quantitative results using several well-known and widely used HSI scenes, thus providing an exhaustive comparison of the discussed techniques. The paper concludes with some remarks and hints about future challenges in the application of DL techniques to HSI classification. The source codes of the methods discussed in this paper are available from: https://github.com/mhaut/hyperspectral_deeplearning_review.
+Keywords: Deep learning (DL); Hyperspectral imaging (HSI); Earth observation (EO); Classification
+
+Joachim Moortgat, Ziwei Li, Michael Durand, Ian Howat, Bidhyananda Yadav, Chunli Dai,
+Deep learning models for river classification at sub-meter resolutions from multispectral and panchromatic commercial satellite imagery,
+Remote Sensing of Environment,
+Volume 282,
+2022,
+113279,
+ISSN 0034-4257,
+https://doi.org/10.1016/j.rse.2022.113279.
+(https://www.sciencedirect.com/science/article/pii/S0034425722003856)
+Abstract: Remote sensing of the Earth’s surface water is critical in a wide range of environmental studies, from evaluating the societal impacts of seasonal droughts and floods to the large-scale implications of climate change. Consequently, a large literature exists on the classification of water from satellite imagery. Yet, previous methods have been limited by (1) the >10 m spatial resolution of public satellite imagery, (2) classification schemes that operate at the pixel level, and (3) the need for multiple spectral bands. We advance the state-of-the-art by (1) using commercial satellite imagery with panchromatic and multispectral resolutions of ∼ 30 cm and ∼ 1.2 m, respectively, (2) developing multiple fully convolutional neural networks (FCN) that can learn the morphological features of water bodies in addition to their spectral properties, and (3) FCN that can classify water even from panchromatic imagery. This study focuses on rivers in the Arctic, using images from the Quickbird-2, WorldView-1, WorldView-2, WorldView-3, and GeoEye satellites. Because no training data are available at such high resolutions, we construct those manually. First, we use the red, green, blue, and near-infrared bands of the 8-band multispectral sensors. Those trained models all achieve excellent precision and recall over 90% on validation data, aided by on-the-fly preprocessing of the training data specific to satellite imagery. In a novel approach, we then use results from the multispectral model to generate training data for FCN that only require panchromatic imagery, of which considerably more is available. Despite the smaller feature space, these models still achieve a precision and recall of over 85%. We provide our open-source codes and trained model parameters to the remote sensing community, which paves the way to a wide range of environmental hydrology applications at vastly superior accuracies and 1–2 orders of magnitude higher spatial resolution than previously possible.
+Keywords: Remote sensing; Hydrology; Rivers; Deep learning; Convolutional neural networks
+
+R.V. Leslie,
+1.16 - Microwave Sensors,
+Editor(s): Shunlin Liang,
+Comprehensive Remote Sensing,
+Elsevier,
+2018,
+Pages 435-474,
+ISBN 9780128032213,
+https://doi.org/10.1016/B978-0-12-409548-9.10328-8.
+(https://www.sciencedirect.com/science/article/pii/B9780124095489103288)
+Abstract: Remote sensing in the microwave or millimeter wave spectrum (approximately 300 MHz–300 GHz) has an enduring and critical role for a wide range of applications. Radar is the most famous microwave remote sensing application, but for most people in the developed world, a microwave is an appliance in their kitchen for heating food (which does use microwave radiation). Modern society also relies heavily on microwaves for geolocation (e.g., GPS) and communication such as Wi-Fi, mobile phone networks, and satellite communications. This article provides a comprehensive study of microwave remote sensing fundamentals for passive applications (i.e., listening or measuring naturally emitted microwave energy) with appropriate connections to the active applications (i.e., generating and then measuring the return microwave energy). For more in-depth information on active microwave sensors used in radar applications, see the chapter on Radar Sensors. Microwave remote sensing applications include monitoring the Earth from space (e.g., US NOAA Joint Polar-orbiting Satellite System), monitoring near-by planets using space probes (e.g., NASA’s Mariner 2), and even distant galaxies in radio astronomy (e.g., Arecibo Observatory). This article concentrates on the monitoring the Earth, but much of the instrumentation is applicable to the other applications. A few application examples of microwave sensors include measuring temperature and humidity for weather forecasting, planning disaster relief after severe weather, long-term climate change, and mapping soil moisture for agriculture. The article starts with the first principles of electromagnetic waves and radiative transfer. The second section describes the instrumentation that collects and quantifies the microwave radiation. The third section covers physical mechanisms of retrieving information from the microwave radiation. The fourth section describes quantifying the performance and calibrating the instrumentation. The final section explains the instrument’s verification and validation techniques.
+Keywords: Passive; Microwave; Radiometry; Radiometer; sounding; calibration; absorption; scattering; radiation; radiative transfer; antenna; synthetic aperture; aperture; retrieval; remote sensing; atmosphere
+
+Joanna F Collingwood, Freddy Adams,
+Chemical imaging analysis of the brain with X-ray methods,
+Spectrochimica Acta Part B: Atomic Spectroscopy,
+Volume 130,
+2017,
+Pages 101-118,
+ISSN 0584-8547,
+https://doi.org/10.1016/j.sab.2017.02.013.
+(https://www.sciencedirect.com/science/article/pii/S0584854716303421)
+Abstract: Cells employ various metal and metalloid ions to augment the structure and the function of proteins and to assist with vital biological processes. In the brain they mediate biochemical processes, and disrupted metabolism of metals may be a contributing factor in neurodegenerative disorders. In this tutorial review we will discuss the particular role of X-ray methods for elemental imaging analysis of accumulated metal species and metal-containing compounds in biological materials, in the context of post-mortem brain tissue. X-rays have the advantage that they have a short wavelength and can penetrate through a thick biological sample. Many of the X-ray microscopy techniques that provide the greatest sensitivity and specificity for trace metal concentrations in biological materials are emerging at synchrotron X-ray facilities. Here, the extremely high flux available across a wide range of soft and hard X-rays, combined with state-of-the-art focusing techniques and ultra-sensitive detectors, makes it viable to undertake direct imaging of a number of elements in brain tissue. The different methods for synchrotron imaging of metals in brain tissues at regional, cellular, and sub-cellular spatial resolution are discussed. Methods covered include X-ray fluorescence for elemental imaging, X-ray absorption spectrometry for speciation imaging, X-ray diffraction for structural imaging, phase contrast for enhanced contrast imaging and scanning transmission X-ray microscopy for spectromicroscopy. Two- and three-dimensional (confocal and tomographic) imaging methods are considered as well as the correlation of X-ray microscopy with other imaging tools.
+Keywords: Synchrotron; Metallomics; Microscopy; Spectroscopy; Neurodegeneration
+
+Neil M. Coleman,
+Hydrographs of a Martian flood from the breach of Galilaei Crater,
+Geomorphology,
+Volume 236,
+2015,
+Pages 90-108,
+ISSN 0169-555X,
+https://doi.org/10.1016/j.geomorph.2015.01.034.
+(https://www.sciencedirect.com/science/article/pii/S0169555X1500063X)
+Abstract: Spectacular floods were spawned on Mars when large craters filled to overtopping and catastrophically breached. The wealth of data now available permits quantitative analysis of these ancient floods. Galilaei Crater is examined here, along with the likely sources of its water and the processes that formed Tana Vallis, its 1-km-deep outflow channel. Laser altimetry data, stereo-photogrammetry, and scaled images are used to reconstruct the lake volume and the geometry of the preserved breach. It is theorized that surface flows from Hydaspis Chaos eroded the rim and floor of Galilaei Crater and partly filled the basin, leading to degradation of the underlying cryosphere. Groundwater released from a confined aquifer then slowly filled Galilaei Crater until the enclosed lake overtopped its rim. The resulting flood breached the crater wall, rapidly drained the lake, and eroded Tana Vallis. The drainable lake volume was ≥1.110×1013m3, based on laser altimetry data from Mars Global Surveyor. This volume was 90% of the volume in Lake Superior in the Great Lakes. Using the reconstructed breach and channel geometry, methods used to analyze terrestrial dam breaches were applied to produce hydrographs of lake stage and discharge. Peak flood discharge in Tana Vallis likely ranged from 1.5 to 4.7×107m3s−1. Mean channel incision rates are estimated at 0.333, 0.133, and 0.0667mmin−1 for scenarios in which Tana Vallis formed in 2, 5, and 10days. For the 5-day breach erosion scenario, stream power per unit streambed area at the time of peak discharge was estimated at >3.5×105Wm−2. The volume of material eroded to form the vallis was only ~3% of the lake volume that drained in 5days. Open-channel calculations were performed to compare with the dam breach hydrographs for Tana Vallis. The channel as seen today never flowed bank full or even at three-fourths its maximum depth because the implied flows would have exceeded peak discharges from the crater breach. I also evaluate an alternative model (catastrophic ice lake collapse) for the morphology and breach of Aram Chaos, a large crater near Galilaei Crater. That model has fundamental difficulties because of improbable assumptions and inadequate consideration of the knowledge base of terrestrial basalt hydrology. The model of ice lake collapse fails to explain the breach and outflow of crater lakes like those that existed in Aram Chaos and Galilaei Crater. The present analysis supports a simpler model of groundwater inflow that fills a crater to overtopping. This model harmonizes with the low elevations of Aram Chaos and Galilaei Crater and is more consistent with extensive evidence of fluid breakouts in this region and with theoretical and terrestrial knowledge.
+Keywords: Mars; Dam-breach modeling; Flood hydrographs; Galilaei Crater; Tana Vallis; Aram Chaos
+
+
+Geochemistry Articles – June 2015,
+Organic Geochemistry,
+Volume 86,
+2015,
+Pages e36-e74,
+ISSN 0146-6380,
+https://doi.org/10.1016/j.orggeochem.2015.06.010.
+(https://www.sciencedirect.com/science/article/pii/S0146638015001308)
+
+William Emery, Adriano Camps,
+Chapter 5 - Radar,
+Editor(s): William Emery, Adriano Camps,
+Introduction to Satellite Remote Sensing,
+Elsevier,
+2017,
+Pages 291-453,
+ISBN 9780128092545,
+https://doi.org/10.1016/B978-0-12-809254-5.00005-1.
+(https://www.sciencedirect.com/science/article/pii/B9780128092545000051)
+Abstract: This chapter reviews the principles of radar remote sensing from the origins of radar up to the present day. Radar theory is reviewed with a focus on the use of radar in satellite remote sensing. The radar equation is introduced and its consequences are discussed for various remote sensing radar systems, with an emphasis on the use of radar for remote sensing of the Earth’s surface. Radar systems are reviewed including the matched filter. Radar waveforms are introduced as well as the various types of radar are used for ocean remote sensing. Synthetic aperture radar is introduced and discussed at length. The polarization of the radar signals is discussed. Radar antennas are discussed in considerable detail. Final sections discuss radar altimetry and scatterometry.
+Keywords: Altiimetry; Azimuth and range resolutions; Radar; Radar range equation; Scatterometry; Synthetic aperture radar
+
+Zisis I. Petrou, Yang Xian, YingLi Tian,
+Towards breaking the spatial resolution barriers: An optical flow and super-resolution approach for sea ice motion estimation,
+ISPRS Journal of Photogrammetry and Remote Sensing,
+Volume 138,
+2018,
+Pages 164-175,
+ISSN 0924-2716,
+https://doi.org/10.1016/j.isprsjprs.2018.01.020.
+(https://www.sciencedirect.com/science/article/pii/S092427161830025X)
+Abstract: Estimation of sea ice motion at fine scales is important for a number of regional and local level applications, including modeling of sea ice distribution, ocean-atmosphere and climate dynamics, as well as safe navigation and sea operations. In this study, we propose an optical flow and super-resolution approach to accurately estimate motion from remote sensing images at a higher spatial resolution than the original data. First, an external example learning-based super-resolution method is applied on the original images to generate higher resolution versions. Then, an optical flow approach is applied on the higher resolution images, identifying sparse correspondences and interpolating them to extract a dense motion vector field with continuous values and subpixel accuracies. Our proposed approach is successfully evaluated on passive microwave, optical, and Synthetic Aperture Radar data, proving appropriate for multi-sensor applications and different spatial resolutions. The approach estimates motion with similar or higher accuracy than the original data, while increasing the spatial resolution of up to eight times. In addition, the adopted optical flow component outperforms a state-of-the-art pattern matching method. Overall, the proposed approach results in accurate motion vectors with unprecedented spatial resolutions of up to 1.5 km for passive microwave data covering the entire Arctic and 20 m for radar data, and proves promising for numerous scientific and operational applications.
+Keywords: Arctic sea ice; Drift estimation; Maximum cross-correlation; Motion tracking; Optical flow; Super-resolution
+
+Urikhinbam Somas Singh, Rajkumar Kamaljit Singh,
+Application of maximum-likelihood classification for segregation between Arctic multi-year ice and first-year ice using SCATSAT-1 data,
+Remote Sensing Applications: Society and Environment,
+Volume 18,
+2020,
+100310,
+ISSN 2352-9385,
+https://doi.org/10.1016/j.rsase.2020.100310.
+(https://www.sciencedirect.com/science/article/pii/S2352938519302824)
+Abstract: Recent trend in the decrease of Arctic multi-year ice (MYI) suggests a need to study the extent of the MYI. The microwave radiometric contrast between the first-year ice (FYI) and MYI can be exploited for monitoring sea ice extent, variations and dynamics on various temporal scales. This study presents an approach for the identification of MYI and FYI in the Arctic using SCATSAT-1 scatterometer data. A supervised classification technique using maximum-likelihood (ML) classification is employed in conjunction with principal component analysis (PCA) to classify FYI and MYI in the Arctic region. The classification results are then compared with a well-established sea ice type data product from the EUMETSAT's Ocean & Sea Ice Satellite Application Facility (OSI-SAF). For the period from 16th May – 30th September 2017, no valid pixels are available for comparison in the OSI data. A change detection technique is also employed to ascertain the changes in the Arctic MYI for the SCATSAT-1 period 2016 through 2018 (autumn and spring changes).
+Keywords: Arctic multi-year ice; SCATSAT-1; Supervised classification; Maximum-likelihood classification
+
+Luke Bennetts, Ross McPhedran, Mike Meylan,
+Wave Motion,
+Volume 70,
+2017,
+Pages 1-2,
+ISSN 0165-2125,
+https://doi.org/10.1016/j.wavemoti.2017.02.005.
+(https://www.sciencedirect.com/science/article/pii/S0165212517300240)
+
+Amro Faki, Laxmi Sushama, Guy Doré,
+Regional-scale investigation of pile bearing capacity for Canadian permafrost regions in a warmer climate,
+Cold Regions Science and Technology,
+Volume 201,
+2022,
+103624,
+ISSN 0165-232X,
+https://doi.org/10.1016/j.coldregions.2022.103624.
+(https://www.sciencedirect.com/science/article/pii/S0165232X22001434)
+Abstract: Climate change is being experienced particularly intensely in the Arctic and therefore adaptation of engineering systems for this region cannot be further delayed. However, one of the major barriers to studies focused on adapting northern engineering systems is the lack of information at the spatial and temporal scales required for engineering applications. This study investigates pile bearing capacity for selected pile configurations for the Canadian permafrost regions (Nunavut and Northwest Territories), for current and future climates, using the very first ultra-high resolution (4 km) climate change simulation developed for the region using the Global Environmental Multiscale (GEM) model, for a high emission scenario. Comparison of the ultra-high-resolution GEM simulation, driven by reanalysis, with available observations confirms the model's ability in representing near-surface permafrost and related climate variables. The estimated adfreeze contribution to the total bearing capacity, for current climate, informed by the reanalysis-driven GEM simulation, for a 5-m cement pile, is found to be of the order of 15% for regions with shallow bedrock and 80% for regions with deeper bedrock. Application of the GEM climate change simulation outputs, for RCP8.5 scenario, suggest decreases to adfreeze contribution in the 5–30% range by 2040, with the largest differences noted for regions with deeper bedrock. For steel piles of same configuration, although the adfreeze contributions are only about 70% of that for cement piles, the projected relative changes are of similar magnitude. Further downscaling to 250 m resolution using the land model of GEM for the Slave Geological-Grays Bay corridor, where future developments are planned, including an all-season road, enables better estimation of bearing capacity for realistic pile scenarios such as those for bridges (in thick layer of sediments) used for river crossings. Due to the wide variation of pile materials, lengths and installation methods, site specific information can be developed from the framework developed in this study. The results of this study, including the ultra-high resolution climate change information, will thus form the basis for additional detailed investigations on climate-infrastructure interactions and climate resiliency studies.
+Keywords: Climate change; Permafrost; Convection-permitting resolution; Pile foundation; Bearing capacity; Adfreeze force; Active layer
+
+S. Simoncelli, Giuseppe M.R. Manzella, A. Storto, A. Pisano, M. Lipizer, A. Barth, V. Myroshnychenko, T. Boyer, C. Troupin, C. Coatanoan, A. Pititto, R. Schlitzer, Dick M.A. Schaap, S. Diggs,
+Chapter Four - A collaborative framework among data producers, managers, and users,
+Editor(s): Giuseppe Manzella, Antonio Novellino,
+Ocean Science Data,
+Elsevier,
+2022,
+Pages 197-280,
+ISBN 9780128234273,
+https://doi.org/10.1016/B978-0-12-823427-3.00001-3.
+(https://www.sciencedirect.com/science/article/pii/B9780128234273000013)
+Abstract: The needs of society and the emerging blue economy require access and integration of data and information for the construction of dedicated products. A “transparent and accessible ocean” is one of the key objectives of the Ocean Decade 2021–30. In this context, marine infrastructures become significant components of a global knowledge environment, enabling environmental assessment and providing the necessary data for scientifically valid actions to protect and restore ocean health, to use marine resources in a sustainable way. The data is collected, analyzed, organized, and used by people and their good use/reuse can be obtained with social practices, technological and physical agreements aimed at facilitating collaborative knowledge, decision-making, inference. The vision is a digital ocean data ecosystem made up of multiple, interoperable, and scalable components. The huge amount of data and the resulting products can drive the development of new knowledge as well as new applications and services. Predictive capabilities that derive from the digital ecosystem enable the implementation of services for real-time decision-making, multihazard warning systems, and advance marine space planning. The chapter develops following the progressive complexity and information content of products deriving from oceanic data: data cycle and data collections, data products, oceanic reanalysis. The chapter discusses the new challenges of data products and the complexity of deriving them.
+Keywords: Data integration; Data management; Data products; Ocean decade; Ocean services; Quality elements
+
+William Emery, Adriano Camps,
+Chapter 4 - Microwave Radiometry,
+Editor(s): William Emery, Adriano Camps,
+Introduction to Satellite Remote Sensing,
+Elsevier,
+2017,
+Pages 131-290,
+ISBN 9780128092545,
+https://doi.org/10.1016/B978-0-12-809254-5.00004-X.
+(https://www.sciencedirect.com/science/article/pii/B978012809254500004X)
+Abstract: Microwave radiometers are very sensitive instruments that measure the power of the thermal noise emitted by bodies at a physical temperature larger than 0K. The first part of this chapter is devoted to the study of this noise power, which is a function of a number of geophysical parameters, such as soil moisture, vegetation optical depth, snow, wind speed over the ocean, ice, rain, etc., and it can be used to infer them. The second part describes the main types of microwave radiometers, including the novel synthetic aperture ones, their main figures of merit (i.e., radiometric sensitivity and spatial resolution), calibration, and image reconstruction.
+Keywords: Blackbody; Calibration; Dicke radiometer; Gray body; Imaging; Lambertian surface; Microwave radiometer; MIRAS/SMOS; Noise; Noise injection radiometer; Radiometric sensitivity; Real aperture radiometer; Spatial resolution; Synthetic aperture radiometer; Thermal emission; Total power radiometer
+
+Alexander Becker, Stefania Russo, Stefano Puliti, Nico Lang, Konrad Schindler, Jan Dirk Wegner,
+Country-wide retrieval of forest structure from optical and SAR satellite imagery with deep ensembles,
+ISPRS Journal of Photogrammetry and Remote Sensing,
+Volume 195,
+2023,
+Pages 269-286,
+ISSN 0924-2716,
+https://doi.org/10.1016/j.isprsjprs.2022.11.011.
+(https://www.sciencedirect.com/science/article/pii/S0924271622003045)
+Abstract: Monitoring and managing Earth’s forests in an informed manner is an important requirement for addressing challenges like biodiversity loss and climate change. While traditional in situ or aerial campaigns for forest assessments provide accurate data for analysis at regional level, scaling them to entire countries and beyond with high temporal resolution is hardly possible. In this work, we propose a method based on deep ensembles that densely estimates forest structure variables at country-scale with 10-m resolution, using freely available satellite imagery as input. Our method jointly transforms Sentinel-2 optical images and Sentinel-1 synthetic-aperture radar images into maps of five different forest structure variables: 95th height percentile, mean height, density, Gini coefficient, and fractional cover. We train and test our model on reference data from 41 airborne laser scanning missions across Norway and demonstrate that it is able to generalize to unseen test regions, achieving normalized mean absolute errors between 11% and 15%, depending on the variable. Our work is also the first to propose a variant of so-called Bayesian deep learning to densely predict multiple forest structure variables with well-calibrated uncertainty estimates from satellite imagery. The uncertainty information increases the trustworthiness of the model and its suitability for downstream tasks that require reliable confidence estimates as a basis for decision making. We present an extensive set of experiments to validate the accuracy of the predicted maps as well as the quality of the predicted uncertainties. To demonstrate scalability, we provide Norway-wide maps for the five forest structure variables.
+Keywords: Bayesian deep learning; Forest structure; Multispectral; SAR; Country-scale; Sentinel
+
+Ye Zhou,
+Turbulence theories and statistical closure approaches,
+Physics Reports,
+Volume 935,
+2021,
+Pages 1-117,
+ISSN 0370-1573,
+https://doi.org/10.1016/j.physrep.2021.07.001.
+(https://www.sciencedirect.com/science/article/pii/S0370157321002763)
+Abstract: When discussing research in physics and in science more generally, it is common to ascribe equal importance to the three components of the scientific trinity: theoretical, experimental, and computational studies. This review will explore the future of modern turbulence theory by tracing its history, which began in earnest with Kolmogorov’s 1941 analysis of turbulence cascade and inertial range [A.N. Kolmogorov, Dokl. Akad. Nauk SSSR, 30, 299, (1941); 32, 19, (1941)]. The 80th Anniversary of Kolmogorov’s landmark study is a welcome opportunity to survey the achievements and evaluate the future of the theoretical approach of turbulence research. Over the years, turbulence theories have been critically important in laying the foundation of our understanding of the nature of turbulent flows. In particular, the Direct Interaction Approximation (DIA) [R.H. Kraichnan, J. Fluid Mech., 5, 497 (1959)] and its subsequent development, known as the statistical closure approach, can be identified as perhaps the most profound single advancement. The remarkable success of the statistical closure has furnished a platform to study such essential concepts as the energy transfer process and interacting scales, and the roles of the straining and sweeping motions. More recently, the quasi-Lagrangian formulation of V. L’vov & I. Procaccia and Kraichnan’s solvable passive scalar model provided powerful ways to explore another fundamental aspect of turbulent flows, the phenomena of intermittency, and the associated anomalous scaling exponents. In the meantime, the theory of fluid equilibria has been developed to describe the large-scale structures that can emerge from turbulent cascades of two-dimensional and geophysical flows at a later time. And yet, despite all these successes, analytical treatments suffer from mathematical complexities. As a result, the utility of theoretical approaches has been limited to relatively idealized flows. On the other hand, in recent decades, computational abilities and experimental facilities have reached an unprecedented scale. Looking beyond the horizon, the imminent deployment of exascale supercomputers will generate complete datasets of the entire flow field of key benchmark flows, allowing researchers to extract additional measurements concerning fully developed, complex turbulent flow fields far beyond those available from the statistical closure theories. Some other developments that could potentially influence the future course of turbulence theories include the advancement of machine learning, artificial intelligence, and data science; likely disruptions arising from the advent of quantum computation; and the increasingly prominent role of turbulence research in providing more accurate climate scientific data. Turbulence theorists can leverage these developments by asking the right questions and developing advanced, sophisticated frameworks that will be able to predict and correlate vast amounts of data from the other two components of the trinity.
+Keywords: Turbulence theories; Statistical closure approaches; Energy transfer; Interacting scales; Straining and sweeping motions; Anisotropy; Intermittency; Anomalous scaling laws; Turbulence experiments; Theory of fluid equilibria; Geophysical turbulence; Plasma and magnetohydrodynamics (MHD) turbulence; Rotating and unstable stratified flows; Rayleigh–Taylor and Richtmyer–Meshkov instabilities; Turbulence modeling; Direct numerical simulation; Large eddy simulation; Exascale computer; Machine learning; Artificial intelligence; Data science; Quantum computing; Climate prediction
+
+Huadong Guo, Changyong Dou, Xiaodong Zhang, Chunming Han, Xijuan Yue,
+Earth observation from the manned low Earth orbit platforms,
+ISPRS Journal of Photogrammetry and Remote Sensing,
+Volume 115,
+2016,
+Pages 103-118,
+ISSN 0924-2716,
+https://doi.org/10.1016/j.isprsjprs.2015.11.004.
+(https://www.sciencedirect.com/science/article/pii/S0924271615002543)
+Abstract: The manned low Earth orbit platforms (MLEOPs), e.g., the U.S. and Russia’s human space vehicles, the International Space Station (ISS) and Chinese Tiangong-1 experimental space laboratory not only provide laboratories for scientific experiments in a wide range of disciplines, but also serve as exceptional platforms for remote observation of the Earth, astronomical objects and space environment. As the early orbiting platforms, the MLEOPs provide humans with revolutionary accessibility to the regions on Earth never seen before. Earth observation from MLEOPs began in early 1960s, as a part of manned space flight programs, and will continue with the ISS and upcoming Chinese Space Station. Through a series of flight missions, various and a large amount of Earth observing datasets have been acquired using handheld cameras by crewmembers as well as automated sophisticated sensors onboard these space vehicles. Utilizing these datasets many researches have been conducted, demonstrating the importance and uniqueness of studying Earth from a vantage point of MLEOPs. For example, the first, near-global scale digital elevation model (DEM) was developed from data obtained during the shuttle radar topography mission (SRTM). This review intends to provide an overview of Earth observations from MLEOPs and present applications conducted by the datasets collected by these missions. As the ISS is the most typical representative of MLEOPs, an introduction to it, including orbital characteristics, payload accommodations, and current and proposed sensors, is emphasized. The advantages and challenges of Earth observation from MLEOPs, using the ISS as an example, is also addressed. At last, a conclusive note is drawn.
+Keywords: Manned low Earth Platform (MLEOP); Human space flight; Earth observation; International Space Station (ISS); Remote sensing

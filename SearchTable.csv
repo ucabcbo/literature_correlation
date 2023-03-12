@@ -1,0 +1,82 @@
+﻿ID,source_Scopus,source_IEEE,source_arXiv,Term1,Term2,Group,count_Scopus,count_IEEE,YearFrom,URL_Scopus,URL_IEEE
+1,TRUE,TRUE,TRUE,super resolution,remote sensing,sr-sat,1149,817,2015,Scopus,IEEE
+2,TRUE,TRUE,TRUE,super resolution,satellite image,sr-sat,253,42,2015,Scopus,IEEE
+3,TRUE,TRUE,TRUE,super resolution,sentinel-2,sr-sat,117,45,2015,Scopus,IEEE
+4,TRUE,TRUE,TRUE,super resolution,sentinel-3,sr-sat,6,6,2015,Scopus,IEEE
+5,TRUE,TRUE,TRUE,super resolution,synthetic aperture radar,sr-sat,282,187,2015,Scopus,IEEE
+6,TRUE,TRUE,TRUE,super resolution,generative adversarial networks,sr-gan,1313,388,2015,Scopus,IEEE
+7,TRUE,TRUE,TRUE,super resolution,sea ice,sr-ice,10,7,2015,Scopus,IEEE
+8,TRUE,TRUE,TRUE,super resolution,arctic,sr-ice,8,12,2015,Scopus,IEEE
+9,TRUE,TRUE,TRUE,super resolution,sea ice roughness,sr-ice,1,0,2015,Scopus,IEEE
+10,TRUE,TRUE,TRUE,super resolution,sea ice thickness,sr-ice,0,1,2015,Scopus,IEEE
+11,TRUE,TRUE,TRUE,sentinel-2,generative adversarial networks,sat-gan,63,25,2015,Scopus,IEEE
+12,TRUE,TRUE,TRUE,sentinel-2,sea ice,sat-ice,60,2,2015,Scopus,IEEE
+13,TRUE,TRUE,TRUE,sentinel-2,arctic,sat-ice,113,7,2015,Scopus,IEEE
+14,TRUE,TRUE,TRUE,sentinel-2,sea ice roughness,sat-ice,0,0,2015,Scopus,IEEE
+15,TRUE,TRUE,TRUE,sentinel-2,sea ice thickness,sat-ice,2,0,2015,Scopus,IEEE
+16,TRUE,TRUE,TRUE,sentinel-3,generative adversarial networks,sat-gan,0,0,2015,Scopus,IEEE
+17,TRUE,TRUE,TRUE,sentinel-3,sea ice,sat-ice,28,9,2015,Scopus,IEEE
+18,TRUE,TRUE,TRUE,sentinel-3,arctic,sat-ice,36,5,2015,Scopus,IEEE
+19,TRUE,TRUE,TRUE,sentinel-3,sea ice roughness,sat-ice,0,0,2015,Scopus,IEEE
+20,TRUE,TRUE,TRUE,sentinel-3,sea ice thickness,sat-ice,3,0,2015,Scopus,IEEE
+21,TRUE,TRUE,TRUE,remote sensing,generative adversarial networks,sat-gan,763,557,2015,Scopus,IEEE
+22,TRUE,TRUE,TRUE,remote sensing,sea ice,sat-ice,1372,711,2015,Scopus,IEEE
+23,TRUE,TRUE,TRUE,remote sensing,arctic,sat-ice,1951,595,2015,Scopus,IEEE
+24,TRUE,TRUE,TRUE,remote sensing,sea ice roughness,sat-ice,7,3,2015,Scopus,IEEE
+25,TRUE,TRUE,TRUE,remote sensing,sea ice thickness,sat-ice,120,51,2015,Scopus,IEEE
+26,TRUE,TRUE,TRUE,generative adversarial networks,sea ice,gan-ice,7,1,2015,Scopus,IEEE
+27,TRUE,TRUE,TRUE,generative adversarial networks,arctic,gan-ice,11,6,2015,Scopus,IEEE
+28,TRUE,TRUE,TRUE,generative adversarial networks,sea ice roughness,gan-ice,0,0,2015,Scopus,IEEE
+29,TRUE,TRUE,TRUE,generative adversarial networks,sea ice thickness,gan-ice,0,0,2015,Scopus,IEEE
+30,TRUE,,TRUE,image fusion,remote sensing,fus-sat,1985,,2015,Scopus,IEEE
+31,TRUE,TRUE,TRUE,image fusion,satellite image,fus-sat,424,74,2015,Scopus,IEEE
+32,TRUE,TRUE,TRUE,image fusion,sentinel-2,fus-sat,150,73,2015,Scopus,IEEE
+33,TRUE,TRUE,TRUE,image fusion,sentinel-3,fus-sat,14,9,2015,Scopus,IEEE
+34,TRUE,TRUE,TRUE,image fusion,synthetic aperture radar,fus-sat,441,336,2015,Scopus,IEEE
+35,TRUE,TRUE,TRUE,image fusion,generative adversarial networks,fus-gan,308,195,2015,Scopus,IEEE
+36,TRUE,TRUE,TRUE,image fusion,sea ice,fus-ice,10,2,2015,Scopus,IEEE
+37,TRUE,TRUE,TRUE,image fusion,arctic,fus-ice,4,7,2015,Scopus,IEEE
+38,TRUE,TRUE,TRUE,image fusion,sea ice roughness,fus-ice,0,0,2015,Scopus,IEEE
+39,TRUE,TRUE,TRUE,image fusion,sea ice thickness,fus-ice,0,0,2015,Scopus,IEEE
+40,TRUE,TRUE,TRUE,multi-spectral,remote sensing,mul-sat,2959,486,2015,Scopus,IEEE
+41,TRUE,TRUE,TRUE,multi-spectral,satellite image,mul-sat,560,38,2015,Scopus,IEEE
+42,TRUE,TRUE,TRUE,multi-spectral,sentinel-2,mul-sat,681,74,2015,Scopus,IEEE
+43,TRUE,TRUE,TRUE,multi-spectral,sentinel-3,mul-sat,29,7,2015,Scopus,IEEE
+44,TRUE,TRUE,TRUE,multi-spectral,synthetic aperture radar,mul-sat,256,53,2015,Scopus,IEEE
+45,TRUE,TRUE,TRUE,multi-spectral,generative adversarial networks,mul-gan,64,15,2015,Scopus,IEEE
+46,TRUE,TRUE,TRUE,multi-spectral,sea ice,mul-ice,27,2,2015,Scopus,IEEE
+47,TRUE,TRUE,TRUE,multi-spectral,arctic,mul-ice,43,6,2015,Scopus,IEEE
+48,TRUE,TRUE,TRUE,multi-spectral,sea ice roughness,mul-ice,0,0,2015,Scopus,IEEE
+49,TRUE,TRUE,TRUE,multi-spectral,sea ice thickness,mul-ice,0,0,2015,Scopus,IEEE
+50,TRUE,TRUE,TRUE,multi-temporal,remote sensing,mul-sat,3564,761,2015,Scopus,IEEE
+51,TRUE,TRUE,TRUE,multi-temporal,satellite image,mul-sat,943,45,2015,Scopus,IEEE
+52,TRUE,TRUE,TRUE,multi-temporal,sentinel-2,mul-sat,638,70,2015,Scopus,IEEE
+53,TRUE,TRUE,TRUE,multi-temporal,sentinel-3,mul-sat,7,0,2015,Scopus,IEEE
+54,TRUE,TRUE,TRUE,multi-temporal,synthetic aperture radar,mul-sat,1389,333,2015,Scopus,IEEE
+55,TRUE,TRUE,TRUE,multi-temporal,generative adversarial networks,mul-gan,23,4,2015,Scopus,IEEE
+56,TRUE,TRUE,TRUE,multi-temporal,sea ice,mul-ice,11,1,2015,Scopus,IEEE
+57,TRUE,TRUE,TRUE,multi-temporal,arctic,mul-ice,50,5,2015,Scopus,IEEE
+58,TRUE,TRUE,TRUE,multi-temporal,sea ice roughness,mul-ice,0,0,2015,Scopus,IEEE
+59,TRUE,TRUE,TRUE,multi-temporal,sea ice thickness,mul-ice,0,0,2015,Scopus,IEEE
+60,TRUE,TRUE,TRUE,multi-angle,remote sensing,mul-sat,433,88,2015,Scopus,IEEE
+61,TRUE,TRUE,TRUE,multi-angle,satellite image,mul-sat,14,0,2015,Scopus,IEEE
+62,TRUE,TRUE,TRUE,multi-angle,sentinel-2,mul-sat,4,0,2015,Scopus,IEEE
+63,TRUE,TRUE,TRUE,multi-angle,sentinel-3,mul-sat,2,0,2015,Scopus,IEEE
+64,TRUE,TRUE,TRUE,multi-angle,synthetic aperture radar,mul-sat,71,34,2015,Scopus,IEEE
+65,TRUE,TRUE,TRUE,multi-angle,generative adversarial networks,mul-gan,15,1,2015,Scopus,IEEE
+66,TRUE,TRUE,TRUE,multi-angle,sea ice,mul-ice,10,1,2015,Scopus,IEEE
+67,TRUE,TRUE,TRUE,multi-angle,arctic,mul-ice,19,0,2015,Scopus,IEEE
+68,TRUE,TRUE,TRUE,multi-angle,sea ice roughness,mul-ice,5,0,2015,Scopus,IEEE
+69,TRUE,TRUE,TRUE,multi-angle,sea ice thickness,mul-ice,1,0,2015,Scopus,IEEE
+30a,,TRUE,,image fusion,remote sensing,syn-sat,,1048,2015,Scopus,IEEE
+30b,,TRUE,,image fusion,remote sensing,syn-sat,,1014,2015,Scopus,IEEE
+70,TRUE,TRUE,,image synthesis,remote sensing,syn-sat,50,64,2015,Scopus,IEEE
+71,TRUE,TRUE,,image synthesis,satellite image,syn-sat,16,8,2015,Scopus,IEEE
+72,TRUE,TRUE,,image synthesis,sentinel-2,syn-sat,4,1,2015,Scopus,IEEE
+73,TRUE,TRUE,,image synthesis,sentinel-3,syn-sat,0,0,2015,Scopus,IEEE
+74,TRUE,TRUE,,image synthesis,synthetic aperture radar,syn-sat,33,30,2015,Scopus,IEEE
+75,TRUE,TRUE,,image synthesis,generative adversarial networks,syn-gan,1061,642,2015,Scopus,IEEE
+76,TRUE,TRUE,,image synthesis,sea ice,syn-ice,1,1,2015,Scopus,IEEE
+77,TRUE,TRUE,,image synthesis,arctic,syn-ice,1,0,2014,Scopus,IEEE
+78,TRUE,TRUE,,image synthesis,sea ice roughness,syn-ice,0,0,2015,Scopus,IEEE
+79,TRUE,TRUE,,image synthesis,sea ice thickness,syn-ice,0,0,2015,Scopus,IEEE

@@ -1,0 +1,8 @@
+AID,Year,Title,Abstract,Authors,Link,DOI
+http://arxiv.org/abs/2109.00047v1,2021,Super Resolution of Arctic Sea Ice Concentration,"  Arctic sea ice concentration is often coarsely observed and numerically
+computed despite its importance for polar climate system. In this work we
+present three machine-learning methods to recover the original high-resolution
+images from the coarse-grained low-resolution counterparts. The promising
+results indicate a possibility of extending the application to a broad range of
+geophysical variables.
+",Jun Zhai; Cecilia M. Bitz,http://arxiv.org/abs/2109.00047v1,10.48550/arXiv.2109.00047

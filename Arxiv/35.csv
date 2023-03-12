@@ -1,0 +1,206 @@
+AID,Year,Title,Abstract,Authors,Link,DOI
+http://arxiv.org/abs/2201.10147v2,2022,"TGFuse: An Infrared and Visible Image Fusion Approach Based on
+  Transformer and Generative Adversarial Network","  The end-to-end image fusion framework has achieved promising performance,
+with dedicated convolutional networks aggregating the multi-modal local
+appearance. However, long-range dependencies are directly neglected in existing
+CNN fusion approaches, impeding balancing the entire image-level perception for
+complex scenario fusion. In this paper, therefore, we propose an infrared and
+visible image fusion algorithm based on a lightweight transformer module and
+adversarial learning. Inspired by the global interaction power, we use the
+transformer technique to learn the effective global fusion relations. In
+particular, shallow features extracted by CNN are interacted in the proposed
+transformer fusion module to refine the fusion relationship within the spatial
+scope and across channels simultaneously. Besides, adversarial learning is
+designed in the training process to improve the output discrimination via
+imposing competitive consistency from the inputs, reflecting the specific
+characteristics in infrared and visible images. The experimental performance
+demonstrates the effectiveness of the proposed modules, with superior
+improvement against the state-of-the-art, generalising a novel paradigm via
+transformer and adversarial learning in the fusion task.
+",Dongyu Rao; Xiao-Jun Wu; Tianyang Xu,http://arxiv.org/abs/2201.10147v2,10.48550/arXiv.2201.10147
+http://arxiv.org/abs/2008.05865v4,2020,DF-GAN: A Simple and Effective Baseline for Text-to-Image Synthesis,"  Synthesizing high-quality realistic images from text descriptions is a
+challenging task. Existing text-to-image Generative Adversarial Networks
+generally employ a stacked architecture as the backbone yet still remain three
+flaws. First, the stacked architecture introduces the entanglements between
+generators of different image scales. Second, existing studies prefer to apply
+and fix extra networks in adversarial learning for text-image semantic
+consistency, which limits the supervision capability of these networks. Third,
+the cross-modal attention-based text-image fusion that widely adopted by
+previous works is limited on several special image scales because of the
+computational cost. To these ends, we propose a simpler but more effective Deep
+Fusion Generative Adversarial Networks (DF-GAN). To be specific, we propose:
+(i) a novel one-stage text-to-image backbone that directly synthesizes
+high-resolution images without entanglements between different generators, (ii)
+a novel Target-Aware Discriminator composed of Matching-Aware Gradient Penalty
+and One-Way Output, which enhances the text-image semantic consistency without
+introducing extra networks, (iii) a novel deep text-image fusion block, which
+deepens the fusion process to make a full fusion between text and visual
+features. Compared with current state-of-the-art methods, our proposed DF-GAN
+is simpler but more efficient to synthesize realistic and text-matching images
+and achieves better performance on widely used datasets.
+",Ming Tao; Hao Tang; Fei Wu; Xiao-Yuan Jing; Bing-Kun Bao; Changsheng Xu,http://arxiv.org/abs/2008.05865v4,10.48550/arXiv.2008.05865
+http://arxiv.org/abs/2009.09465v1,2020,Remote sensing image fusion based on Bayesian GAN,"  Remote sensing image fusion technology (pan-sharpening) is an important means
+to improve the information capacity of remote sensing images. Inspired by the
+efficient arameter space posteriori sampling of Bayesian neural networks, in
+this paper we propose a Bayesian Generative Adversarial Network based on
+Preconditioned Stochastic Gradient Langevin Dynamics (PGSLD-BGAN) to improve
+pan-sharpening tasks. Unlike many traditional generative models that consider
+only one optimal solution (might be locally optimal), the proposed PGSLD-BGAN
+performs Bayesian inference on the network parameters, and explore the
+generator posteriori distribution, which assists selecting the appropriate
+generator parameters. First, we build a two-stream generator network with PAN
+and MS images as input, which consists of three parts: feature extraction,
+feature fusion and image reconstruction. Then, we leverage Markov discriminator
+to enhance the ability of generator to reconstruct the fusion image, so that
+the result image can retain more details. Finally, introducing Preconditioned
+Stochastic Gradient Langevin Dynamics policy, we perform Bayesian inference on
+the generator network. Experiments on QuickBird and WorldView datasets show
+that the model proposed in this paper can effectively fuse PAN and MS images,
+and be competitive with even superior to state of the arts in terms of
+subjective and objective metrics.
+",Junfu Chen; Yue Pan; Yang Chen,http://arxiv.org/abs/2009.09465v1,10.48550/arXiv.2009.09465
+http://arxiv.org/abs/2101.09643v1,2021,A Dual-branch Network for Infrared and Visible Image Fusion,"  Deep learning is a rapidly developing approach in the field of infrared and
+visible image fusion. In this context, the use of dense blocks in deep networks
+significantly improves the utilization of shallow information, and the
+combination of the Generative Adversarial Network (GAN) also improves the
+fusion performance of two source images. We propose a new method based on dense
+blocks and GANs , and we directly insert the input image-visible light image in
+each layer of the entire network. We use SSIM and gradient loss functions that
+are more consistent with perception instead of mean square error loss. After
+the adversarial training between the generator and the discriminator, we show
+that a trained end-to-end fusion network -- the generator network -- is finally
+obtained. Our experiments show that the fused images obtained by our approach
+achieve good score based on multiple evaluation indicators. Further, our fused
+images have better visual effects in multiple sets of contrasts, which are more
+satisfying to human visual perception.
+",Yu Fu; Xiao-Jun Wu,http://arxiv.org/abs/2101.09643v1,10.48550/arXiv.2101.09643
+http://arxiv.org/abs/2210.11018v2,2022,"An Attention-Guided and Wavelet-Constrained Generative Adversarial
+  Network for Infrared and Visible Image Fusion","  The GAN-based infrared and visible image fusion methods have gained
+ever-increasing attention due to its effectiveness and superiority. However,
+the existing methods adopt the global pixel distribution of source images as
+the basis for discrimination, which fails to focus on the key modality
+information. Moreover, the dual-discriminator based methods suffer from the
+confrontation between the discriminators. To this end, we propose an
+attention-guided and wavelet-constrained GAN for infrared and visible image
+fusion (AWFGAN). In this method, two unique discrimination strategies are
+designed to improve the fusion performance. Specifically, we introduce the
+spatial attention modules (SAM) into the generator to obtain the spatial
+attention maps, and then the attention maps are utilized to force the
+discrimination of infrared images to focus on the target regions. In addition,
+we extend the discrimination range of visible information to the wavelet
+subspace, which can force the generator to restore the high-frequency details
+of visible images. Ablation experiments demonstrate the effectiveness of our
+method in eliminating the confrontation between discriminators. And the
+comparison experiments on public datasets demonstrate the effectiveness and
+superiority of the proposed method.
+",Xiaowen Liu; Renhua Wang; Hongtao Huo; Xin Yang; Jing Li,http://arxiv.org/abs/2210.11018v2,10.1016/j.infrared.2023.104570
+http://arxiv.org/abs/2009.09718v4,2020,"MFIF-GAN: A New Generative Adversarial Network for Multi-Focus Image
+  Fusion","  Multi-Focus Image Fusion (MFIF) is a promising image enhancement technique to
+obtain all-in-focus images meeting visual needs and it is a precondition of
+other computer vision tasks. One of the research trends of MFIF is to avoid the
+defocus spread effect (DSE) around the focus/defocus boundary (FDB). In this
+paper,we propose a network termed MFIF-GAN to attenuate the DSE by generating
+focus maps in which the foreground region are correctly larger than the
+corresponding objects. The Squeeze and Excitation Residual module is employed
+in the network. By combining the prior knowledge of training condition, this
+network is trained on a synthetic dataset based on an {\alpha}-matte model. In
+addition, the reconstruction and gradient regularization terms are combined in
+the loss functions to enhance the boundary details and improve the quality of
+fused images. Extensive experiments demonstrate that the MFIF-GAN outperforms
+several state-of-the-art (SOTA) methods in visual perception, quantitative
+analysis as well as efficiency. Moreover, the edge diffusion and contraction
+module is firstly proposed to verify that focus maps generated by our method
+are accurate at the pixel level.
+",Yicheng Wang; Shuang Xu; Junmin Liu; Zixiang Zhao; Chunxia Zhang; Jiangshe Zhang,http://arxiv.org/abs/2009.09718v4,10.48550/arXiv.2009.09718
+http://arxiv.org/abs/2302.08706v2,2023,"Fine-grained Cross-modal Fusion based Refinement for Text-to-Image
+  Synthesis","  Text-to-image synthesis refers to generating visual-realistic and
+semantically consistent images from given textual descriptions. Previous
+approaches generate an initial low-resolution image and then refine it to be
+high-resolution. Despite the remarkable progress, these methods are limited in
+fully utilizing the given texts and could generate text-mismatched images,
+especially when the text description is complex. We propose a novel
+Fine-grained text-image Fusion based Generative Adversarial Networks, dubbed
+FF-GAN, which consists of two modules: Fine-grained text-image Fusion Block
+(FF-Block) and Global Semantic Refinement (GSR). The proposed FF-Block
+integrates an attention block and several convolution layers to effectively
+fuse the fine-grained word-context features into the corresponding visual
+features, in which the text information is fully used to refine the initial
+image with more details. And the GSR is proposed to improve the global semantic
+consistency between linguistic and visual features during the refinement
+process. Extensive experiments on CUB-200 and COCO datasets demonstrate the
+superiority of FF-GAN over other state-of-the-art approaches in generating
+images with semantic consistency to the given texts.Code is available at
+https://github.com/haoranhfut/FF-GAN.
+",Haoran Sun; Yang Wang; Haipeng Liu; Biao Qian,http://arxiv.org/abs/2302.08706v2,10.48550/arXiv.2302.08706
+http://arxiv.org/abs/2001.00692v1,2020,"FFusionCGAN: An end-to-end fusion method for few-focus images using
+  conditional GAN in cytopathological digital slides","  Multi-focus image fusion technologies compress different focus depth images
+into an image in which most objects are in focus. However, although existing
+image fusion techniques, including traditional algorithms and deep
+learning-based algorithms, can generate high-quality fused images, they need
+multiple images with different focus depths in the same field of view. This
+criterion may not be met in some cases where time efficiency is required or the
+hardware is insufficient. The problem is especially prominent in large-size
+whole slide images. This paper focused on the multi-focus image fusion of
+cytopathological digital slide images, and proposed a novel method for
+generating fused images from single-focus or few-focus images based on
+conditional generative adversarial network (GAN). Through the adversarial
+learning of the generator and discriminator, the method is capable of
+generating fused images with clear textures and large depth of field. Combined
+with the characteristics of cytopathological images, this paper designs a new
+generator architecture combining U-Net and DenseBlock, which can effectively
+improve the network's receptive field and comprehensively encode image
+features. Meanwhile, this paper develops a semantic segmentation network that
+identifies the blurred regions in cytopathological images. By integrating the
+network into the generative model, the quality of the generated fused images is
+effectively improved. Our method can generate fused images from only
+single-focus or few-focus images, thereby avoiding the problem of collecting
+multiple images of different focus depths with increased time and hardware
+costs. Furthermore, our model is designed to learn the direct mapping of input
+source images to fused images without the need to manually design complex
+activity level measurements and fusion rules as in traditional methods.
+",Xiebo Geng; Sibo Liua; Wei Han; Xu Li; Jiabo Ma; Jingya Yu; Xiuli Liu; Sahoqun Zeng; Li Chen; Shenghua Cheng,http://arxiv.org/abs/2001.00692v1,10.48550/arXiv.2001.00692
+http://arxiv.org/abs/2104.00567v6,2021,Text to Image Generation with Semantic-Spatial Aware GAN,"  Text-to-image synthesis (T2I) aims to generate photo-realistic images which
+are semantically consistent with the text descriptions. Existing methods are
+usually built upon conditional generative adversarial networks (GANs) and
+initialize an image from noise with sentence embedding, and then refine the
+features with fine-grained word embedding iteratively. A close inspection of
+their generated images reveals a major limitation: even though the generated
+image holistically matches the description, individual image regions or parts
+of somethings are often not recognizable or consistent with words in the
+sentence, e.g. ""a white crown"". To address this problem, we propose a novel
+framework Semantic-Spatial Aware GAN for synthesizing images from input text.
+Concretely, we introduce a simple and effective Semantic-Spatial Aware block,
+which (1) learns semantic-adaptive transformation conditioned on text to
+effectively fuse text features and image features, and (2) learns a semantic
+mask in a weakly-supervised way that depends on the current text-image fusion
+process in order to guide the transformation spatially. Experiments on the
+challenging COCO and CUB bird datasets demonstrate the advantage of our method
+over the recent state-of-the-art approaches, regarding both visual fidelity and
+alignment with input text description.
+",Kai Hu; Wentong Liao; Michael Ying Yang; Bodo Rosenhahn,http://arxiv.org/abs/2104.00567v6,10.48550/arXiv.2104.00567
+http://arxiv.org/abs/2007.14177v1,2020,"Generative networks as inverse problems with fractional wavelet
+  scattering networks","  Deep learning is a hot research topic in the field of machine learning
+methods and applications. Generative Adversarial Networks (GANs) and
+Variational Auto-Encoders (VAEs) provide impressive image generations from
+Gaussian white noise, but both of them are difficult to train since they need
+to train the generator (or encoder) and the discriminator (or decoder)
+simultaneously, which is easy to cause unstable training. In order to solve or
+alleviate the synchronous training difficult problems of GANs and VAEs,
+recently, researchers propose Generative Scattering Networks (GSNs), which use
+wavelet scattering networks (ScatNets) as the encoder to obtain the features
+(or ScatNet embeddings) and convolutional neural networks (CNNs) as the decoder
+to generate the image. The advantage of GSNs is the parameters of ScatNets are
+not needed to learn, and the disadvantage of GSNs is that the expression
+ability of ScatNets is slightly weaker than CNNs and the dimensional reduction
+method of Principal Component Analysis (PCA) is easy to lead overfitting in the
+training of GSNs, and therefore affect the generated quality in the testing
+process. In order to further improve the quality of generated images while keep
+the advantages of GSNs, this paper proposes Generative Fractional Scattering
+Networks (GFRSNs), which use more expressive fractional wavelet scattering
+networks (FrScatNets) instead of ScatNets as the encoder to obtain the features
+(or FrScatNet embeddings) and use the similar CNNs of GSNs as the decoder to
+generate the image. Additionally, this paper develops a new dimensional
+reduction method named Feature-Map Fusion (FMF) instead of PCA for better
+keeping the information of FrScatNets and the effect of image fusion on the
+quality of image generation is also discussed.
+",Jiasong Wu; Jing Zhang; Fuzhi Wu; Youyong Kong; Guanyu Yang; Lotfi Senhadji; Huazhong Shu,http://arxiv.org/abs/2007.14177v1,10.48550/arXiv.2007.14177

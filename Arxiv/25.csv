@@ -1,0 +1,19 @@
+AID,Year,Title,Abstract,Authors,DOI,Link
+http://arxiv.org/abs/1904.12590v1,2019,Assimilation of semi-qualitative sea ice thickness data with the EnKF-SQ,"  A newly introduced stochastic data assimilation method, the Ensemble Kalman
+Filter Semi-Qualitative (EnKF-SQ) is applied to a realistic coupled ice-ocean
+model of the Arctic, the TOPAZ4 configuration, in a twin experiment framework.
+The method is shown to add value to range-limited thin ice thickness
+measurements, as obtained from passive microwave remote sensing, with respect
+to more trivial solutions like neglecting the out-of-range values or
+assimilating climatology instead. Some known properties inherent to the EnKF-SQ
+are evaluated: the tendency to draw the solution closer to the thickness
+threshold, the skewness of the resulting analysis ensemble and the potential
+appearance of outliers. The experiments show that none of these properties
+prove deleterious in light of the other sub-optimal characters of the sea ice
+data assimilation system used here (non-linearities, non-Gaussian variables,
+lack of strong coupling). The EnKF-SQ has a single tuning parameter that is
+adjusted for best performance of the system at hand. The sensitivity tests
+reveal that the results do not depend critically on the choice of this tuning
+parameter. The EnKF-SQ makes overall a valid approach for assimilating
+semi-qualitative observations into high-dimensional nonlinear systems.
+",Abhishek Shah; Laurent Bertino; Francois Counillon; Mohamad El Gharamti; Jiping Xie,10.1080/16000870.2019.1697166,http://arxiv.org/abs/1904.12590v1

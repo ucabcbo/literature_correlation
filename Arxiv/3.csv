@@ -1,0 +1,191 @@
+AID,Year,Title,Abstract,Authors,Link,DOI
+http://arxiv.org/abs/2111.03231v1,2021,"Multi-Spectral Multi-Image Super-Resolution of Sentinel-2 with
+  Radiometric Consistency Losses and Its Effect on Building Delineation","  High resolution remote sensing imagery is used in broad range of tasks,
+including detection and classification of objects. High-resolution imagery is
+however expensive, while lower resolution imagery is often freely available and
+can be used by the public for range of social good applications. To that end,
+we curate a multi-spectral multi-image super-resolution dataset, using
+PlanetScope imagery from the SpaceNet 7 challenge as the high resolution
+reference and multiple Sentinel-2 revisits of the same imagery as the
+low-resolution imagery. We present the first results of applying multi-image
+super-resolution (MISR) to multi-spectral remote sensing imagery. We,
+additionally, introduce a radiometric consistency module into MISR model the to
+preserve the high radiometric resolution of the Sentinel-2 sensor. We show that
+MISR is superior to single-image super-resolution and other baselines on a
+range of image fidelity metrics. Furthermore, we conduct the first assessment
+of the utility of multi-image super-resolution on building delineation, showing
+that utilising multiple images results in better performance in these
+downstream tasks.
+",Muhammed Razzak; Gonzalo Mateo-Garcia; Luis Gómez-Chova; Yarin Gal; Freddie Kalaitzis,http://arxiv.org/abs/2111.03231v1,10.48550/arXiv.2111.03231
+http://arxiv.org/abs/2302.11494v1,2023,On The Role of Alias and Band-Shift for Sentinel-2 Super-Resolution,"  In this work, we study the problem of single-image super-resolution (SISR) of
+Sentinel-2 imagery. We show that thanks to its unique sensor specification,
+namely the inter-band shift and alias, that deep-learning methods are able to
+recover fine details. By training a model using a simple $L_1$ loss, results
+are free of hallucinated details. For this study, we build a dataset of pairs
+of images Sentinel-2/PlanetScope to train and evaluate our super-resolution
+(SR) model.
+",Ngoc Long Nguyen; Jérémy Anger; Lara Raad; Bruno Galerne; Gabriele Facciolo,http://arxiv.org/abs/2302.11494v1,10.48550/arXiv.2302.11494
+http://arxiv.org/abs/1902.02513v1,2019,Advances on CNN-based super-resolution of Sentinel-2 images,"  Thanks to their temporal-spatial coverage and free access, Sentinel-2 images
+are very interesting for the community. However, a relatively coarse spatial
+resolution, compared to that of state-of-the-art commercial products, motivates
+the study of super-resolution techniques to mitigate such a limitation.
+Specifically, thirtheen bands are sensed simultaneously but at different
+spatial resolutions: 10, 20, and 60 meters depending on the spectral location.
+Here, building upon our previous convolutional neural network (CNN) based
+method, we propose an improved CNN solution to super-resolve the 20-m
+resolution bands benefiting spatial details conveyed by the accompanying 10-m
+spectral bands.
+",Massimiliano Gargiulo,http://arxiv.org/abs/1902.02513v1,10.48550/arXiv.1902.02513
+http://arxiv.org/abs/2210.02745v2,2022,MuS2: A Real-World Benchmark for Sentinel-2 Multi-Image Super-Resolution,"  Insufficient image spatial resolution is a serious limitation in many
+practical scenarios, especially when acquiring images at a finer scale is
+infeasible or brings higher costs. This is inherent to remote sensing,
+including Sentinel-2 satellite images that are available free of charge at a
+high revisit frequency, but whose spatial resolution is limited to 10 m ground
+sampling distance. The resolution can be increased with super-resolution
+algorithms, in particular when performed from multiple images captured at
+subsequent revisits of a satellite, taking advantage of information fusion that
+leads to enhanced reconstruction accuracy. One of the obstacles in multi-image
+super-resolution consists in the scarcity of real-world benchmarks - commonly,
+simulated data are exploited which do not fully reflect the operating
+conditions. In this paper, we introduce a new MuS2 benchmark for
+super-resolving multiple Sentinel-2 images, with WorldView-2 imagery used as
+the high-resolution reference. Within MuS2, we publish the first end-to-end
+evaluation procedure for this problem which we expect to help the researchers
+in advancing the state of the art in multi-image super-resolution.
+",Pawel Kowaleczko; Tomasz Tarasiewicz; Maciej Ziaja; Daniel Kostrzewa; Jakub Nalepa; Przemyslaw Rokita; Michal Kawulok,http://arxiv.org/abs/2210.02745v2,10.48550/arXiv.2210.02745
+http://arxiv.org/abs/2301.11154v1,2023,"Multitemporal and multispectral data fusion for super-resolution of
+  Sentinel-2 images","  Multispectral Sentinel-2 images are a valuable source of Earth observation
+data, however spatial resolution of their spectral bands limited to 10 m, 20 m,
+and 60 m ground sampling distance remains insufficient in many cases. This
+problem can be addressed with super-resolution, aimed at reconstructing a
+high-resolution image from a low-resolution observation. For Sentinel-2,
+spectral information fusion allows for enhancing the 20 m and 60 m bands to the
+10 m resolution. Also, there were attempts to combine multitemporal stacks of
+individual Sentinel-2 bands, however these two approaches have not been
+combined so far. In this paper, we introduce DeepSent -- a new deep network for
+super-resolving multitemporal series of multispectral Sentinel-2 images. It is
+underpinned with information fusion performed simultaneously in the spectral
+and temporal dimensions to generate an enlarged multispectral image. In our
+extensive experimental study, we demonstrate that our solution outperforms
+other state-of-the-art techniques that realize either multitemporal or
+multispectral data fusion. Furthermore, we show that the advantage of DeepSent
+results from how these two fusion types are combined in a single architecture,
+which is superior to performing such fusion in a sequential manner.
+Importantly, we have applied our method to super-resolve real-world Sentinel-2
+images, enhancing the spatial resolution of all the spectral bands to 3.3 m
+nominal ground sampling distance, and we compare the outcome with very
+high-resolution WorldView-2 images. We will publish our implementation upon
+paper acceptance, and we expect it will increase the possibilities of
+exploiting super-resolved Sentinel-2 images in real-life applications.
+",Tomasz Tarasiewicz; Jakub Nalepa; Reuben A. Farrugia; Gianluca Valentino; Mang Chen; Johann A. Briffa; Michal Kawulok,http://arxiv.org/abs/2301.11154v1,10.48550/arXiv.2301.11154
+http://arxiv.org/abs/1906.10413v1,2019,"A CNN-Based Super-Resolution Technique for Active Fire Detection on
+  Sentinel-2 Data","  Remote Sensing applications can benefit from a relatively fine spatial
+resolution multispectral (MS) images and a high revisit frequency ensured by
+the twin satellites Sentinel-2. Unfortunately, only four out of thirteen bands
+are provided at the highest resolution of 10 meters, and the others at 20 or 60
+meters. For instance the Short-Wave Infrared (SWIR) bands, provided at 20
+meters, are very useful to detect active fires. Aiming to a more detailed
+Active Fire Detection (AFD) maps, we propose a super-resolution data fusion
+method based on Convolutional Neural Network (CNN) to move towards the 10-m
+spatial resolution the SWIR bands. The proposed CNN-based solution achieves
+better results than alternative methods in terms of some accuracy metrics.
+Moreover we test the super-resolved bands from an application point of view by
+monitoring active fire through classic indices. Advantages and limits of our
+proposed approach are validated on specific geographical area (the mount
+Vesuvius, close to Naples) that was damaged by widespread fires during the
+summer of 2017.
+",Massimiliano Gargiulo; Domenico Antonio Giuseppe Dell'Aglio; Antonio Iodice; Daniele Riccio; Giuseppe Ruello,http://arxiv.org/abs/1906.10413v1,10.48550/arXiv.1906.10413
+http://arxiv.org/abs/2007.15417v1,2020,"Very Deep Super-Resolution of Remotely Sensed Images with Mean Square
+  Error and Var-norm Estimators as Loss Functions","  In this work, very deep super-resolution (VDSR) method is presented for
+improving the spatial resolution of remotely sensed (RS) images for scale
+factor 4. The VDSR net is re-trained with Sentinel-2 images and with drone aero
+orthophoto images, thus becomes RS-VDSR and Aero-VDSR, respectively. A novel
+loss function, the Var-norm estimator, is proposed in the regression layer of
+the convolutional neural network during re-training and prediction. According
+to numerical and optical comparisons, the proposed nets RS-VDSR and Aero-VDSR
+can outperform VDSR during prediction with RS images. RS-VDSR outperforms VDSR
+up to 3.16 dB in terms of PSNR in Sentinel-2 images.
+",Antigoni Panagiotopoulou; Lazaros Grammatikopoulos; Eleni Charou; Emmanuel Bratsolis; Nicholas Madamopoulos; John Petrogonas,http://arxiv.org/abs/2007.15417v1,10.48550/arXiv.2007.15417
+http://arxiv.org/abs/1912.06013v2,2019,"An Approach to Super-Resolution of Sentinel-2 Images Based on Generative
+  Adversarial Networks","  This paper presents a generative adversarial network based super-resolution
+(SR) approach (which is called as S2GAN) to enhance the spatial resolution of
+Sentinel-2 spectral bands. The proposed approach consists of two main steps.
+The first step aims to increase the spatial resolution of the bands with 20m
+and 60m spatial resolutions by the scaling factors of 2 and 6, respectively. To
+this end, we introduce a generator network that performs SR on the lower
+resolution bands with the guidance of the bands associated to 10m spatial
+resolution by utilizing the convolutional layers with residual connections and
+a long skip-connection between inputs and outputs. The second step aims to
+distinguish SR bands from their ground truth bands. This is achieved by the
+proposed discriminator network, which alternately characterizes the high level
+features of the two sets of bands and applying binary classification on the
+extracted features. Then, we formulate the adversarial learning of the
+generator and discriminator networks as a min-max game. In this learning
+procedure, the generator aims to produce realistic SR bands as much as possible
+so that the discriminator incorrectly classifies SR bands. Experimental results
+obtained on different Sentinel-2 images show the effectiveness of the proposed
+approach compared to both conventional and deep learning based SR approaches.
+",Kexin Zhang; Gencer Sumbul; Begüm Demir,http://arxiv.org/abs/1912.06013v2,10.1109/M2GARSS47143.2020.9105165
+http://arxiv.org/abs/1803.04271v2,2018,"Super-resolution of Sentinel-2 images: Learning a globally applicable
+  deep neural network","  The Sentinel-2 satellite mission delivers multi-spectral imagery with 13
+spectral bands, acquired at three different spatial resolutions. The aim of
+this research is to super-resolve the lower-resolution (20 m and 60 m Ground
+Sampling Distance - GSD) bands to 10 m GSD, so as to obtain a complete data
+cube at the maximal sensor resolution. We employ a state-of-the-art
+convolutional neural network (CNN) to perform end-to-end upsampling, which is
+trained with data at lower resolution, i.e., from 40->20 m, respectively
+360->60 m GSD. In this way, one has access to a virtually infinite amount of
+training data, by downsampling real Sentinel-2 images. We use data sampled
+globally over a wide range of geographical locations, to obtain a network that
+generalises across different climate zones and land-cover types, and can
+super-resolve arbitrary Sentinel-2 images without the need of retraining. In
+quantitative evaluations (at lower scale, where ground truth is available), our
+network, which we call DSen2, outperforms the best competing approach by almost
+50% in RMSE, while better preserving the spectral characteristics. It also
+delivers visually convincing results at the full 10 m GSD. The code is
+available at https://github.com/lanha/DSen2
+",Charis Lanaras; José Bioucas-Dias; Silvano Galliani; Emmanuel Baltsavias; Konrad Schindler,http://arxiv.org/abs/1803.04271v2,10.1016/j.isprsjprs.2018.09.018
+http://arxiv.org/abs/2104.04310v2,2021,Context-self contrastive pretraining for crop type semantic segmentation,"  In this paper, we propose a fully supervised pre-training scheme based on
+contrastive learning particularly tailored to dense classification tasks. The
+proposed Context-Self Contrastive Loss (CSCL) learns an embedding space that
+makes semantic boundaries pop-up by use of a similarity metric between every
+location in a training sample and its local context. For crop type semantic
+segmentation from Satellite Image Time Series (SITS) we find performance at
+parcel boundaries to be a critical bottleneck and explain how CSCL tackles the
+underlying cause of that problem, improving the state-of-the-art performance in
+this task. Additionally, using images from the Sentinel-2 (S2) satellite
+missions we compile the largest, to our knowledge, SITS dataset densely
+annotated by crop type and parcel identities, which we make publicly available
+together with the data generation pipeline. Using that data we find CSCL, even
+with minimal pre-training, to improve all respective baselines and present a
+process for semantic segmentation at super-resolution for obtaining crop
+classes at a more granular level. The code and instructions to download the
+data can be found in https://github.com/michaeltrs/DeepSatModels.
+",Michail Tarasiou; Riza Alp Guler; Stefanos Zafeiriou,http://arxiv.org/abs/2104.04310v2,10.1109/TGRS.2022.3198187
+http://arxiv.org/abs/2207.06418v1,2022,"Open High-Resolution Satellite Imagery: The WorldStrat Dataset -- With
+  Application to Super-Resolution","  Analyzing the planet at scale with satellite imagery and machine learning is
+a dream that has been constantly hindered by the cost of difficult-to-access
+highly-representative high-resolution imagery. To remediate this, we introduce
+here the WorldStrat dataset. The largest and most varied such publicly
+available dataset, at Airbus SPOT 6/7 satellites' high resolution of up to 1.5
+m/pixel, empowered by European Space Agency's Phi-Lab as part of the ESA-funded
+QueryPlanet project, we curate nearly 10,000 sqkm of unique locations to ensure
+stratified representation of all types of land-use across the world: from
+agriculture to ice caps, from forests to multiple urbanization densities. We
+also enrich those with locations typically under-represented in ML datasets:
+sites of humanitarian interest, illegal mining sites, and settlements of
+persons at risk. We temporally-match each high-resolution image with multiple
+low-resolution images from the freely accessible lower-resolution Sentinel-2
+satellites at 10 m/pixel. We accompany this dataset with an open-source Python
+package to: rebuild or extend the WorldStrat dataset, train and infer baseline
+algorithms, and learn with abundant tutorials, all compatible with the popular
+EO-learn toolbox. We hereby hope to foster broad-spectrum applications of ML to
+satellite imagery, and possibly develop from free public low-resolution
+Sentinel2 imagery the same power of analysis allowed by costly private
+high-resolution imagery. We illustrate this specific point by training and
+releasing several highly compute-efficient baselines on the task of Multi-Frame
+Super-Resolution. High-resolution Airbus imagery is CC BY-NC, while the labels
+and Sentinel2 imagery are CC BY, and the source code and pre-trained models
+under BSD. The dataset is available at https://zenodo.org/record/6810792 and
+the software package at https://github.com/worldstrat/worldstrat .
+",Julien Cornebise; Ivan Oršolić; Freddie Kalaitzis,http://arxiv.org/abs/2207.06418v1,10.48550/arXiv.2207.06418

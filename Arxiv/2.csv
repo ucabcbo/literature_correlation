@@ -1,0 +1,504 @@
+AID,Year,Title,Abstract,Authors,Link,DOI
+http://arxiv.org/abs/2002.11248v1,2020,"Super-Resolving Commercial Satellite Imagery Using Realistic Training
+  Data","  In machine learning based single image super-resolution, the degradation
+model is embedded in training data generation. However, most existing satellite
+image super-resolution methods use a simple down-sampling model with a fixed
+kernel to create training images. These methods work fine on synthetic data,
+but do not perform well on real satellite images. We propose a realistic
+training data generation model for commercial satellite imagery products, which
+includes not only the imaging process on satellites but also the post-process
+on the ground. We also propose a convolutional neural network optimized for
+satellite images. Experiments show that the proposed training data generation
+model is able to improve super-resolution performance on real satellite images.
+",Xiang Zhu; Hossein Talebi; Xinwei Shi; Feng Yang; Peyman Milanfar,http://arxiv.org/abs/2002.11248v1,10.48550/arXiv.2002.11248
+http://arxiv.org/abs/2011.14380v1,2020,"Single Image Super-resolution with a Switch Guided Hybrid Network for
+  Satellite Images","  The major drawbacks with Satellite Images are low resolution, Low resolution
+makes it difficult to identify the objects present in Satellite images. We have
+experimented with several deep models available for Single Image
+Superresolution on the SpaceNet dataset and have evaluated the performance of
+each of them on the satellite image data. We will dive into the recent
+evolution of the deep models in the context of SISR over the past few years and
+will present a comparative study between these models. The entire Satellite
+image of an area is divided into equal-sized patches. Each patch will be used
+independently for training. These patches will differ in nature. Say, for
+example, the patches over urban areas have non-homogeneous backgrounds because
+of different types of objects like vehicles, buildings, roads, etc. On the
+other hand, patches over jungles will be more homogeneous in nature. Hence,
+different deep models will fit on different kinds of patches. In this study, we
+will try to explore this further with the help of a Switching Convolution
+Network. The idea is to train a switch classifier that will automatically
+classify a patch into one category of models best suited for it.
+",Shreya Roy; Anirban Chakraborty,http://arxiv.org/abs/2011.14380v1,10.48550/arXiv.2011.14380
+http://arxiv.org/abs/2008.00878v1,2020,"Fusion of Deep and Non-Deep Methods for Fast Super-Resolution of
+  Satellite Images","  In the emerging commercial space industry there is a drastic increase in
+access to low cost satellite imagery. The price for satellite images depends on
+the sensor quality and revisit rate. This work proposes to bridge the gap
+between image quality and the price by improving the image quality via
+super-resolution (SR). Recently, a number of deep SR techniques have been
+proposed to enhance satellite images. However, none of these methods utilize
+the region-level context information, giving equal importance to each region in
+the image. This, along with the fact that most state-of-the-art SR methods are
+complex and cumbersome deep models, the time taken to process very large
+satellite images can be impractically high. We, propose to handle this
+challenge by designing an SR framework that analyzes the regional information
+content on each patch of the low-resolution image and judiciously chooses to
+use more computationally complex deep models to super-resolve more
+structure-rich regions on the image, while using less resource-intensive
+non-deep methods on non-salient regions. Through extensive experiments on a
+large satellite image, we show substantial decrease in inference time while
+achieving similar performance to that of existing deep SR methods over several
+evaluation measures like PSNR, MSE and SSIM.
+",Gaurav Kumar Nayak; Saksham Jain; R Venkatesh Babu; Anirban Chakraborty,http://arxiv.org/abs/2008.00878v1,10.48550/arXiv.2008.00878
+http://arxiv.org/abs/1812.04098v3,2018,"The Effects of Super-Resolution on Object Detection Performance in
+  Satellite Imagery","  We explore the application of super-resolution techniques to satellite
+imagery, and the effects of these techniques on object detection algorithm
+performance. Specifically, we enhance satellite imagery beyond its native
+resolution, and test if we can identify various types of vehicles, planes, and
+boats with greater accuracy than native resolution. Using the Very Deep
+Super-Resolution (VDSR) framework and a custom Random Forest Super-Resolution
+(RFSR) framework we generate enhancement levels of 2x, 4x, and 8x over five
+distinct resolutions ranging from 30 cm to 4.8 meters. Using both native and
+super-resolved data, we then train several custom detection models using the
+SIMRDWN object detection framework. SIMRDWN combines a number of popular object
+detection algorithms (e.g. SSD, YOLO) into a unified framework that is designed
+to rapidly detect objects in large satellite images. This approach allows us to
+quantify the effects of super-resolution techniques on object detection
+performance across multiple classes and resolutions. We also quantify the
+performance of object detection as a function of native resolution and object
+pixel size. For our test set we note that performance degrades from mean
+average precision (mAP) = 0.53 at 30 cm resolution, down to mAP = 0.11 at 4.8 m
+resolution. Super-resolving native 30 cm imagery to 15 cm yields the greatest
+benefit; a 13-36% improvement in mAP. Super-resolution is less beneficial at
+coarser resolutions, though still provides a small improvement in performance.
+",Jacob Shermeyer; Adam Van Etten,http://arxiv.org/abs/1812.04098v3,10.48550/arXiv.1812.04098
+http://arxiv.org/abs/2002.00580v2,2020,"Super-resolution of multispectral satellite images using convolutional
+  neural networks","  Super-resolution aims at increasing image resolution by algorithmic means and
+has progressed over the recent years due to advances in the fields of computer
+vision and deep learning. Convolutional Neural Networks based on a variety of
+architectures have been applied to the problem, e.g. autoencoders and residual
+networks. While most research focuses on the processing of photographs
+consisting only of RGB color channels, little work can be found concentrating
+on multi-band, analytic satellite imagery. Satellite images often include a
+panchromatic band, which has higher spatial resolution but lower spectral
+resolution than the other bands. In the field of remote sensing, there is a
+long tradition of applying pan-sharpening to satellite images, i.e. bringing
+the multispectral bands to the higher spatial resolution by merging them with
+the panchromatic band. To our knowledge there are so far no approaches to
+super-resolution which take advantage of the panchromatic band. In this paper
+we propose a method to train state-of-the-art CNNs using pairs of
+lower-resolution multispectral and high-resolution pan-sharpened image tiles in
+order to create super-resolved analytic images. The derived quality metrics
+show that the method improves information content of the processed images. We
+compare the results created by four CNN architectures, with RedNet30 performing
+best.
+",M. U. Müller; N. Ekhtiari; R. M. Almeida; C. Rieke,http://arxiv.org/abs/2002.00580v2,10.5194/isprs-annals-V-1-2020-33-2020
+http://arxiv.org/abs/2004.03879v1,2020,Monte-Carlo Siamese Policy on Actor for Satellite Image Super Resolution,"  In the past few years supervised and adversarial learning have been widely
+adopted in various complex computer vision tasks. It seems natural to wonder
+whether another branch of artificial intelligence, commonly known as
+Reinforcement Learning (RL) can benefit such complex vision tasks. In this
+study, we explore the plausible usage of RL in super resolution of remote
+sensing imagery. Guided by recent advances in super resolution, we propose a
+theoretical framework that leverages the benefits of supervised and
+reinforcement learning. We argue that a straightforward implementation of RL is
+not adequate to address ill-posed super resolution as the action variables are
+not fully known. To tackle this issue, we propose to parameterize action
+variables by matrices, and train our policy network using Monte-Carlo sampling.
+We study the implications of parametric action space in a model-free
+environment from theoretical and empirical perspective. Furthermore, we analyze
+the quantitative and qualitative results on both remote sensing and non-remote
+sensing datasets. Based on our experiments, we report considerable improvement
+over state-of-the-art methods by encapsulating supervised models in a
+reinforcement learning framework.
+",Litu Rout; Saumyaa Shah; S Manthira Moorthi; Debajyoti Dhar,http://arxiv.org/abs/2004.03879v1,10.48550/arXiv.2004.03879
+http://arxiv.org/abs/1906.06697v1,2019,On training deep networks for satellite image super-resolution,"  The capabilities of super-resolution reconstruction (SRR)---techniques for
+enhancing image spatial resolution---have been recently improved significantly
+by the use of deep convolutional neural networks. Commonly, such networks are
+learned using huge training sets composed of original images alongside their
+low-resolution counterparts, obtained with bicubic downsampling. In this paper,
+we investigate how the SRR performance is influenced by the way such
+low-resolution training data are obtained, which has not been explored up to
+date. Our extensive experimental study indicates that the training data
+characteristics have a large impact on the reconstruction accuracy, and the
+widely-adopted approach is not the most effective for dealing with satellite
+images. Overall, we argue that developing better training data preparation
+routines may be pivotal in making SRR suitable for real-world applications.
+",Michal Kawulok; Szymon Piechaczek; Krzysztof Hrynczenko; Pawel Benecki; Daniel Kostrzewa; Jakub Nalepa,http://arxiv.org/abs/1906.06697v1,10.48550/arXiv.1906.06697
+http://arxiv.org/abs/2202.13124v3,2022,"Multi-image Super-resolution via Quality Map Associated Attention
+  Network","  Multi-image super-resolution, which aims to fuse and restore a
+high-resolution image from multiple images at the same location, is crucial for
+utilizing satellite images. The satellite images are often occluded by
+atmospheric disturbances such as clouds, and the position of the disturbances
+varies by the images. Many radiometric and geometric approaches are proposed to
+detect atmospheric disturbances. Still, the utilization of detection results,
+i.e., quality maps in deep learning was limited to pre-processing or
+computation of loss. In this paper, we present a quality map-associated
+attention network (QA-Net), an architecture that fully incorporates QMs into a
+deep learning scheme for the first time. Our proposed attention modules process
+QMs alongside the low-resolution images and utilize the QM features to
+distinguish the disturbances and attend to image features. As a result, QA-Net
+has achieved state-of-the-art results in the PROBA-V dataset.
+",Minji Lee,http://arxiv.org/abs/2202.13124v3,10.48550/arXiv.2202.13124
+http://arxiv.org/abs/1503.03630v1,2015,Single image super-resolution by approximated Heaviside functions,"  Image super-resolution is a process to enhance image resolution. It is widely
+used in medical imaging, satellite imaging, target recognition, etc. In this
+paper, we conduct continuous modeling and assume that the unknown image
+intensity function is defined on a continuous domain and belongs to a space
+with a redundant basis. We propose a new iterative model for single image
+super-resolution based on an observation: an image is consisted of smooth
+components and non-smooth components, and we use two classes of approximated
+Heaviside functions (AHFs) to represent them respectively. Due to sparsity of
+the non-smooth components, a $L_{1}$ model is employed. In addition, we apply
+the proposed iterative model to image patches to reduce computation and
+storage. Comparisons with some existing competitive methods show the
+effectiveness of the proposed method.
+",Liang-Jian Deng; Weihong Guo; Ting-Zhu Huang,http://arxiv.org/abs/1503.03630v1,10.48550/arXiv.1503.03630
+http://arxiv.org/abs/2207.02301v1,2022,"Effectivity of super resolution convolutional neural network for the
+  enhancement of land cover classification from medium resolution satellite
+  images","  In the modern world, satellite images play a key role in forest management
+and degradation monitoring. For a precise quantification of forest land cover
+changes, the availability of spatially fine resolution data is a necessity.
+Since 1972, NASAs LANDSAT Satellites are providing terrestrial images covering
+every corner of the earth, which have been proved to be a highly useful
+resource for terrestrial change analysis and have been used in numerous other
+sectors. However, freely accessible satellite images are, generally, of medium
+to low resolution which is a major hindrance to the precision of the analysis.
+Hence, we performed a comprehensive study to prove our point that, enhancement
+of resolution by Super-Resolution Convolutional Neural Network (SRCNN) will
+lessen the chance of misclassification of pixels, even under the established
+recognition methods. We tested the method on original LANDSAT-7 images of
+different regions of Sundarbans and their upscaled versions which were produced
+by bilinear interpolation, bicubic interpolation, and SRCNN respectively and it
+was discovered that SRCNN outperforms the others by a significant amount.
+",Pritom Bose; Debolina Halder; Oliur Rahman; Turash Haque Pial,http://arxiv.org/abs/2207.02301v1,10.48550/arXiv.2207.02301
+http://arxiv.org/abs/2210.02745v2,2022,MuS2: A Real-World Benchmark for Sentinel-2 Multi-Image Super-Resolution,"  Insufficient image spatial resolution is a serious limitation in many
+practical scenarios, especially when acquiring images at a finer scale is
+infeasible or brings higher costs. This is inherent to remote sensing,
+including Sentinel-2 satellite images that are available free of charge at a
+high revisit frequency, but whose spatial resolution is limited to 10 m ground
+sampling distance. The resolution can be increased with super-resolution
+algorithms, in particular when performed from multiple images captured at
+subsequent revisits of a satellite, taking advantage of information fusion that
+leads to enhanced reconstruction accuracy. One of the obstacles in multi-image
+super-resolution consists in the scarcity of real-world benchmarks - commonly,
+simulated data are exploited which do not fully reflect the operating
+conditions. In this paper, we introduce a new MuS2 benchmark for
+super-resolving multiple Sentinel-2 images, with WorldView-2 imagery used as
+the high-resolution reference. Within MuS2, we publish the first end-to-end
+evaluation procedure for this problem which we expect to help the researchers
+in advancing the state of the art in multi-image super-resolution.
+",Pawel Kowaleczko; Tomasz Tarasiewicz; Maciej Ziaja; Daniel Kostrzewa; Jakub Nalepa; Przemyslaw Rokita; Michal Kawulok,http://arxiv.org/abs/2210.02745v2,10.48550/arXiv.2210.02745
+http://arxiv.org/abs/2211.12180v1,2022,"SRTGAN: Triplet Loss based Generative Adversarial Network for Real-World
+  Super-Resolution","  Many applications such as forensics, surveillance, satellite imaging, medical
+imaging, etc., demand High-Resolution (HR) images. However, obtaining an HR
+image is not always possible due to the limitations of optical sensors and
+their costs. An alternative solution called Single Image Super-Resolution
+(SISR) is a software-driven approach that aims to take a Low-Resolution (LR)
+image and obtain the HR image. Most supervised SISR solutions use ground truth
+HR image as a target and do not include the information provided in the LR
+image, which could be valuable. In this work, we introduce Triplet Loss-based
+Generative Adversarial Network hereafter referred as SRTGAN for Image
+Super-Resolution problem on real-world degradation. We introduce a new
+triplet-based adversarial loss function that exploits the information provided
+in the LR image by using it as a negative sample. Allowing the patch-based
+discriminator with access to both HR and LR images optimizes to better
+differentiate between HR and LR images; hence, improving the adversary.
+Further, we propose to fuse the adversarial loss, content loss, perceptual
+loss, and quality loss to obtain Super-Resolution (SR) image with high
+perceptual fidelity. We validate the superior performance of the proposed
+method over the other existing methods on the RealSR dataset in terms of
+quantitative and qualitative metrics.
+",Dhruv Patel; Abhinav Jain; Simran Bawkar; Manav Khorasiya; Kalpesh Prajapati; Kishor Upla; Kiran Raja; Raghavendra Ramachandra; Christoph Busch,http://arxiv.org/abs/2211.12180v1,10.48550/arXiv.2211.12180
+http://arxiv.org/abs/2212.04005v1,2022,"RainUNet for Super-Resolution Rain Movie Prediction under
+  Spatio-temporal Shifts","  This paper presents a solution to the Weather4cast 2022 Challenge Stage 2.
+The goal of the challenge is to forecast future high-resolution rainfall events
+obtained from ground radar using low-resolution multiband satellite images. We
+suggest a solution that performs data preprocessing appropriate to the
+challenge and then predicts rainfall movies using a novel RainUNet. RainUNet is
+a hierarchical U-shaped network with temporal-wise separable block (TS block)
+using a decoupled large kernel 3D convolution to improve the prediction
+performance. Various evaluation metrics show that our solution is effective
+compared to the baseline method. The source codes are available at
+https://github.com/jinyxp/Weather4cast-2022
+",Jinyoung Park; Minseok Son; Seungju Cho; Inyoung Lee; Changick Kim,http://arxiv.org/abs/2212.04005v1,10.48550/arXiv.2212.04005
+http://arxiv.org/abs/2111.03260v1,2021,"Remote Sensing Image Super-resolution and Object Detection: Benchmark
+  and State of the Art","  For the past two decades, there have been significant efforts to develop
+methods for object detection in Remote Sensing (RS) images. In most cases, the
+datasets for small object detection in remote sensing images are inadequate.
+Many researchers used scene classification datasets for object detection, which
+has its limitations; for example, the large-sized objects outnumber the small
+objects in object categories. Thus, they lack diversity; this further affects
+the detection performance of small object detectors in RS images. This paper
+reviews current datasets and object detection methods (deep learning-based) for
+remote sensing images. We also propose a large-scale, publicly available
+benchmark Remote Sensing Super-resolution Object Detection (RSSOD) dataset. The
+RSSOD dataset consists of 1,759 hand-annotated images with 22,091 instances of
+very high resolution (VHR) images with a spatial resolution of ~0.05 m. There
+are five classes with varying frequencies of labels per class. The image
+patches are extracted from satellite images, including real image distortions
+such as tangential scale distortion and skew distortion. We also propose a
+novel Multi-class Cyclic super-resolution Generative adversarial network with
+Residual feature aggregation (MCGR) and auxiliary YOLOv5 detector to benchmark
+image super-resolution-based object detection and compare with the existing
+state-of-the-art methods based on image super-resolution (SR). The proposed
+MCGR achieved state-of-the-art performance for image SR with an improvement of
+1.2dB PSNR compared to the current state-of-the-art NLSN method. MCGR achieved
+best object detection mAPs of 0.758, 0.881, 0.841, and 0.983, respectively, for
+five-class, four-class, two-class, and single classes, respectively surpassing
+the performance of the state-of-the-art object detectors YOLOv5, EfficientDet,
+Faster RCNN, SSD, and RetinaNet.
+",Yi Wang; Syed Muhammad Arsalan Bashir; Mahrukh Khan; Qudrat Ullah; Rui Wang; Yilin Song; Zhe Guo; Yilong Niu,http://arxiv.org/abs/2111.03260v1,10.1016/j.eswa.2022.116793
+http://arxiv.org/abs/2011.05586v2,2020,"Strict Enforcement of Conservation Laws and Invertibility in CNN-Based
+  Super Resolution for Scientific Datasets","  Recently, deep Convolutional Neural Networks (CNNs) have revolutionized image
+super-resolution (SR), dramatically outperforming past methods for enhancing
+image resolution. They could be a boon for the many scientific fields that
+involve image or gridded datasets: satellite remote sensing, radar meteorology,
+medical imaging, numerical modeling etc. Unfortunately, while SR-CNNs produce
+visually compelling outputs, they may break physical conservation laws when
+applied to scientific datasets. Here, a method for ``Downsampling Enforcement""
+in SR-CNNs is proposed. A differentiable operator is derived that, when applied
+as the final transfer function of a CNN, ensures the high resolution outputs
+exactly reproduce the low resolution inputs under 2D-average downsampling while
+improving performance of the SR schemes. The method is demonstrated across
+seven modern CNN-based SR schemes on several benchmark image datasets, and
+applications to weather radar, satellite imager, and climate model data are
+also shown. The approach improves training time and performance while ensuring
+physical consistency between the super-resolved and low resolution data.
+",Andrew Geiss; Joseph C. Hardin,http://arxiv.org/abs/2011.05586v2,10.48550/arXiv.2011.05586
+http://arxiv.org/abs/2103.06270v1,2021,"Super-Resolving Beyond Satellite Hardware Using Realistically Degraded
+  Images","  Modern deep Super-Resolution (SR) networks have established themselves as
+valuable techniques in image reconstruction and enhancement. However, these
+networks are normally trained and tested on benchmark image data that lacks the
+typical image degrading noise present in real images. In this paper, we test
+the feasibility of using deep SR in real remote sensing payloads by assessing
+SR performance in reconstructing realistically degraded satellite images. We
+demonstrate that a state-of-the-art SR technique called Enhanced Deep
+Super-Resolution Network (EDSR), without domain specific pre-training, can
+recover encoded pixel data on images with poor ground sampling distance,
+provided the ground resolved distance is sufficient. However, this recovery
+varies amongst selected geographical types. Our results indicate that custom
+training has potential to further improve reconstruction of overhead imagery,
+and that new satellite hardware should prioritise optical performance over
+minimising pixel size as deep SR can overcome a lack of the latter but not the
+former.
+",Jack White; Alex Codoreanu; Ignacio Zuleta; Colm Lynch; Giovanni Marchisio; Stephen Petrie; Alan R. Duffy,http://arxiv.org/abs/2103.06270v1,10.48550/arXiv.2103.06270
+http://arxiv.org/abs/2204.07862v1,2022,GHM Wavelet Transform for Deep Image Super Resolution,"  The GHM multi-level discrete wavelet transform is proposed as preprocessing
+for image super resolution with convolutional neural networks. Previous works
+perform analysis with the Haar wavelet only. In this work, 37 single-level
+wavelets are experimentally analyzed from Haar, Daubechies, Biorthogonal,
+Reverse Biorthogonal, Coiflets, and Symlets wavelet families. All single-level
+wavelets report similar results indicating that the convolutional neural
+network is invariant to choice of wavelet in a single-level filter approach.
+However, the GHM multi-level wavelet achieves higher quality reconstructions
+than the single-level wavelets. Three large data sets are used for the
+experiments: DIV2K, a dataset of textures, and a dataset of satellite images.
+The approximate high resolution images are compared using seven objective error
+measurements. A convolutional neural network based approach using wavelet
+transformed images has good results in the literature.
+",Ben Lowe; Hadi Salman; Justin Zhan,http://arxiv.org/abs/2204.07862v1,10.48550/arXiv.2204.07862
+http://arxiv.org/abs/1902.10467v2,2019,Generative Collaborative Networks for Single Image Super-Resolution,"  A common issue of deep neural networks-based methods for the problem of
+Single Image Super-Resolution (SISR), is the recovery of finer texture details
+when super-resolving at large upscaling factors. This issue is particularly
+related to the choice of the objective loss function. In particular, recent
+works proposed the use of a VGG loss which consists in minimizing the error
+between the generated high resolution images and ground-truth in the feature
+space of a Convolutional Neural Network (VGG19), pre-trained on the very
+""large"" ImageNet dataset. When considering the problem of super-resolving
+images with a distribution ""far"" from the ImageNet images distribution
+(\textit{e.g.,} satellite images), their proposed \textit{fixed} VGG loss is no
+longer relevant. In this paper, we present a general framework named
+\textit{Generative Collaborative Networks} (GCN), where the idea consists in
+optimizing the \textit{generator} (the mapping of interest) in the feature
+space of a \textit{features extractor} network. The two networks (generator and
+extractor) are \textit{collaborative} in the sense that the latter ""helps"" the
+former, by constructing discriminative and relevant features (not necessarily
+\textit{fixed} and possibly learned \textit{mutually} with the generator). We
+evaluate the GCN framework in the context of SISR, and we show that it results
+in a method that is adapted to super-resolution domains that are ""far"" from the
+ImageNet domain.
+",Mohamed El Amine Seddik; Mohamed Tamaazousti; John Lin,http://arxiv.org/abs/1902.10467v2,10.48550/arXiv.1902.10467
+http://arxiv.org/abs/2101.10200v2,2021,"Proba-V-ref: Repurposing the Proba-V challenge for reference-aware super
+  resolution","  The PROBA-V Super-Resolution challenge distributes real low-resolution image
+series and corresponding high-resolution targets to advance research on
+Multi-Image Super Resolution (MISR) for satellite images. However, in the
+PROBA-V dataset the low-resolution image corresponding to the high-resolution
+target is not identified. We argue that in doing so, the challenge ranks the
+proposed methods not only by their MISR performance, but mainly by the
+heuristics used to guess which image in the series is the most similar to the
+high-resolution target. We demonstrate this by improving the performance
+obtained by the two winners of the challenge only by using a different
+reference image, which we compute following a simple heuristic. Based on this,
+we propose PROBA-V-REF a variant of the PROBA-V dataset, in which the reference
+image in the low-resolution series is provided, and show that the ranking
+between the methods changes in this setting. This is relevant to many practical
+use cases of MISR where the goal is to super-resolve a specific image of the
+series, i.e. the reference is known. The proposed PROBA-V-REF should better
+reflect the performance of the different methods for this reference-aware MISR
+problem.
+",Ngoc Long Nguyen; Jérémy Anger; Axel Davy; Pablo Arias; Gabriele Facciolo,http://arxiv.org/abs/2101.10200v2,10.48550/arXiv.2101.10200
+http://arxiv.org/abs/2110.10109v1,2021,"In-Orbit Lunar Satellite Image Super Resolution for Selective Data
+  Transmission","  Rapid technological advancements have tremendously increased the data
+acquisition capabilities of remote sensing satellites. However, the data
+utilization efficiency in satellite missions is very low. This growing data
+also escalates the cost required for data downlink transmission and
+post-processing. Selective data transmission based on in-orbit inferences will
+address these issues to a great extent. Therefore, to decrease the cost of the
+satellite mission, we propose a novel system design for selective data
+transmission, based on in-orbit inferences. As the resolution of images plays a
+critical role in making precise inferences, we also include in-orbit
+super-resolution (SR) in the system design. We introduce a new image
+reconstruction technique and a unique loss function to enable the execution of
+the SR model on low-power devices suitable for satellite environments. We
+present a residual dense non-local attention network (RDNLA) that provides
+enhanced super-resolution outputs to improve the SR performance. SR experiments
+on Kaguya digital ortho maps (DOMs) demonstrate that the proposed SR algorithm
+outperforms the residual dense network (RDN) in terms of PSNR and
+block-sensitive PSNR by a margin of +0.1 dB and +0.19 dB, respectively. The
+proposed SR system consumes 48% less memory and 67% less peak instantaneous
+power than the standard SR model, RDN, making it more suitable for execution on
+a low-powered device platform.
+",Atal Tewari; Chennuri Prateek; Nitin Khanna,http://arxiv.org/abs/2110.10109v1,10.48550/arXiv.2110.10109
+http://arxiv.org/abs/2210.03743v1,2022,Single Image Super-Resolution Based on Capsule Neural Networks,"  Single image super-resolution (SISR) is the process of obtaining one
+high-resolution version of a low-resolution image by increasing the number of
+pixels per unit area. This method has been actively investigated by the
+research community, due to the wide variety of real-world problems where it can
+be applied, from aerial and satellite imaging to compressed image and video
+enhancement. Despite the improvements achieved by deep learning in the field,
+the vast majority of the used networks are based on traditional convolutions,
+with the solutions focusing on going deeper and/or wider, and innovations
+coming from jointly employing successful concepts from other fields. In this
+work, we decided to step up from the traditional convolutions and adopt the
+concept of capsules. Since their overwhelming results both in image
+classification and segmentation problems, we question how suitable they are for
+SISR. We also verify that different solutions share most of their
+configurations, and argue that this trend leads to fewer explorations of
+network varieties. During our experiments, we check various strategies to
+improve results, ranging from new and different loss functions to changes in
+the capsule layers. Our network achieved good results with fewer
+convolutional-based layers, showing that capsules might be a concept worth
+applying in the image super-resolution problem.
+",George Corrêa de Araújo; Helio Pedrini,http://arxiv.org/abs/2210.03743v1,10.48550/arXiv.2210.03743
+http://arxiv.org/abs/2212.02998v1,2022,"Super-resolution Probabilistic Rain Prediction from Satellite Data Using
+  3D U-Nets and EarthFormers","  Accurate and timely rain prediction is crucial for decision making and is
+also a challenging task. This paper presents a solution which won the 2 nd
+prize in the Weather4cast 2022 NeurIPS competition using 3D U-Nets and
+EarthFormers for 8-hour probabilistic rain prediction based on multi-band
+satellite images. The spatial context effect of the input satellite image has
+been deeply explored and optimal context range has been found. Based on the
+imbalanced rain distribution, we trained multiple models with different loss
+functions. To further improve the model performance, multi-model ensemble and
+threshold optimization were used to produce the final probabilistic rain
+prediction. Experiment results and leaderboard scores demonstrate that optimal
+spatial context, combined loss function, multi-model ensemble, and threshold
+optimization all provide modest model gain. A permutation test was used to
+analyze the effect of each satellite band on rain prediction, and results show
+that satellite bands signifying cloudtop phase (8.7 um) and cloud-top height
+(10.8 and 13.4 um) are the best predictors for rain prediction. The source code
+is available at https://github.com/bugsuse/weather4cast-2022-stage2.
+",Yang Li; Haiyu Dong; Zuliang Fang; Jonathan Weyn; Pete Luferenko,http://arxiv.org/abs/2212.02998v1,10.48550/arXiv.2212.02998
+http://arxiv.org/abs/1912.08197v1,2019,"Lightweight and Robust Representation of Economic Scales from Satellite
+  Imagery","  Satellite imagery has long been an attractive data source that provides a
+wealth of information on human-inhabited areas. While super resolution
+satellite images are rapidly becoming available, little study has focused on
+how to extract meaningful information about human habitation patterns and
+economic scales from such data. We present READ, a new approach for obtaining
+essential spatial representation for any given district from high-resolution
+satellite imagery based on deep neural networks. Our method combines transfer
+learning and embedded statistics to efficiently learn critical spatial
+characteristics of arbitrary size areas and represent them into a fixed-length
+vector with minimal information loss. Even with a small set of labels, READ can
+distinguish subtle differences between rural and urban areas and infer the
+degree of urbanization. An extensive evaluation demonstrates the model
+outperforms the state-of-the-art in predicting economic scales, such as
+population density for South Korea (R^2=0.9617), and shows a high potential use
+for developing countries where district-level economic scales are not known.
+",Sungwon Han; Donghyun Ahn; Hyunji Cha; Jeasurk Yang; Sungwon Park; Meeyoung Cha,http://arxiv.org/abs/1912.08197v1,10.48550/arXiv.1912.08197
+http://arxiv.org/abs/2104.04310v2,2021,Context-self contrastive pretraining for crop type semantic segmentation,"  In this paper, we propose a fully supervised pre-training scheme based on
+contrastive learning particularly tailored to dense classification tasks. The
+proposed Context-Self Contrastive Loss (CSCL) learns an embedding space that
+makes semantic boundaries pop-up by use of a similarity metric between every
+location in a training sample and its local context. For crop type semantic
+segmentation from Satellite Image Time Series (SITS) we find performance at
+parcel boundaries to be a critical bottleneck and explain how CSCL tackles the
+underlying cause of that problem, improving the state-of-the-art performance in
+this task. Additionally, using images from the Sentinel-2 (S2) satellite
+missions we compile the largest, to our knowledge, SITS dataset densely
+annotated by crop type and parcel identities, which we make publicly available
+together with the data generation pipeline. Using that data we find CSCL, even
+with minimal pre-training, to improve all respective baselines and present a
+process for semantic segmentation at super-resolution for obtaining crop
+classes at a more granular level. The code and instructions to download the
+data can be found in https://github.com/michaeltrs/DeepSatModels.
+",Michail Tarasiou; Riza Alp Guler; Stefanos Zafeiriou,http://arxiv.org/abs/2104.04310v2,10.1109/TGRS.2022.3198187
+http://arxiv.org/abs/2105.07322v1,2021,"Unsupervised Super-Resolution of Satellite Imagery for High Fidelity
+  Material Label Transfer","  Urban material recognition in remote sensing imagery is a highly relevant,
+yet extremely challenging problem due to the difficulty of obtaining human
+annotations, especially on low resolution satellite images. To this end, we
+propose an unsupervised domain adaptation based approach using adversarial
+learning. We aim to harvest information from smaller quantities of high
+resolution data (source domain) and utilize the same to super-resolve low
+resolution imagery (target domain). This can potentially aid in semantic as
+well as material label transfer from a richly annotated source to a target
+domain.
+",Arthita Ghosh; Max Ehrlich; Larry Davis; Rama Chellappa,http://arxiv.org/abs/2105.07322v1,10.1109/IGARSS.2019.8900639
+http://arxiv.org/abs/1711.02549v3,2017,Remote Sensing Image Fusion Based on Two-stream Fusion Network,"  Remote sensing image fusion (also known as pan-sharpening) aims at generating
+high resolution multi-spectral (MS) image from inputs of a high spatial
+resolution single band panchromatic (PAN) image and a low spatial resolution
+multi-spectral image. Inspired by the astounding achievements of convolutional
+neural networks (CNNs) in a variety of computer vision tasks, in this paper, we
+propose a two-stream fusion network (TFNet) to address the problem of
+pan-sharpening. Unlike previous CNN based methods that consider pan-sharpening
+as a super resolution problem and perform pan-sharpening in pixel level, the
+proposed TFNet aims to fuse PAN and MS images in feature level and reconstruct
+the pan-sharpened image from the fused features. The TFNet mainly consists of
+three parts. The first part is comprised of two networks extracting features
+from PAN and MS images, respectively. The subsequent network fuses them
+together to form compact features that represent both spatial and spectral
+information of PAN and MS images, simultaneously. Finally, the desired high
+spatial resolution MS image is recovered from the fused features through an
+image reconstruction network. Experiments on Quickbird and \mbox{GaoFen-1}
+satellite images demonstrate that the proposed TFNet can fuse PAN and MS
+images, effectively, and produce pan-sharpened images competitive with even
+superior to state of the arts.
+",Xiangyu Liu; Qingjie Liu; Yunhong Wang,http://arxiv.org/abs/1711.02549v3,10.48550/arXiv.1711.02549
+http://arxiv.org/abs/2006.16644v1,2020,"Rethinking CNN-Based Pansharpening: Guided Colorization of Panchromatic
+  Images via GANs","  Convolutional Neural Networks (CNN)-based approaches have shown promising
+results in pansharpening of satellite images in recent years. However, they
+still exhibit limitations in producing high-quality pansharpening outputs. To
+that end, we propose a new self-supervised learning framework, where we treat
+pansharpening as a colorization problem, which brings an entirely novel
+perspective and solution to the problem compared to existing methods that base
+their solution solely on producing a super-resolution version of the
+multispectral image. Whereas CNN-based methods provide a reduced resolution
+panchromatic image as input to their model along with reduced resolution
+multispectral images, hence learn to increase their resolution together, we
+instead provide the grayscale transformed multispectral image as input, and
+train our model to learn the colorization of the grayscale input. We further
+address the fixed downscale ratio assumption during training, which does not
+generalize well to the full-resolution scenario. We introduce a noise injection
+into the training by randomly varying the downsampling ratios. Those two
+critical changes, along with the addition of adversarial training in the
+proposed PanColorization Generative Adversarial Networks (PanColorGAN)
+framework, help overcome the spatial detail loss and blur problems that are
+observed in CNN-based pansharpening. The proposed approach outperforms the
+previous CNN-based and traditional methods as demonstrated in our experiments.
+",Furkan Ozcelik; Ugur Alganci; Elif Sertel; Gozde Unal,http://arxiv.org/abs/2006.16644v1,10.1109/TGRS.2020.3010441
+http://arxiv.org/abs/2010.01473v3,2020,Spatial Frequency Bias in Convolutional Generative Adversarial Networks,"  As the success of Generative Adversarial Networks (GANs) on natural images
+quickly propels them into various real-life applications across different
+domains, it becomes more and more important to clearly understand their
+limitations. Specifically, understanding GANs' capability across the full
+spectrum of spatial frequencies, i.e. beyond the low-frequency dominant
+spectrum of natural images, is critical for assessing the reliability of GAN
+generated data in any detail-sensitive application (e.g. denoising, filling and
+super-resolution in medical and satellite images). In this paper, we show that
+the ability of convolutional GANs to learn a distribution is significantly
+affected by the spatial frequency of the underlying carrier signal, that is,
+GANs have a bias against learning high spatial frequencies. Crucially, we show
+that this bias is not merely a result of the scarcity of high frequencies in
+natural images, rather, it is a systemic bias hindering the learning of high
+frequencies regardless of their prominence in a dataset. Furthermore, we
+explain why large-scale GANs' ability to generate fine details on natural
+images does not exclude them from the adverse effects of this bias. Finally, we
+propose a method for manipulating this bias with minimal computational
+overhead. This method can be used to explicitly direct computational resources
+towards any specific spatial frequency of interest in a dataset, extending the
+flexibility of GANs.
+",Mahyar Khayatkhoei; Ahmed Elgammal,http://arxiv.org/abs/2010.01473v3,10.48550/arXiv.2010.01473
