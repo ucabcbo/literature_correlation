@@ -64,4 +64,8 @@ The correlation analysis shows:
 
 ![group_correlation.png](group_correlation.png)
 
+Results are saved including row totals in `group_correlation.csv`
+
 ### 6. Review consolidated result list
+
+Results are saved in `consolidated_results.csv`
