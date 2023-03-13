@@ -62,4 +62,6 @@ The correlation analysis shows:
 - off-diagonal values: per each row, how many of the search results have also been found in another group
 - on-diagonal values: how many of the search results of the row have exclusively been found in the respective group
 
+![group_correlation.png](group_correlation.png)
+
 ### 6. Review consolidated result list
